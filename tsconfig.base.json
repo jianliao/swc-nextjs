@@ -7,7 +7,13 @@
     "forceConsistentCasingInFileNames": true,
     "module": "ES2020",
     "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "resolveJsonModule": true,
     "skipLibCheck": true,
+    "strict": true,
+    "target": "es2017"
   },
   "exclude": [
     "dist",
