@@ -1,0 +1,18 @@
+{
+  "name": "@swc-next/button",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lit-labs/react": "^1.0.8",
+    "@rollup/plugin-typescript": "^8.4.0",
+    "@spectrum-web-components/button": "^0.19.1",
+    "rollup-plugin-dts": "^4.2.2"
+  }
+}

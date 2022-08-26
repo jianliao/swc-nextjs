@@ -1,0 +1,42 @@
+{
+  "name": "swc-next-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "module": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rm -fr dist/ && tsc",
+    "test": "node dist/index"
+  },
+  "keywords": [
+    "Next.js",
+    "Spectrum Webcomponents"
+  ],
+  "workspaces": [
+    "./components/**"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.7.0",
+    "pnpm": ">=7"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.4.0",
+    "@types/node": "^18.7.13",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.78.1",
+    "rollup-plugin-dts": "^4.2.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@lit-labs/react": "^1.0.8",
+    "@spectrum-web-components/button": "^0.19.1"
+  }
+}
