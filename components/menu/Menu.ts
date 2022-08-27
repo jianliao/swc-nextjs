@@ -11,8 +11,8 @@ import '@spectrum-web-components/menu/sp-menu-group.js';
 import '@spectrum-web-components/menu/sp-menu-item.js';
 import '@spectrum-web-components/menu/sp-menu.js';
 
-export const SpMenu = createComponent(React, 'sp-menu', Menu, {}, 'SpMenu');
-export const SpMenuDivider = createComponent(React, 'sp-menu-divider', MenuDivider, {}, 'SpMenuDivider');
-export const SpMenuGroup = createComponent(React, 'sp-menu-group', MenuGroup, {}, 'SpMenuGroup');
-export const SpMenuItem = createComponent(React, 'sp-menu-item', MenuItem, {}, 'SpMenuItem');
+export const SpMenu = createComponent(React, 'sp-menu', Menu, { change: 'change', close: 'close', }, 'SpMenu');
+export const SpMenuDivider = createComponent(React, 'sp-menu-divider', MenuDivider, { }, 'SpMenuDivider');
+export const SpMenuGroup = createComponent(React, 'sp-menu-group', MenuGroup, { change: 'change', close: 'close', }, 'SpMenuGroup');
+export const SpMenuItem = createComponent(React, 'sp-menu-item', MenuItem, { spMenuItemAdded: 'sp-menu-item-added', spMenuItemRemoved: 'sp-menu-item-removed', }, 'SpMenuItem');
 

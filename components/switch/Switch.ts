@@ -5,5 +5,5 @@ import { Switch } from '@spectrum-web-components/switch';
 
 import '@spectrum-web-components/switch/sp-switch.js';
 
-export const SpSwitch = createComponent(React, 'sp-switch', Switch, {}, 'SpSwitch');
+export const SpSwitch = createComponent(React, 'sp-switch', Switch, { }, 'SpSwitch');
 

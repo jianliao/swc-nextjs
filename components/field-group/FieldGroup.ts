@@ -5,5 +5,5 @@ import { FieldGroup } from '@spectrum-web-components/field-group';
 
 import '@spectrum-web-components/field-group/sp-field-group.js';
 
-export const SpFieldGroup = createComponent(React, 'sp-field-group', FieldGroup, {}, 'SpFieldGroup');
+export const SpFieldGroup = createComponent(React, 'sp-field-group', FieldGroup, { }, 'SpFieldGroup');
 

@@ -5,5 +5,5 @@ import { Thumbnail } from '@spectrum-web-components/thumbnail';
 
 import '@spectrum-web-components/thumbnail/sp-thumbnail.js';
 
-export const SpThumbnail = createComponent(React, 'sp-thumbnail', Thumbnail, {}, 'SpThumbnail');
+export const SpThumbnail = createComponent(React, 'sp-thumbnail', Thumbnail, { }, 'SpThumbnail');
 

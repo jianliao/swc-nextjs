@@ -6,6 +6,6 @@ import { Tooltip } from '@spectrum-web-components/tooltip';
 
 import '@spectrum-web-components/tooltip/sp-tooltip.js';
 
-export const SpTooltipProxy = createComponent(React, 'tooltip-proxy', TooltipProxy, {}, 'SpTooltipProxy');
-export const SpTooltip = createComponent(React, 'sp-tooltip', Tooltip, {}, 'SpTooltip');
+export const SpTooltipProxy = createComponent(React, 'tooltip-proxy', TooltipProxy, { disconnected: 'disconnected', }, 'SpTooltipProxy');
+export const SpTooltip = createComponent(React, 'sp-tooltip', Tooltip, { }, 'SpTooltip');
 

@@ -5,5 +5,5 @@ import { ColorSlider } from '@spectrum-web-components/color-slider';
 
 import '@spectrum-web-components/color-slider/sp-color-slider.js';
 
-export const SpColorSlider = createComponent(React, 'sp-color-slider', ColorSlider, {}, 'SpColorSlider');
+export const SpColorSlider = createComponent(React, 'sp-color-slider', ColorSlider, { input: 'input', change: 'change', }, 'SpColorSlider');
 

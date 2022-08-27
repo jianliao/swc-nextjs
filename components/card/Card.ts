@@ -5,5 +5,5 @@ import { Card } from '@spectrum-web-components/card';
 
 import '@spectrum-web-components/card/sp-card.js';
 
-export const SpCard = createComponent(React, 'sp-card', Card, {}, 'SpCard');
+export const SpCard = createComponent(React, 'sp-card', Card, { click: 'click', change: 'change', }, 'SpCard');
 
