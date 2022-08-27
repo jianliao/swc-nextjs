@@ -9,6 +9,24 @@ import '@spectrum-web-components/tabs/sp-tab-panel.js';
 import '@spectrum-web-components/tabs/sp-tab.js';
 import '@spectrum-web-components/tabs/sp-tabs.js';
 
-export const SpTab = createComponent(React, 'sp-tab', Tab, { spTabContentchange: 'sp-tab-contentchange', }, 'SpTab');
-export const SpTabPanel = createComponent(React, 'sp-tab-panel', TabPanel, { }, 'SpTabPanel');
-export const SpTabs = createComponent(React, 'sp-tabs', Tabs, { change: 'change', }, 'SpTabs');
+export const SpTab = createComponent(
+  React,
+  'sp-tab',
+  Tab,
+  { spTabContentchange: 'sp-tab-contentchange' },
+  'SpTab'
+);
+export const SpTabPanel = createComponent(
+  React,
+  'sp-tab-panel',
+  TabPanel,
+  {},
+  'SpTabPanel'
+);
+export const SpTabs = createComponent(
+  React,
+  'sp-tabs',
+  Tabs,
+  { change: 'change' },
+  'SpTabs'
+);

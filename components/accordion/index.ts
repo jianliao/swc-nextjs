@@ -6,5 +6,10 @@ import { AccordionItem } from '@spectrum-web-components/accordion';
 
 const ssr = false;
 
-export const SpAccordion = dynamic<Accordion | { children?: ReactNode }>(() => import('./Accordion').then(m => m.SpAccordion as any), { ssr });
-export const SpAccordionItem = dynamic<AccordionItem | { children?: ReactNode }>(() => import('./Accordion').then(m => m.SpAccordionItem as any), { ssr });
+export const SpAccordion = dynamic<Accordion | { children?: ReactNode }>(
+  () => import('./Accordion').then((m) => m.SpAccordion as any),
+  { ssr }
+);
+export const SpAccordionItem = dynamic<
+  AccordionItem | { children?: ReactNode }
+>(() => import('./Accordion').then((m) => m.SpAccordionItem as any), { ssr });

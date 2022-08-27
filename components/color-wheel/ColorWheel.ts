@@ -5,4 +5,10 @@ import { ColorWheel } from '@spectrum-web-components/color-wheel';
 
 import '@spectrum-web-components/color-wheel/sp-color-wheel.js';
 
-export const SpColorWheel = createComponent(React, 'sp-color-wheel', ColorWheel, { input: 'input', change: 'change', }, 'SpColorWheel');
+export const SpColorWheel = createComponent(
+  React,
+  'sp-color-wheel',
+  ColorWheel,
+  { input: 'input', change: 'change' },
+  'SpColorWheel'
+);

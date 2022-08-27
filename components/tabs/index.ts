@@ -7,6 +7,15 @@ import { Tabs } from '@spectrum-web-components/tabs';
 
 const ssr = false;
 
-export const SpTab = dynamic<Tab | { children?: ReactNode }>(() => import('./Tabs').then(m => m.SpTab as any), { ssr });
-export const SpTabPanel = dynamic<TabPanel | { children?: ReactNode }>(() => import('./Tabs').then(m => m.SpTabPanel as any), { ssr });
-export const SpTabs = dynamic<Tabs | { children?: ReactNode }>(() => import('./Tabs').then(m => m.SpTabs as any), { ssr });
+export const SpTab = dynamic<Tab | { children?: ReactNode }>(
+  () => import('./Tabs').then((m) => m.SpTab as any),
+  { ssr }
+);
+export const SpTabPanel = dynamic<TabPanel | { children?: ReactNode }>(
+  () => import('./Tabs').then((m) => m.SpTabPanel as any),
+  { ssr }
+);
+export const SpTabs = dynamic<Tabs | { children?: ReactNode }>(
+  () => import('./Tabs').then((m) => m.SpTabs as any),
+  { ssr }
+);

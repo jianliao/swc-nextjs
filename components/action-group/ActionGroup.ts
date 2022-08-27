@@ -5,4 +5,10 @@ import { ActionGroup } from '@spectrum-web-components/action-group';
 
 import '@spectrum-web-components/action-group/sp-action-group.js';
 
-export const SpActionGroup = createComponent(React, 'sp-action-group', ActionGroup, { change: 'change', }, 'SpActionGroup');
+export const SpActionGroup = createComponent(
+  React,
+  'sp-action-group',
+  ActionGroup,
+  { change: 'change' },
+  'SpActionGroup'
+);

@@ -5,4 +5,7 @@ import { Popover } from '@spectrum-web-components/popover';
 
 const ssr = false;
 
-export const SpPopover = dynamic<Popover | { children?: ReactNode }>(() => import('./Popover').then(m => m.SpPopover as any), { ssr });
+export const SpPopover = dynamic<Popover | { children?: ReactNode }>(
+  () => import('./Popover').then((m) => m.SpPopover as any),
+  { ssr }
+);

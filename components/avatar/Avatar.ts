@@ -5,4 +5,10 @@ import { Avatar } from '@spectrum-web-components/avatar';
 
 import '@spectrum-web-components/avatar/sp-avatar.js';
 
-export const SpAvatar = createComponent(React, 'sp-avatar', Avatar, { }, 'SpAvatar');
+export const SpAvatar = createComponent(
+  React,
+  'sp-avatar',
+  Avatar,
+  {},
+  'SpAvatar'
+);

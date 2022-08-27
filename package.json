@@ -4,16 +4,20 @@
   "description": "",
   "module": "dist/index.js",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "build": "pnpm -r run build",
+    "clean": "pnpm -r run clean",
+    "prettier": "prettier --write ."
+  },
   "keywords": [
     "Next.js",
-    "Spectrum Webcomponents"
+    "Spectrum Web Components"
   ],
   "workspaces": [
     "./components/**"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "jian.liao@gmail.com",
+  "license": "MIT",
   "engines": {
     "node": ">=18.7.0",
     "pnpm": ">=7"
@@ -84,6 +88,7 @@
     "@spectrum-web-components/top-nav": "^0.6.1",
     "@spectrum-web-components/tray": "^0.4.0",
     "custom-elements-manifest": "^1.0.0",
-    "fs-extra": "^10.1.0"
+    "fs-extra": "^10.1.0",
+    "prettier": "2.7.1"
   }
 }

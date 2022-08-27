@@ -6,48 +6,76 @@ const { readJson, outputFile } = fsExtra;
 export function createElementMetadata(customElementsManifest, entrypoint) {
   const modules = getCustomElementModules(customElementsManifest);
 
-  const elements = modules.flatMap(m => {
-    return m.declarations.filter(d => d.customElement && d.tagName && d.name.indexOf('Base') === -1).map(d => {
-      return {
-        name: d.name,
-        tagName: d.tagName,
-        description: d.description ?? '',
-        import: `import { ${d.name} } from '${entrypoint}';`,
-        slots: d.slots ?? [],
-        cssProperties: d.cssProperties ?? [],
-        events: getCustomElementEvents(d) ?? [],
-        propeties: getPublicProperties(d)
-      };
-    });
+  const elements = modules.flatMap((m) => {
+    return m.declarations
+      .filter(
+        (d) => d.customElement && d.tagName && d.name.indexOf('Base') === -1
+      )
+      .map((d) => {
+        return {
+          name: d.name,
+          tagName: d.tagName,
+          description: d.description ?? '',
+          import: `import { ${d.name} } from '${entrypoint}';`,
+          slots: d.slots ?? [],
+          cssProperties: d.cssProperties ?? [],
+          events: getCustomElementEvents(d) ?? [],
+          propeties: getPublicProperties(d),
+        };
+      });
   });
 
-  const fileImports = customElementsManifest.modules.filter(m => m.declarations.length === 0).filter(m => m.path.indexOf('sync/') === -1).map(m => `import '${entrypoint}/${m.path}';`);
+  const fileImports = customElementsManifest.modules
+    .filter((m) => m.declarations.length === 0)
+    .filter((m) => m.path.indexOf('sync/') === -1)
+    .map((m) => `import '${entrypoint}/${m.path}';`);
 
   return { elements, fileImports };
 }
 
 function getPublicProperties(element) {
-  return (element.members?.filter(m =>
-    !m.readonly &&
-    !m.static &&
-    m.kind === 'field' &&
-    m.privacy === undefined &&
-    m.privacy !== 'private' &&
-    m.privacy !== 'protected'
-  ) ?? []).map(p => ({ name: p.name, type: p.type?.text }));
+  return (
+    element.members?.filter(
+      (m) =>
+        !m.readonly &&
+        !m.static &&
+        m.kind === 'field' &&
+        m.privacy === undefined &&
+        m.privacy !== 'private' &&
+        m.privacy !== 'protected'
+    ) ?? []
+  ).map((p) => ({ name: p.name, type: p.type?.text }));
 }
 
 function getCustomElementModules(customElementsManifest) {
-  return customElementsManifest.modules.filter(m => m.declarations?.length && m.declarations.find(d => d.customElement === true));
+  return customElementsManifest.modules.filter(
+    (m) =>
+      m.declarations?.length &&
+      m.declarations.find((d) => d.customElement === true)
+  );
 }
 
 function getCustomElementEvents(element) {
-  const memberEvents = element.members ? element.members
-    .filter(event => event.privacy === undefined) // public
-    .filter(prop => prop.type && prop.type?.text && prop.type?.text.includes('EventEmitter'))
-    .map(event => ({ name: event.name })) : [];
+  const memberEvents = element.members
+    ? element.members
+        .filter((event) => event.privacy === undefined) // public
+        .filter(
+          (prop) =>
+            prop.type &&
+            prop.type?.text &&
+            prop.type?.text.includes('EventEmitter')
+        )
+        .map((event) => ({ name: event.name }))
+    : [];
   const events = element.events ?? [];
-  return Object.values(Object.values([...memberEvents, ...events].reduce((prev, next) => ({ ...prev, [next.name]: next }), {})));
+  return Object.values(
+    Object.values(
+      [...memberEvents, ...events].reduce(
+        (prev, next) => ({ ...prev, [next.name]: next }),
+        {}
+      )
+    )
+  );
 }
 
 export function generateSource(elements, fileImports, componentFileName) {
@@ -56,22 +84,52 @@ import { createComponent } from '@lit-labs/react';
 
 ${elements.reduce((pre, element) => pre + element.import + '\n', '')}
 ${fileImports.reduce((pre, im) => pre + im + '\n', '')}
-${elements.reduce((pre, element) => pre + `export const Sp${element.name} = createComponent(React, '${element.tagName}', ${element.name}, { ${element.events.reduce((pre, cur) => pre + `${cur.name.replace(/-./g, (m) => m[1].toUpperCase())}: '${cur.name}', `, '')}}, 'Sp${element.name}');\n`, '')}`
+${elements.reduce(
+  (pre, element) =>
+    pre +
+    `export const Sp${element.name} = createComponent(React, '${
+      element.tagName
+    }', ${element.name}, { ${element.events.reduce(
+      (pre, cur) =>
+        pre +
+        // Convert event name sp-on-press to spOnPress
+        `${cur.name.replace(/-./g, (m) => m[1].toUpperCase())}: '${
+          cur.name
+        }', `,
+      ''
+    )}}, 'Sp${element.name}');\n`,
+  ''
+)}`;
   const indexSource = `import { ReactNode } from 'react';
 import dynamic from 'next/dynamic';
 
 ${elements.reduce((pre, element) => pre + element.import + '\n', '')}
 const ssr = false;
 
-${elements.reduce((pre, element) => pre + `export const Sp${element.name} = dynamic<${element.name} | { children?: ReactNode }>(() => import('./${componentFileName}').then(m => m.Sp${element.name} as any), { ssr });` + '\n', '')}`;
+${elements.reduce(
+  (pre, element) =>
+    pre +
+    `export const Sp${element.name} = dynamic<${element.name} | { children?: ReactNode }>(() => import('./${componentFileName}').then(m => m.Sp${element.name} as any), { ssr });` +
+    '\n',
+  ''
+)}`;
   return { componentSource, indexSource };
 }
 
 async function run(component) {
   try {
-    const customElementsManifest = await readJson(path.resolve(`./node_modules/${component}/custom-elements.json`));
-    const { elements, fileImports } = createElementMetadata(customElementsManifest, component);
-    const { indexSource, componentSource } = generateSource(elements, fileImports, elementNameToComponentName(component.split('/')[1]));
+    const customElementsManifest = await readJson(
+      path.resolve(`./node_modules/${component}/custom-elements.json`)
+    );
+    const { elements, fileImports } = createElementMetadata(
+      customElementsManifest,
+      component
+    );
+    const { indexSource, componentSource } = generateSource(
+      elements,
+      fileImports,
+      elementNameToComponentName(component.split('/')[1])
+    );
 
     const packageJson = `{
   "name": "@swc-next/${component.split('/')[1]}",
@@ -133,18 +191,52 @@ export default [
   "extends": "../../tsconfig.base.json"
 }`;
 
-    await outputFile(`${component.replace('@spectrum-web-components', './components')}/tsconfig.json`, tsconfigJson);
-    await outputFile(`${component.replace('@spectrum-web-components', './components')}/rollup.config.js`, rollupConfigJson);
-    await outputFile(`${component.replace('@spectrum-web-components', './components')}/package.json`, packageJson);
-    await outputFile(`${component.replace('@spectrum-web-components', './components')}/index.ts`, indexSource);
-    await outputFile(`${component.replace('@spectrum-web-components', './components')}/${elementNameToComponentName(component.split('/')[1])}.ts`, componentSource);
+    await outputFile(
+      `${component.replace(
+        '@spectrum-web-components',
+        './components'
+      )}/tsconfig.json`,
+      tsconfigJson
+    );
+    await outputFile(
+      `${component.replace(
+        '@spectrum-web-components',
+        './components'
+      )}/rollup.config.js`,
+      rollupConfigJson
+    );
+    await outputFile(
+      `${component.replace(
+        '@spectrum-web-components',
+        './components'
+      )}/package.json`,
+      packageJson
+    );
+    await outputFile(
+      `${component.replace(
+        '@spectrum-web-components',
+        './components'
+      )}/index.ts`,
+      indexSource
+    );
+    await outputFile(
+      `${component.replace(
+        '@spectrum-web-components',
+        './components'
+      )}/${elementNameToComponentName(component.split('/')[1])}.ts`,
+      componentSource
+    );
   } catch (e) {
-    console.error(`Code generation failed for component: ${component} due to \n${e.toSring}`);
+    console.error(
+      `Code generation failed for component: ${component} due to \n${e.toSring}`
+    );
   }
 }
 
 function elementNameToComponentName(elementName) {
-  return elementName.split('-').reduce((pre, cur) => pre + cur.charAt(0).toUpperCase() + cur.slice(1), '');
+  return elementName
+    .split('-')
+    .reduce((pre, cur) => pre + cur.charAt(0).toUpperCase() + cur.slice(1), '');
 }
 
 run('@spectrum-web-components/accordion');

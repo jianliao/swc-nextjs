@@ -5,4 +5,7 @@ import { ProgressBar } from '@spectrum-web-components/progress-bar';
 
 const ssr = false;
 
-export const SpProgressBar = dynamic<ProgressBar | { children?: ReactNode }>(() => import('./ProgressBar').then(m => m.SpProgressBar as any), { ssr });
+export const SpProgressBar = dynamic<ProgressBar | { children?: ReactNode }>(
+  () => import('./ProgressBar').then((m) => m.SpProgressBar as any),
+  { ssr }
+);

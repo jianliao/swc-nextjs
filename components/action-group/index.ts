@@ -5,4 +5,7 @@ import { ActionGroup } from '@spectrum-web-components/action-group';
 
 const ssr = false;
 
-export const SpActionGroup = dynamic<ActionGroup | { children?: ReactNode }>(() => import('./ActionGroup').then(m => m.SpActionGroup as any), { ssr });
+export const SpActionGroup = dynamic<ActionGroup | { children?: ReactNode }>(
+  () => import('./ActionGroup').then((m) => m.SpActionGroup as any),
+  { ssr }
+);
