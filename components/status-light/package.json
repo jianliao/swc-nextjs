@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/status-light",
+  "name": "@swc-nextjs/status-light",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

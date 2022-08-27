@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/coachmark",
+  "name": "@swc-nextjs/coachmark",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/divider",
+  "name": "@swc-nextjs/divider",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

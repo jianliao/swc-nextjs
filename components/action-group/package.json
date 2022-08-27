@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/action-group",
+  "name": "@swc-nextjs/action-group",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

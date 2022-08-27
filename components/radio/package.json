@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/radio",
+  "name": "@swc-nextjs/radio",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

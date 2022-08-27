@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/checkbox",
+  "name": "@swc-nextjs/checkbox",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

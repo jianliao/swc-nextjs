@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/sidenav",
+  "name": "@swc-nextjs/sidenav",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

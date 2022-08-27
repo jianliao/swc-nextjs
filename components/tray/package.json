@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/tray",
+  "name": "@swc-nextjs/tray",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

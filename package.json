@@ -1,5 +1,5 @@
 {
-  "name": "swc-next-monorepo",
+  "name": "swc-nextjs-monorepo",
   "version": "1.0.0",
   "description": "",
   "module": "dist/index.js",

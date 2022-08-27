@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/number-field",
+  "name": "@swc-nextjs/number-field",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

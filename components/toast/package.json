@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/toast",
+  "name": "@swc-nextjs/toast",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

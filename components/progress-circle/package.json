@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/progress-circle",
+  "name": "@swc-nextjs/progress-circle",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

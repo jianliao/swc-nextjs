@@ -132,7 +132,7 @@ async function run(component) {
     );
 
     const packageJson = `{
-  "name": "@swc-next/${component.split('/')[1]}",
+  "name": "@swc-nextjs/${component.split('/')[1]}",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

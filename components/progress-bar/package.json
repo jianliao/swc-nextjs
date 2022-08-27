@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/progress-bar",
+  "name": "@swc-nextjs/progress-bar",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

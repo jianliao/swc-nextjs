@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/action-bar",
+  "name": "@swc-nextjs/action-bar",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

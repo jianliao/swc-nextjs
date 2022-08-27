@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/dialog",
+  "name": "@swc-nextjs/dialog",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

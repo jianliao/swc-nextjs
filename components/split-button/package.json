@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/split-button",
+  "name": "@swc-nextjs/split-button",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

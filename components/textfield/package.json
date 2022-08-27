@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/textfield",
+  "name": "@swc-nextjs/textfield",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

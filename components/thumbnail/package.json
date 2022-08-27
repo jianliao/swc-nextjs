@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/thumbnail",
+  "name": "@swc-nextjs/thumbnail",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

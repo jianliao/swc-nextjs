@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/color-wheel",
+  "name": "@swc-nextjs/color-wheel",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

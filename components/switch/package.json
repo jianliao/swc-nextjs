@@ -1,5 +1,5 @@
 {
-  "name": "@swc-next/switch",
+  "name": "@swc-nextjs/switch",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
