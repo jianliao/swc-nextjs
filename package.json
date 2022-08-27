@@ -5,12 +5,12 @@
   "module": "dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "pnpm -r run build",
-    "clean": "pnpm -r run clean",
+    "build": "pnpm --parallel -r run build",
+    "clean": "pnpm --parallel -r run clean",
     "prettier": "prettier --write .",
-    "generate": "pnpm upgrade && node src/index && prettier --write . && pnpm i && pnpm -r run build",
+    "generate": "pnpm upgrade && node src/index && prettier --write . && pnpm i && pnpm -r --parallel run build",
     "publish": "pnpm -r --filter @swc-nextjs/* publish --access public --report-summary",
-    "pack": "pnpm --filter @swc-nextjs/* -r exec npm pack"
+    "pack": "pnpm --parallel --filter @swc-nextjs/* -r exec npm pack"
   },
   "keywords": [
     "Next.js",
