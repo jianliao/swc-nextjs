@@ -1,7 +1,7 @@
 {
   "name": "@swc-nextjs/field-label",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.8.0",
+  "description": "React wrapper of the @spectrum-web-components/field-label component for the Next.js static site generator",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -fr dist && rollup -c",
@@ -12,7 +12,7 @@
     "Spectrum Web Components"
   ],
   "author": "jian.liao@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.4.0",
     "@types/react": "^18.0.17",
@@ -24,6 +24,6 @@
   },
   "dependencies": {
     "@lit-labs/react": "^1.0.8",
-    "@spectrum-web-components/field-label": "latest"
+    "@spectrum-web-components/field-label": "0.8.0"
   }
 }

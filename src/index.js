@@ -118,6 +118,9 @@ ${elements.reduce(
 
 async function run(component) {
   try {
+    const componentVersion = (
+      await readJson(path.resolve(`./node_modules/${component}/package.json`))
+    ).version;
     const customElementsManifest = await readJson(
       path.resolve(`./node_modules/${component}/custom-elements.json`)
     );
@@ -133,8 +136,8 @@ async function run(component) {
 
     const packageJson = `{
   "name": "@swc-nextjs/${component.split('/')[1]}",
-  "version": "1.0.0",
-  "description": "",
+  "version": "${componentVersion}",
+  "description": "React wrapper of the ${component} component for the Next.js static site generator",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -fr dist && rollup -c",
@@ -145,7 +148,7 @@ async function run(component) {
     "Spectrum Web Components"
   ],
   "author": "jian.liao@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.4.0",
     "@types/react": "^18.0.17",
@@ -157,7 +160,7 @@ async function run(component) {
   },
   "dependencies": {
     "@lit-labs/react": "^1.0.8",
-    "${component}": "latest"
+    "${component}": "${componentVersion}"
   }
 }
 `;

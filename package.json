@@ -8,7 +8,7 @@
     "build": "pnpm -r run build",
     "clean": "pnpm -r run clean",
     "prettier": "prettier --write .",
-    "generate": "node src/index && prettier --write ."
+    "generate": "pnpm upgrade && node src/index && prettier --write . && pnpm i && pnpm -r run build"
   },
   "keywords": [
     "Next.js",
