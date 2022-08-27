@@ -11,5 +11,5 @@ export const SpAccordion = dynamic<Accordion | { children?: ReactNode }>(
   { ssr }
 );
 export const SpAccordionItem = dynamic<
-  AccordionItem | { children?: ReactNode }
+  AccordionItem | { children?: ReactNode } | { spAccordionItemToggle: Function }
 >(() => import('./Accordion').then((m) => m.SpAccordionItem as any), { ssr });

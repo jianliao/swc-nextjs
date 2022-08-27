@@ -100,6 +100,7 @@ ${elements.reduce(
     )}}, 'Sp${element.name}');\n`,
   ''
 )}`;
+
   const indexSource = `import { ReactNode } from 'react';
 import dynamic from 'next/dynamic';
 
@@ -109,7 +110,16 @@ const ssr = false;
 ${elements.reduce(
   (pre, element) =>
     pre +
-    `export const Sp${element.name} = dynamic<${element.name} | { children?: ReactNode }>(() => import('./${componentFileName}').then(m => m.Sp${element.name} as any), { ssr });` +
+    `export const Sp${element.name} = dynamic<${
+      element.name
+    } | { children?: ReactNode } ${element.events.reduce(
+      (pre, cur) =>
+        pre +
+        `| { ${cur.name.replace(/-./g, (m) => m[1].toUpperCase())}: Function }`,
+      ''
+    )}>(() => import('./${componentFileName}').then(m => m.Sp${
+      element.name
+    } as any), { ssr });` +
     '\n',
   ''
 )}`;

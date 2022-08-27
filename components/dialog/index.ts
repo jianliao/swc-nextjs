@@ -6,10 +6,14 @@ import { DialogWrapper } from '@spectrum-web-components/dialog';
 
 const ssr = false;
 
-export const SpDialog = dynamic<Dialog | { children?: ReactNode }>(
-  () => import('./Dialog').then((m) => m.SpDialog as any),
-  { ssr }
-);
+export const SpDialog = dynamic<
+  Dialog | { children?: ReactNode } | { close: Function }
+>(() => import('./Dialog').then((m) => m.SpDialog as any), { ssr });
 export const SpDialogWrapper = dynamic<
-  DialogWrapper | { children?: ReactNode }
+  | DialogWrapper
+  | { children?: ReactNode }
+  | { secondary: Function }
+  | { cancel: Function }
+  | { confirm: Function }
+  | { close: Function }
 >(() => import('./Dialog').then((m) => m.SpDialogWrapper as any), { ssr });

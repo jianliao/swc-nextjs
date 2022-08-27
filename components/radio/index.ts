@@ -6,11 +6,12 @@ import { RadioGroup } from '@spectrum-web-components/radio';
 
 const ssr = false;
 
-export const SpRadio = dynamic<Radio | { children?: ReactNode }>(
-  () => import('./Radio').then((m) => m.SpRadio as any),
-  { ssr }
-);
-export const SpRadioGroup = dynamic<RadioGroup | { children?: ReactNode }>(
-  () => import('./Radio').then((m) => m.SpRadioGroup as any),
-  { ssr }
-);
+export const SpRadio = dynamic<
+  | Radio
+  | { children?: ReactNode }
+  | { keydown: Function }
+  | { change: Function }
+>(() => import('./Radio').then((m) => m.SpRadio as any), { ssr });
+export const SpRadioGroup = dynamic<
+  RadioGroup | { children?: ReactNode } | { change: Function }
+>(() => import('./Radio').then((m) => m.SpRadioGroup as any), { ssr });

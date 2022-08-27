@@ -5,7 +5,9 @@ import { ActionButton } from '@spectrum-web-components/action-button';
 
 const ssr = false;
 
-export const SpActionButton = dynamic<ActionButton | { children?: ReactNode }>(
-  () => import('./ActionButton').then((m) => m.SpActionButton as any),
-  { ssr }
-);
+export const SpActionButton = dynamic<
+  | ActionButton
+  | { children?: ReactNode }
+  | { longpress: Function }
+  | { change: Function }
+>(() => import('./ActionButton').then((m) => m.SpActionButton as any), { ssr });

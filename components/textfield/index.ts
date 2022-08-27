@@ -5,7 +5,9 @@ import { Textfield } from '@spectrum-web-components/textfield';
 
 const ssr = false;
 
-export const SpTextfield = dynamic<Textfield | { children?: ReactNode }>(
-  () => import('./Textfield').then((m) => m.SpTextfield as any),
-  { ssr }
-);
+export const SpTextfield = dynamic<
+  | Textfield
+  | { children?: ReactNode }
+  | { change: Function }
+  | { input: Function }
+>(() => import('./Textfield').then((m) => m.SpTextfield as any), { ssr });

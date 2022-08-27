@@ -5,7 +5,6 @@ import { Card } from '@spectrum-web-components/card';
 
 const ssr = false;
 
-export const SpCard = dynamic<Card | { children?: ReactNode }>(
-  () => import('./Card').then((m) => m.SpCard as any),
-  { ssr }
-);
+export const SpCard = dynamic<
+  Card | { children?: ReactNode } | { click: Function } | { change: Function }
+>(() => import('./Card').then((m) => m.SpCard as any), { ssr });
