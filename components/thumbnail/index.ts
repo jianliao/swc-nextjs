@@ -6,4 +6,3 @@ import { Thumbnail } from '@spectrum-web-components/thumbnail';
 const ssr = false;
 
 export const SpThumbnail = dynamic<Thumbnail | { children?: ReactNode }>(() => import('./Thumbnail').then(m => m.SpThumbnail as any), { ssr });
-

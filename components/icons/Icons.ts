@@ -9,4 +9,3 @@ import '@spectrum-web-components/icons/sp-icons-medium.js';
 
 export const SpIconsLarge = createComponent(React, 'sp-icons-large', IconsLarge, { }, 'SpIconsLarge');
 export const SpIconsMedium = createComponent(React, 'sp-icons-medium', IconsMedium, { }, 'SpIconsMedium');
-

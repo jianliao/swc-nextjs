@@ -15,4 +15,3 @@ export const SpMenu = createComponent(React, 'sp-menu', Menu, { change: 'change'
 export const SpMenuDivider = createComponent(React, 'sp-menu-divider', MenuDivider, { }, 'SpMenuDivider');
 export const SpMenuGroup = createComponent(React, 'sp-menu-group', MenuGroup, { change: 'change', close: 'close', }, 'SpMenuGroup');
 export const SpMenuItem = createComponent(React, 'sp-menu-item', MenuItem, { spMenuItemAdded: 'sp-menu-item-added', spMenuItemRemoved: 'sp-menu-item-removed', }, 'SpMenuItem');
-

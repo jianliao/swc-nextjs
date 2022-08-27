@@ -6,4 +6,3 @@ import { FieldGroup } from '@spectrum-web-components/field-group';
 const ssr = false;
 
 export const SpFieldGroup = dynamic<FieldGroup | { children?: ReactNode }>(() => import('./FieldGroup').then(m => m.SpFieldGroup as any), { ssr });
-

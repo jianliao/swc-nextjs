@@ -9,4 +9,3 @@ import '@spectrum-web-components/accordion/sp-accordion.js';
 
 export const SpAccordion = createComponent(React, 'sp-accordion', Accordion, { }, 'SpAccordion');
 export const SpAccordionItem = createComponent(React, 'sp-accordion-item', AccordionItem, { spAccordionItemToggle: 'sp-accordion-item-toggle', }, 'SpAccordionItem');
-

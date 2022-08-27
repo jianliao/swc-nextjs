@@ -8,4 +8,3 @@ import '@spectrum-web-components/tooltip/sp-tooltip.js';
 
 export const SpTooltipProxy = createComponent(React, 'tooltip-proxy', TooltipProxy, { disconnected: 'disconnected', }, 'SpTooltipProxy');
 export const SpTooltip = createComponent(React, 'sp-tooltip', Tooltip, { }, 'SpTooltip');
-

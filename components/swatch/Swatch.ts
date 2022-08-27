@@ -9,4 +9,3 @@ import '@spectrum-web-components/swatch/sp-swatch.js';
 
 export const SpSwatch = createComponent(React, 'sp-swatch', Swatch, { change: 'change', }, 'SpSwatch');
 export const SpSwatchGroup = createComponent(React, 'sp-swatch-group', SwatchGroup, { change: 'change', }, 'SpSwatchGroup');
-

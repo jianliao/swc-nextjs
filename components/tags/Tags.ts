@@ -9,4 +9,3 @@ import '@spectrum-web-components/tags/sp-tags.js';
 
 export const SpTag = createComponent(React, 'sp-tag', Tag, { delete: 'delete', }, 'SpTag');
 export const SpTags = createComponent(React, 'sp-tags', Tags, { }, 'SpTags');
-

@@ -6,4 +6,3 @@ import { Meter } from '@spectrum-web-components/meter';
 import '@spectrum-web-components/meter/sp-meter.js';
 
 export const SpMeter = createComponent(React, 'sp-meter', Meter, { }, 'SpMeter');
-

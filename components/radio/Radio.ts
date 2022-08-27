@@ -9,4 +9,3 @@ import '@spectrum-web-components/radio/sp-radio.js';
 
 export const SpRadio = createComponent(React, 'sp-radio', Radio, { keydown: 'keydown', change: 'change', }, 'SpRadio');
 export const SpRadioGroup = createComponent(React, 'sp-radio-group', RadioGroup, { change: 'change', }, 'SpRadioGroup');
-
