@@ -191,39 +191,20 @@ export default [
   "extends": "../../tsconfig.base.json"
 }`;
 
+    const npmignore = `rollup.config.js`;
+
+    const pathPrefix = `${component.replace(
+      '@spectrum-web-components',
+      './components'
+    )}`;
+
+    await outputFile(`${pathPrefix}/tsconfig.json`, tsconfigJson);
+    await outputFile(`${pathPrefix}/rollup.config.js`, rollupConfigJson);
+    await outputFile(`${pathPrefix}/package.json`, packageJson);
+    await outputFile(`${pathPrefix}/index.ts`, indexSource);
+    await outputFile(`${pathPrefix}/.npmignore`, npmignore);
     await outputFile(
-      `${component.replace(
-        '@spectrum-web-components',
-        './components'
-      )}/tsconfig.json`,
-      tsconfigJson
-    );
-    await outputFile(
-      `${component.replace(
-        '@spectrum-web-components',
-        './components'
-      )}/rollup.config.js`,
-      rollupConfigJson
-    );
-    await outputFile(
-      `${component.replace(
-        '@spectrum-web-components',
-        './components'
-      )}/package.json`,
-      packageJson
-    );
-    await outputFile(
-      `${component.replace(
-        '@spectrum-web-components',
-        './components'
-      )}/index.ts`,
-      indexSource
-    );
-    await outputFile(
-      `${component.replace(
-        '@spectrum-web-components',
-        './components'
-      )}/${elementNameToComponentName(component.split('/')[1])}.ts`,
+      `${pathPrefix}/${elementNameToComponentName(component.split('/')[1])}.ts`,
       componentSource
     );
   } catch (e) {
