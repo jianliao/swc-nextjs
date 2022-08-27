@@ -10,7 +10,7 @@
     "prettier": "prettier --write .",
     "generate": "pnpm upgrade && node src/index && prettier --write . && pnpm i && pnpm -r --parallel run build",
     "publish": "pnpm -r --filter @swc-nextjs/* publish --access public --report-summary",
-    "pack": "pnpm --parallel --filter @swc-nextjs/* -r exec npm pack"
+    "pack": "pnpm --parallel --filter @swc-nextjs/* -r exec rm -fr node_modules && pnpm --parallel --filter @swc-nextjs/* -r exec npm pack"
   },
   "keywords": [
     "Next.js",
