@@ -13,8 +13,10 @@ export const SpDialog = dynamic<Dialog | { children?: ReactNode } | { close: Fun
 export const SpDialogWrapper = dynamic<
   | DialogWrapper
   | { children?: ReactNode }
+  | { focus: Function }
+  | { overlayWillCloseCallback: Function }
+  | { close: Function }
   | { secondary: Function }
   | { cancel: Function }
   | { confirm: Function }
-  | { close: Function }
 >(() => import('./Dialog').then((m) => m.SpDialogWrapper as any), { ssr });

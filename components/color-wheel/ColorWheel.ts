@@ -9,6 +9,6 @@ export const SpColorWheel = createComponent(
   React,
   'sp-color-wheel',
   ColorWheel,
-  { input: 'input', change: 'change' },
+  { focus: 'focus', input: 'input', change: 'change' },
   'SpColorWheel'
 );

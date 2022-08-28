@@ -9,6 +9,14 @@ export const SpNumberField = createComponent(
   React,
   'sp-number-field',
   NumberField,
-  { change: 'change', input: 'input' },
+  {
+    change: 'change',
+    input: 'input',
+    setSelectionRange: 'setSelectionRange',
+    select: 'select',
+    checkValidity: 'checkValidity',
+    change: 'change',
+    input: 'input',
+  },
   'SpNumberField'
 );

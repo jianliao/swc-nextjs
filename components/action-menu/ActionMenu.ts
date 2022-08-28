@@ -9,6 +9,19 @@ export const SpActionMenu = createComponent(
   React,
   'sp-action-menu',
   ActionMenu,
-  { change: 'change', spOpened: 'sp-opened', spClosed: 'sp-closed' },
+  {
+    forceFocusVisible: 'forceFocusVisible',
+    onButtonBlur: 'onButtonBlur',
+    focus: 'focus',
+    onHelperFocus: 'onHelperFocus',
+    onButtonFocus: 'onButtonFocus',
+    handleChange: 'handleChange',
+    setValueFromItem: 'setValueFromItem',
+    toggle: 'toggle',
+    close: 'close',
+    change: 'change',
+    spOpened: 'sp-opened',
+    spClosed: 'sp-closed',
+  },
   'SpActionMenu'
 );

@@ -8,6 +8,15 @@ const ssr = false;
 export const SpPicker = dynamic<
   | Picker
   | { children?: ReactNode }
+  | { forceFocusVisible: Function }
+  | { onButtonBlur: Function }
+  | { focus: Function }
+  | { onHelperFocus: Function }
+  | { onButtonFocus: Function }
+  | { handleChange: Function }
+  | { setValueFromItem: Function }
+  | { toggle: Function }
+  | { close: Function }
   | { change: Function }
   | { spOpened: Function }
   | { spClosed: Function }

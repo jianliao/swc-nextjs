@@ -9,6 +9,7 @@ const ssr = false;
 export const SpSlider = dynamic<
   | Slider
   | { children?: ReactNode }
+  | { dispatchInputEvent: Function }
   | { spSliderHandleReady: Function }
   | { input: Function }
   | { change: Function }
@@ -16,6 +17,7 @@ export const SpSlider = dynamic<
 export const SpSliderHandle = dynamic<
   | SliderHandle
   | { children?: ReactNode }
+  | { dispatchInputEvent: Function }
   | { spSliderHandleReady: Function }
   | { input: Function }
   | { change: Function }

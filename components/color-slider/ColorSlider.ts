@@ -9,6 +9,6 @@ export const SpColorSlider = createComponent(
   React,
   'sp-color-slider',
   ColorSlider,
-  { input: 'input', change: 'change' },
+  { focus: 'focus', input: 'input', change: 'change' },
   'SpColorSlider'
 );

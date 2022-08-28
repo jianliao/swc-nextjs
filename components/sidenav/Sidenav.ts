@@ -13,7 +13,14 @@ export const SpSideNav = createComponent(
   React,
   'sp-sidenav',
   SideNav,
-  { change: 'change' },
+  {
+    startTrackingSelectionForItem: 'startTrackingSelectionForItem',
+    stopTrackingSelectionForItem: 'stopTrackingSelectionForItem',
+    focus: 'focus',
+    blur: 'blur',
+    click: 'click',
+    change: 'change',
+  },
   'SpSideNav'
 );
 export const SpSideNavHeading = createComponent(
@@ -27,6 +34,6 @@ export const SpSideNavItem = createComponent(
   React,
   'sp-sidenav-item',
   SideNavItem,
-  {},
+  { handleSideNavSelect: 'handleSideNavSelect', click: 'click' },
   'SpSideNavItem'
 );

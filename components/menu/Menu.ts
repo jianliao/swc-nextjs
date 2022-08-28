@@ -15,7 +15,19 @@ export const SpMenu = createComponent(
   React,
   'sp-menu',
   Menu,
-  { change: 'change', close: 'close' },
+  {
+    focus: 'focus',
+    handleFocusin: 'handleFocusin',
+    startListeningToKeyboard: 'startListeningToKeyboard',
+    handleFocusout: 'handleFocusout',
+    stopListeningToKeyboard: 'stopListeningToKeyboard',
+    selectOrToggleItem: 'selectOrToggleItem',
+    handleKeydown: 'handleKeydown',
+    focusMenuItemByOffset: 'focusMenuItemByOffset',
+    updateSelectedItemIndex: 'updateSelectedItemIndex',
+    change: 'change',
+    close: 'close',
+  },
   'SpMenu'
 );
 export const SpMenuDivider = createComponent(
@@ -29,13 +41,32 @@ export const SpMenuGroup = createComponent(
   React,
   'sp-menu-group',
   MenuGroup,
-  { change: 'change', close: 'close' },
+  {
+    focus: 'focus',
+    handleFocusin: 'handleFocusin',
+    startListeningToKeyboard: 'startListeningToKeyboard',
+    handleFocusout: 'handleFocusout',
+    stopListeningToKeyboard: 'stopListeningToKeyboard',
+    selectOrToggleItem: 'selectOrToggleItem',
+    handleKeydown: 'handleKeydown',
+    focusMenuItemByOffset: 'focusMenuItemByOffset',
+    updateSelectedItemIndex: 'updateSelectedItemIndex',
+    change: 'change',
+    close: 'close',
+  },
   'SpMenuGroup'
 );
 export const SpMenuItem = createComponent(
   React,
   'sp-menu-item',
   MenuItem,
-  { spMenuItemAdded: 'sp-menu-item-added', spMenuItemRemoved: 'sp-menu-item-removed' },
+  {
+    click: 'click',
+    openOverlay: 'openOverlay',
+    setRole: 'setRole',
+    triggerUpdate: 'triggerUpdate',
+    spMenuItemAdded: 'sp-menu-item-added',
+    spMenuItemRemoved: 'sp-menu-item-removed',
+  },
   'SpMenuItem'
 );

@@ -12,6 +12,6 @@ export const SpTopNavItem = createComponent(
   React,
   'sp-top-nav-item',
   TopNavItem,
-  { spTopNavItemContentchange: 'sp-top-nav-item-contentchange' },
+  { click: 'click', spTopNavItemContentchange: 'sp-top-nav-item-contentchange' },
   'SpTopNavItem'
 );

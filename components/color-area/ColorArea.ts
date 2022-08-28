@@ -9,6 +9,6 @@ export const SpColorArea = createComponent(
   React,
   'sp-color-area',
   ColorArea,
-  { input: 'input', change: 'change' },
+  { focus: 'focus', input: 'input', change: 'change' },
   'SpColorArea'
 );

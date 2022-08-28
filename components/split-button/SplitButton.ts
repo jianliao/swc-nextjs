@@ -9,6 +9,19 @@ export const SpSplitButton = createComponent(
   React,
   'sp-split-button',
   SplitButton,
-  { change: 'change', spOpened: 'sp-opened', spClosed: 'sp-closed' },
+  {
+    forceFocusVisible: 'forceFocusVisible',
+    onButtonBlur: 'onButtonBlur',
+    focus: 'focus',
+    onHelperFocus: 'onHelperFocus',
+    onButtonFocus: 'onButtonFocus',
+    handleChange: 'handleChange',
+    setValueFromItem: 'setValueFromItem',
+    toggle: 'toggle',
+    close: 'close',
+    change: 'change',
+    spOpened: 'sp-opened',
+    spClosed: 'sp-closed',
+  },
   'SpSplitButton'
 );

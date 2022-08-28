@@ -10,6 +10,9 @@ export const SpDropzone = createComponent(
   'sp-dropzone',
   Dropzone,
   {
+    onDragOver: 'onDragOver',
+    onDragLeave: 'onDragLeave',
+    onDrop: 'onDrop',
     spDropzoneShouldAccept: 'sp-dropzone-should-accept',
     spDropzoneDragover: 'sp-dropzone-dragover',
     spDropzoneDragleave: 'sp-dropzone-dragleave',

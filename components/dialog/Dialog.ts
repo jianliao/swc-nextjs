@@ -12,6 +12,13 @@ export const SpDialogWrapper = createComponent(
   React,
   'sp-dialog-wrapper',
   DialogWrapper,
-  { secondary: 'secondary', cancel: 'cancel', confirm: 'confirm', close: 'close' },
+  {
+    focus: 'focus',
+    overlayWillCloseCallback: 'overlayWillCloseCallback',
+    close: 'close',
+    secondary: 'secondary',
+    cancel: 'cancel',
+    confirm: 'confirm',
+  },
   'SpDialogWrapper'
 );

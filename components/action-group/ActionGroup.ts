@@ -9,6 +9,6 @@ export const SpActionGroup = createComponent(
   React,
   'sp-action-group',
   ActionGroup,
-  { change: 'change' },
+  { focus: 'focus', change: 'change' },
   'SpActionGroup'
 );

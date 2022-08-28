@@ -11,13 +11,13 @@ export const SpSwatch = createComponent(
   React,
   'sp-swatch',
   Swatch,
-  { change: 'change' },
+  { toggle: 'toggle', change: 'change' },
   'SpSwatch'
 );
 export const SpSwatchGroup = createComponent(
   React,
   'sp-swatch-group',
   SwatchGroup,
-  { change: 'change' },
+  { focus: 'focus', change: 'change' },
   'SpSwatchGroup'
 );

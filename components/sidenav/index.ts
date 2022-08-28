@@ -7,15 +7,20 @@ import { SideNavItem } from '@spectrum-web-components/sidenav';
 
 const ssr = false;
 
-export const SpSideNav = dynamic<SideNav | { children?: ReactNode } | { change: Function }>(
-  () => import('./Sidenav').then((m) => m.SpSideNav as any),
-  { ssr }
-);
+export const SpSideNav = dynamic<
+  | SideNav
+  | { children?: ReactNode }
+  | { startTrackingSelectionForItem: Function }
+  | { stopTrackingSelectionForItem: Function }
+  | { focus: Function }
+  | { blur: Function }
+  | { click: Function }
+  | { change: Function }
+>(() => import('./Sidenav').then((m) => m.SpSideNav as any), { ssr });
 export const SpSideNavHeading = dynamic<SideNavHeading | { children?: ReactNode }>(
   () => import('./Sidenav').then((m) => m.SpSideNavHeading as any),
   { ssr }
 );
-export const SpSideNavItem = dynamic<SideNavItem | { children?: ReactNode }>(
-  () => import('./Sidenav').then((m) => m.SpSideNavItem as any),
-  { ssr }
-);
+export const SpSideNavItem = dynamic<
+  SideNavItem | { children?: ReactNode } | { handleSideNavSelect: Function } | { click: Function }
+>(() => import('./Sidenav').then((m) => m.SpSideNavItem as any), { ssr });

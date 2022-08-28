@@ -9,6 +9,12 @@ export const SpTextfield = createComponent(
   React,
   'sp-textfield',
   Textfield,
-  { change: 'change', input: 'input' },
+  {
+    setSelectionRange: 'setSelectionRange',
+    select: 'select',
+    checkValidity: 'checkValidity',
+    change: 'change',
+    input: 'input',
+  },
   'SpTextfield'
 );

@@ -8,6 +8,9 @@ const ssr = false;
 export const SpDropzone = dynamic<
   | Dropzone
   | { children?: ReactNode }
+  | { onDragOver: Function }
+  | { onDragLeave: Function }
+  | { onDrop: Function }
   | { spDropzoneShouldAccept: Function }
   | { spDropzoneDragover: Function }
   | { spDropzoneDragleave: Function }

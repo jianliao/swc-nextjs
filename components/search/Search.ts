@@ -9,6 +9,14 @@ export const SpSearch = createComponent(
   React,
   'sp-search',
   Search,
-  { submit: 'submit', change: 'change', input: 'input' },
+  {
+    reset: 'reset',
+    submit: 'submit',
+    setSelectionRange: 'setSelectionRange',
+    select: 'select',
+    checkValidity: 'checkValidity',
+    change: 'change',
+    input: 'input',
+  },
   'SpSearch'
 );

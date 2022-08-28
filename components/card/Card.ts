@@ -9,6 +9,6 @@ export const SpCard = createComponent(
   React,
   'sp-card',
   Card,
-  { click: 'click', change: 'change' },
+  { click: 'click', toggleSelected: 'toggleSelected', change: 'change' },
   'SpCard'
 );
