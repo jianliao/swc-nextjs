@@ -7,13 +7,7 @@ import { TopNavItem } from '@spectrum-web-components/top-nav';
 import '@spectrum-web-components/top-nav/sp-top-nav-item.js';
 import '@spectrum-web-components/top-nav/sp-top-nav.js';
 
-export const SpTopNav = createComponent(
-  React,
-  'sp-top-nav',
-  TopNav,
-  {},
-  'SpTopNav'
-);
+export const SpTopNav = createComponent(React, 'sp-top-nav', TopNav, {}, 'SpTopNav');
 export const SpTopNavItem = createComponent(
   React,
   'sp-top-nav-item',

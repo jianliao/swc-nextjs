@@ -36,9 +36,6 @@ export const SpMenuItem = createComponent(
   React,
   'sp-menu-item',
   MenuItem,
-  {
-    spMenuItemAdded: 'sp-menu-item-added',
-    spMenuItemRemoved: 'sp-menu-item-removed',
-  },
+  { spMenuItemAdded: 'sp-menu-item-added', spMenuItemRemoved: 'sp-menu-item-removed' },
   'SpMenuItem'
 );

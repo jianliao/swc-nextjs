@@ -11,21 +11,13 @@ export const SpSlider = createComponent(
   React,
   'sp-slider',
   Slider,
-  {
-    spSliderHandleReady: 'sp-slider-handle-ready',
-    input: 'input',
-    change: 'change',
-  },
+  { spSliderHandleReady: 'sp-slider-handle-ready', input: 'input', change: 'change' },
   'SpSlider'
 );
 export const SpSliderHandle = createComponent(
   React,
   'sp-slider-handle',
   SliderHandle,
-  {
-    spSliderHandleReady: 'sp-slider-handle-ready',
-    input: 'input',
-    change: 'change',
-  },
+  { spSliderHandleReady: 'sp-slider-handle-ready', input: 'input', change: 'change' },
   'SpSliderHandle'
 );

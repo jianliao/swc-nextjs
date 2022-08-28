@@ -16,10 +16,7 @@ export const SpMenuDivider = dynamic<MenuDivider | { children?: ReactNode }>(
   { ssr }
 );
 export const SpMenuGroup = dynamic<
-  | MenuGroup
-  | { children?: ReactNode }
-  | { change: Function }
-  | { close: Function }
+  MenuGroup | { children?: ReactNode } | { change: Function } | { close: Function }
 >(() => import('./Menu').then((m) => m.SpMenuGroup as any), { ssr });
 export const SpMenuItem = dynamic<
   | MenuItem

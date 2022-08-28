@@ -9,6 +9,6 @@ export const SpActionMenu = createComponent(
   React,
   'sp-action-menu',
   ActionMenu,
-  {},
+  { change: 'change', spOpened: 'sp-opened', spClosed: 'sp-closed' },
   'SpActionMenu'
 );

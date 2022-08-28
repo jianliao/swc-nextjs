@@ -1,7 +1,7 @@
 import path from 'path';
 import fsExtra from 'fs-extra';
 
-const { readJson, outputFile } = fsExtra;
+const { readJson, readJsonSync, outputFile, existsSync } = fsExtra;
 
 export function createElementMetadata(customElementsManifest, entrypoint) {
   const modules = getCustomElementModules(customElementsManifest);
@@ -9,9 +9,13 @@ export function createElementMetadata(customElementsManifest, entrypoint) {
   const elements = modules.flatMap((m) => {
     return m.declarations
       .filter(
-        (d) => d.customElement && d.tagName && d.name.indexOf('Base') === -1
+        (d) => d.customElement && d.tagName && d.name.indexOf('Base') === -1 // Skip PickerBase class
       )
       .map((d) => {
+        let events = [];
+        if (d.superclass && d.superclass.package) {
+          events = getEventFromSuperClass(d.superclass.name, d.superclass.package);
+        }
         return {
           name: d.name,
           tagName: d.tagName,
@@ -19,7 +23,8 @@ export function createElementMetadata(customElementsManifest, entrypoint) {
           import: `import { ${d.name} } from '${entrypoint}';`,
           slots: d.slots ?? [],
           cssProperties: d.cssProperties ?? [],
-          events: getCustomElementEvents(d) ?? [],
+          // events: getCustomElementEvents(d).concat(events),
+          events: [...getCustomElementEvents(d), ...events],
           propeties: getPublicProperties(d),
         };
       });
@@ -31,6 +36,21 @@ export function createElementMetadata(customElementsManifest, entrypoint) {
     .map((m) => `import '${entrypoint}/${m.path}';`);
 
   return { elements, fileImports };
+}
+
+function getEventFromSuperClass(className, componentName) {
+  const customElementFile = `./node_modules/${componentName}/custom-elements.json`;
+  if (!existsSync(customElementFile)) return [];
+  const componentManifest = readJsonSync(path.resolve(customElementFile));
+  const modules = getCustomElementModules(componentManifest);
+  const events = modules.flatMap((m) => {
+    return m.declarations
+      .filter((d) => d.customElement && d.tagName && d.name === className)
+      .map((d) => {
+        return getCustomElementEvents(d);
+      });
+  });
+  return events.flat();
 }
 
 function getPublicProperties(element) {
@@ -49,9 +69,7 @@ function getPublicProperties(element) {
 
 function getCustomElementModules(customElementsManifest) {
   return customElementsManifest.modules.filter(
-    (m) =>
-      m.declarations?.length &&
-      m.declarations.find((d) => d.customElement === true)
+    (m) => m.declarations?.length && m.declarations.find((d) => d.customElement === true)
   );
 }
 
@@ -59,21 +77,13 @@ function getCustomElementEvents(element) {
   const memberEvents = element.members
     ? element.members
         .filter((event) => event.privacy === undefined) // public
-        .filter(
-          (prop) =>
-            prop.type &&
-            prop.type?.text &&
-            prop.type?.text.includes('EventEmitter')
-        )
+        .filter((prop) => prop.type && prop.type?.text && prop.type?.text.includes('EventEmitter'))
         .map((event) => ({ name: event.name }))
     : [];
   const events = element.events ?? [];
   return Object.values(
     Object.values(
-      [...memberEvents, ...events].reduce(
-        (prev, next) => ({ ...prev, [next.name]: next }),
-        {}
-      )
+      [...memberEvents, ...events].reduce((prev, next) => ({ ...prev, [next.name]: next }), {})
     )
   );
 }
@@ -87,15 +97,13 @@ ${fileImports.reduce((pre, im) => pre + im + '\n', '')}
 ${elements.reduce(
   (pre, element) =>
     pre +
-    `export const Sp${element.name} = createComponent(React, '${
-      element.tagName
-    }', ${element.name}, { ${element.events.reduce(
+    `export const Sp${element.name} = createComponent(React, '${element.tagName}', ${
+      element.name
+    }, { ${element.events.reduce(
       (pre, cur) =>
         pre +
         // Convert event name sp-on-press to spOnPress
-        `${cur.name.replace(/-./g, (m) => m[1].toUpperCase())}: '${
-          cur.name
-        }', `,
+        `${cur.name.replace(/-./g, (m) => m[1].toUpperCase())}: '${cur.name}', `,
       ''
     )}}, 'Sp${element.name}');\n`,
   ''
@@ -113,13 +121,9 @@ ${elements.reduce(
     `export const Sp${element.name} = dynamic<${
       element.name
     } | { children?: ReactNode } ${element.events.reduce(
-      (pre, cur) =>
-        pre +
-        `| { ${cur.name.replace(/-./g, (m) => m[1].toUpperCase())}: Function }`,
+      (pre, cur) => pre + `| { ${cur.name.replace(/-./g, (m) => m[1].toUpperCase())}: Function }`,
       ''
-    )}>(() => import('./${componentFileName}').then(m => m.Sp${
-      element.name
-    } as any), { ssr });` +
+    )}>(() => import('./${componentFileName}').then(m => m.Sp${element.name} as any), { ssr });` +
     '\n',
   ''
 )}`;
@@ -134,10 +138,7 @@ async function run(component) {
     const customElementsManifest = await readJson(
       path.resolve(`./node_modules/${component}/custom-elements.json`)
     );
-    const { elements, fileImports } = createElementMetadata(
-      customElementsManifest,
-      component
-    );
+    const { elements, fileImports } = createElementMetadata(customElementsManifest, component);
     const { indexSource, componentSource } = generateSource(
       elements,
       fileImports,
@@ -206,10 +207,7 @@ export default [
 
     const npmignore = `rollup.config.js`;
 
-    const pathPrefix = `${component.replace(
-      '@spectrum-web-components',
-      './components'
-    )}`;
+    const pathPrefix = `${component.replace('@spectrum-web-components', './components')}`;
 
     await outputFile(`${pathPrefix}/tsconfig.json`, tsconfigJson);
     await outputFile(`${pathPrefix}/rollup.config.js`, rollupConfigJson);
@@ -221,9 +219,7 @@ export default [
       componentSource
     );
   } catch (e) {
-    console.error(
-      `Code generation failed for component: ${component} due to \n${e.toSring}`
-    );
+    console.error(`Code generation failed for component: ${component} due to \n${e.toString()}`);
   }
 }
 

@@ -11,7 +11,5 @@ export const SpTopNav = dynamic<TopNav | { children?: ReactNode }>(
   { ssr }
 );
 export const SpTopNavItem = dynamic<
-  | TopNavItem
-  | { children?: ReactNode }
-  | { spTopNavItemContentchange: Function }
+  TopNavItem | { children?: ReactNode } | { spTopNavItemContentchange: Function }
 >(() => import('./TopNav').then((m) => m.SpTopNavItem as any), { ssr });

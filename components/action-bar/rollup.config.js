@@ -4,12 +4,7 @@ import typescript from '@rollup/plugin-typescript';
 
 export default [
   {
-    external: [
-      'react',
-      'next/dynamic',
-      '@lit-labs/react',
-      /^@spectrum-web-components.*/,
-    ],
+    external: ['react', 'next/dynamic', '@lit-labs/react', /^@spectrum-web-components.*/],
     input: './index.ts',
     output: [{ dir: 'dist', format: 'es', sourcemap: 'inline' }],
     plugins: [

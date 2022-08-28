@@ -9,6 +9,6 @@ export const SpSplitButton = createComponent(
   React,
   'sp-split-button',
   SplitButton,
-  {},
+  { change: 'change', spOpened: 'sp-opened', spClosed: 'sp-closed' },
   'SpSplitButton'
 );

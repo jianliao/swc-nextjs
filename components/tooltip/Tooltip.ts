@@ -13,10 +13,4 @@ export const SpTooltipProxy = createComponent(
   { disconnected: 'disconnected' },
   'SpTooltipProxy'
 );
-export const SpTooltip = createComponent(
-  React,
-  'sp-tooltip',
-  Tooltip,
-  {},
-  'SpTooltip'
-);
+export const SpTooltip = createComponent(React, 'sp-tooltip', Tooltip, {}, 'SpTooltip');

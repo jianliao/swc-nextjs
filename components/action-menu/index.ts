@@ -5,7 +5,10 @@ import { ActionMenu } from '@spectrum-web-components/action-menu';
 
 const ssr = false;
 
-export const SpActionMenu = dynamic<ActionMenu | { children?: ReactNode }>(
-  () => import('./ActionMenu').then((m) => m.SpActionMenu as any),
-  { ssr }
-);
+export const SpActionMenu = dynamic<
+  | ActionMenu
+  | { children?: ReactNode }
+  | { change: Function }
+  | { spOpened: Function }
+  | { spClosed: Function }
+>(() => import('./ActionMenu').then((m) => m.SpActionMenu as any), { ssr });

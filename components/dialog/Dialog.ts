@@ -7,22 +7,11 @@ import { DialogWrapper } from '@spectrum-web-components/dialog';
 import '@spectrum-web-components/dialog/sp-dialog-wrapper.js';
 import '@spectrum-web-components/dialog/sp-dialog.js';
 
-export const SpDialog = createComponent(
-  React,
-  'sp-dialog',
-  Dialog,
-  { close: 'close' },
-  'SpDialog'
-);
+export const SpDialog = createComponent(React, 'sp-dialog', Dialog, { close: 'close' }, 'SpDialog');
 export const SpDialogWrapper = createComponent(
   React,
   'sp-dialog-wrapper',
   DialogWrapper,
-  {
-    secondary: 'secondary',
-    cancel: 'cancel',
-    confirm: 'confirm',
-    close: 'close',
-  },
+  { secondary: 'secondary', cancel: 'cancel', confirm: 'confirm', close: 'close' },
   'SpDialogWrapper'
 );

@@ -16,17 +16,5 @@ export const SpTab = createComponent(
   { spTabContentchange: 'sp-tab-contentchange' },
   'SpTab'
 );
-export const SpTabPanel = createComponent(
-  React,
-  'sp-tab-panel',
-  TabPanel,
-  {},
-  'SpTabPanel'
-);
-export const SpTabs = createComponent(
-  React,
-  'sp-tabs',
-  Tabs,
-  { change: 'change' },
-  'SpTabs'
-);
+export const SpTabPanel = createComponent(React, 'sp-tab-panel', TabPanel, {}, 'SpTabPanel');
+export const SpTabs = createComponent(React, 'sp-tabs', Tabs, { change: 'change' }, 'SpTabs');

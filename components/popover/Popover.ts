@@ -5,10 +5,4 @@ import { Popover } from '@spectrum-web-components/popover';
 
 import '@spectrum-web-components/popover/sp-popover.js';
 
-export const SpPopover = createComponent(
-  React,
-  'sp-popover',
-  Popover,
-  {},
-  'SpPopover'
-);
+export const SpPopover = createComponent(React, 'sp-popover', Popover, {}, 'SpPopover');
