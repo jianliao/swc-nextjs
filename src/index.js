@@ -23,7 +23,6 @@ export function createElementMetadata(customElementsManifest, entrypoint) {
           import: `import { ${d.name} } from '${entrypoint}';`,
           slots: d.slots ?? [],
           cssProperties: d.cssProperties ?? [],
-          // events: getCustomElementEvents(d).concat(events),
           events: [...getCustomElementEvents(d), ...events],
           propeties: getPublicProperties(d),
         };
@@ -205,7 +204,8 @@ export default [
   "extends": "../../tsconfig.base.json"
 }`;
 
-    const npmignore = `rollup.config.js`;
+    const npmignore = `rollup.config.js
+tsconfig.json`;
 
     const pathPrefix = `${component.replace('@spectrum-web-components', './components')}`;
 
@@ -287,7 +287,7 @@ run('@spectrum-web-components/switch');
 run('@spectrum-web-components/tabs');
 run('@spectrum-web-components/tags');
 run('@spectrum-web-components/textfield');
-run('@spectrum-web-components/theme');
+// run('@spectrum-web-components/theme');
 run('@spectrum-web-components/thumbnail');
 run('@spectrum-web-components/toast');
 run('@spectrum-web-components/tooltip');
