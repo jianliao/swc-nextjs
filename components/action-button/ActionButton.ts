@@ -9,6 +9,6 @@ export const SpActionButton = createComponent(
   React,
   'sp-action-button',
   ActionButton,
-  { longpress: 'longpress', change: 'change' },
+  { longpress: 'longpress', change: 'change', click: 'click', renderAnchor: 'renderAnchor' },
   'SpActionButton'
 );

@@ -41,10 +41,11 @@ function getEventFromSuperClass(className, componentName) {
   const customElementFile = `./node_modules/${componentName}/custom-elements.json`;
   if (!existsSync(customElementFile)) return [];
   const componentManifest = readJsonSync(path.resolve(customElementFile));
-  const modules = getCustomElementModules(componentManifest);
+  // const modules = getCustomElementModules(componentManifest);
+  const modules = componentManifest.modules;
   const events = modules.flatMap((m) => {
     return m.declarations
-      .filter((d) => d.customElement && d.tagName && d.name === className)
+      .filter((d) => d.name === className)
       .map((d) => {
         return getCustomElementEvents(d);
       });
@@ -75,8 +76,12 @@ function getCustomElementModules(customElementsManifest) {
 function getCustomElementEvents(element) {
   const memberEvents = element.members
     ? element.members
-        .filter((event) => event.privacy === undefined) // public
-        .filter((prop) => prop.type && prop.type?.text && prop.type?.text.includes('EventEmitter'))
+        .filter((event) => event.privacy === 'public') // public
+        .filter(
+          (prop) =>
+            (prop.type && prop.type?.text && prop.type?.text.includes('EventEmitter')) ||
+            (prop.kind && prop.kind === 'method')
+        )
         .map((event) => ({ name: event.name }))
     : [];
   const events = element.events ?? [];
@@ -229,67 +234,68 @@ function elementNameToComponentName(elementName) {
     .reduce((pre, cur) => pre + cur.charAt(0).toUpperCase() + cur.slice(1), '');
 }
 
-run('@spectrum-web-components/accordion');
-run('@spectrum-web-components/action-bar');
-run('@spectrum-web-components/action-button');
-run('@spectrum-web-components/action-group');
-run('@spectrum-web-components/action-menu');
-run('@spectrum-web-components/asset');
-run('@spectrum-web-components/avatar');
-run('@spectrum-web-components/badge');
-run('@spectrum-web-components/banner');
+// run('@spectrum-web-components/accordion');
+// run('@spectrum-web-components/action-bar');
+// run('@spectrum-web-components/action-button');
+// run('@spectrum-web-components/action-group');
+// run('@spectrum-web-components/action-menu');
+// run('@spectrum-web-components/asset');
+// run('@spectrum-web-components/avatar');
+// run('@spectrum-web-components/badge');
+// run('@spectrum-web-components/banner');
+// run('@spectrum-web-components/button');
+// run('@spectrum-web-components/button-group');
+// run('@spectrum-web-components/card');
+// run('@spectrum-web-components/checkbox');
+// // run('@spectrum-web-components/clear-button');
+// // run('@spectrum-web-components/close-button');
+// run('@spectrum-web-components/coachmark');
+// run('@spectrum-web-components/color-area');
+// run('@spectrum-web-components/color-handle');
+// run('@spectrum-web-components/color-loupe');
+// run('@spectrum-web-components/color-slider');
+// run('@spectrum-web-components/color-wheel');
+// run('@spectrum-web-components/dialog');
+// run('@spectrum-web-components/divider');
+// run('@spectrum-web-components/dropzone');
+// run('@spectrum-web-components/field-group');
+// run('@spectrum-web-components/field-label');
+// run('@spectrum-web-components/help-text');
+// // run('@spectrum-web-components/icon');
+// run('@spectrum-web-components/icons');
+// // run('@spectrum-web-components/icons-ui');
+// // run('@spectrum-web-components/icons-workflow');
+// // run('@spectrum-web-components/iconset');
+// run('@spectrum-web-components/illustrated-message');
+// run('@spectrum-web-components/link');
+// run('@spectrum-web-components/menu');
+// run('@spectrum-web-components/meter');
+// // run('@spectrum-web-components/modal');
+// run('@spectrum-web-components/number-field');
+// run('@spectrum-web-components/overlay');
+// run('@spectrum-web-components/picker');
+// run('@spectrum-web-components/popover');
+// run('@spectrum-web-components/progress-bar');
+// run('@spectrum-web-components/progress-circle');
+// run('@spectrum-web-components/quick-actions');
+// run('@spectrum-web-components/radio');
+// run('@spectrum-web-components/search');
+// // run('@spectrum-web-components/shared');
+// run('@spectrum-web-components/sidenav');
+// run('@spectrum-web-components/slider');
+// run('@spectrum-web-components/split-button');
+// run('@spectrum-web-components/split-view');
+// run('@spectrum-web-components/status-light');
+// // run('@spectrum-web-components/styles');
+// run('@spectrum-web-components/swatch');
+// run('@spectrum-web-components/switch');
+// run('@spectrum-web-components/tabs');
+// run('@spectrum-web-components/tags');
+// run('@spectrum-web-components/textfield');
+// // run('@spectrum-web-components/theme');
+// run('@spectrum-web-components/thumbnail');
+// run('@spectrum-web-components/toast');
+// run('@spectrum-web-components/tooltip');
+// run('@spectrum-web-components/top-nav');
+// run('@spectrum-web-components/tray');
 run('@spectrum-web-components/button');
-run('@spectrum-web-components/button-group');
-run('@spectrum-web-components/card');
-run('@spectrum-web-components/checkbox');
-// run('@spectrum-web-components/clear-button');
-// run('@spectrum-web-components/close-button');
-run('@spectrum-web-components/coachmark');
-run('@spectrum-web-components/color-area');
-run('@spectrum-web-components/color-handle');
-run('@spectrum-web-components/color-loupe');
-run('@spectrum-web-components/color-slider');
-run('@spectrum-web-components/color-wheel');
-run('@spectrum-web-components/dialog');
-run('@spectrum-web-components/divider');
-run('@spectrum-web-components/dropzone');
-run('@spectrum-web-components/field-group');
-run('@spectrum-web-components/field-label');
-run('@spectrum-web-components/help-text');
-// run('@spectrum-web-components/icon');
-run('@spectrum-web-components/icons');
-// run('@spectrum-web-components/icons-ui');
-// run('@spectrum-web-components/icons-workflow');
-// run('@spectrum-web-components/iconset');
-run('@spectrum-web-components/illustrated-message');
-run('@spectrum-web-components/link');
-run('@spectrum-web-components/menu');
-run('@spectrum-web-components/meter');
-// run('@spectrum-web-components/modal');
-run('@spectrum-web-components/number-field');
-run('@spectrum-web-components/overlay');
-run('@spectrum-web-components/picker');
-run('@spectrum-web-components/popover');
-run('@spectrum-web-components/progress-bar');
-run('@spectrum-web-components/progress-circle');
-run('@spectrum-web-components/quick-actions');
-run('@spectrum-web-components/radio');
-run('@spectrum-web-components/search');
-// run('@spectrum-web-components/shared');
-run('@spectrum-web-components/sidenav');
-run('@spectrum-web-components/slider');
-run('@spectrum-web-components/split-button');
-run('@spectrum-web-components/split-view');
-run('@spectrum-web-components/status-light');
-// run('@spectrum-web-components/styles');
-run('@spectrum-web-components/swatch');
-run('@spectrum-web-components/switch');
-run('@spectrum-web-components/tabs');
-run('@spectrum-web-components/tags');
-run('@spectrum-web-components/textfield');
-// run('@spectrum-web-components/theme');
-run('@spectrum-web-components/thumbnail');
-run('@spectrum-web-components/toast');
-run('@spectrum-web-components/tooltip');
-run('@spectrum-web-components/top-nav');
-run('@spectrum-web-components/tray');
