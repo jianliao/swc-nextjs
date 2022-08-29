@@ -4,5 +4,5 @@ import { IconCampaignClose } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconCampaignClose = dynamic<IconCampaignClose | { slot: string }>(
   () => import('./IconCampaignClose').then((m) => m.SpIconCampaignClose as any),
-  { ssr: false}
+  { ssr: false }
 );

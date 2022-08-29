@@ -4,5 +4,5 @@ import { IconPinOff } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconPinOff = dynamic<IconPinOff | { slot: string }>(
   () => import('./IconPinOff').then((m) => m.SpIconPinOff as any),
-  { ssr: false}
+  { ssr: false }
 );

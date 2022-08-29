@@ -4,5 +4,5 @@ import { IconDataUpload } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconDataUpload = dynamic<IconDataUpload | { slot: string }>(
   () => import('./IconDataUpload').then((m) => m.SpIconDataUpload as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconCloudError } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconCloudError = dynamic<IconCloudError | { slot: string }>(
   () => import('./IconCloudError').then((m) => m.SpIconCloudError as any),
-  { ssr: false}
+  { ssr: false }
 );

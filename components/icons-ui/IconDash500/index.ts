@@ -4,5 +4,5 @@ import { IconDash500 } from '@spectrum-web-components/icons-ui/src/elements/Icon
 
 export const SpIconDash500 = dynamic<IconDash500 | { slot: string }>(
   () => import('./IconDash500').then((m) => m.SpIconDash500 as any),
-  { ssr: false}
+  { ssr: false }
 );

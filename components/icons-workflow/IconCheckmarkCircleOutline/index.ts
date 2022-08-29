@@ -4,5 +4,5 @@ import { IconCheckmarkCircleOutline } from '@spectrum-web-components/icons-workf
 
 export const SpIconCheckmarkCircleOutline = dynamic<IconCheckmarkCircleOutline | { slot: string }>(
   () => import('./IconCheckmarkCircleOutline').then((m) => m.SpIconCheckmarkCircleOutline as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconRevert } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconRevert = dynamic<IconRevert | { slot: string }>(
   () => import('./IconRevert').then((m) => m.SpIconRevert as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconContrast } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconContrast = dynamic<IconContrast | { slot: string }>(
   () => import('./IconContrast').then((m) => m.SpIconContrast as any),
-  { ssr: false}
+  { ssr: false }
 );

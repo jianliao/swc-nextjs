@@ -4,5 +4,5 @@ import { IconClockCheck } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconClockCheck = dynamic<IconClockCheck | { slot: string }>(
   () => import('./IconClockCheck').then((m) => m.SpIconClockCheck as any),
-  { ssr: false}
+  { ssr: false }
 );

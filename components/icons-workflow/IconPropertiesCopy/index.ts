@@ -4,5 +4,5 @@ import { IconPropertiesCopy } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconPropertiesCopy = dynamic<IconPropertiesCopy | { slot: string }>(
   () => import('./IconPropertiesCopy').then((m) => m.SpIconPropertiesCopy as any),
-  { ssr: false}
+  { ssr: false }
 );

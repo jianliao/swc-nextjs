@@ -4,5 +4,5 @@ import { IconEmailExclude } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconEmailExclude = dynamic<IconEmailExclude | { slot: string }>(
   () => import('./IconEmailExclude').then((m) => m.SpIconEmailExclude as any),
-  { ssr: false}
+  { ssr: false }
 );

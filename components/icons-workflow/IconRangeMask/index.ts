@@ -4,5 +4,5 @@ import { IconRangeMask } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconRangeMask = dynamic<IconRangeMask | { slot: string }>(
   () => import('./IconRangeMask').then((m) => m.SpIconRangeMask as any),
-  { ssr: false}
+  { ssr: false }
 );

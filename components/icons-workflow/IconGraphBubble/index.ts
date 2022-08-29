@@ -4,5 +4,5 @@ import { IconGraphBubble } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconGraphBubble = dynamic<IconGraphBubble | { slot: string }>(
   () => import('./IconGraphBubble').then((m) => m.SpIconGraphBubble as any),
-  { ssr: false}
+  { ssr: false }
 );

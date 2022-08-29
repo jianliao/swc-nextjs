@@ -4,5 +4,5 @@ import { IconEmailExcludeOutline } from '@spectrum-web-components/icons-workflow
 
 export const SpIconEmailExcludeOutline = dynamic<IconEmailExcludeOutline | { slot: string }>(
   () => import('./IconEmailExcludeOutline').then((m) => m.SpIconEmailExcludeOutline as any),
-  { ssr: false}
+  { ssr: false }
 );

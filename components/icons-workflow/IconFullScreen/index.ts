@@ -4,5 +4,5 @@ import { IconFullScreen } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconFullScreen = dynamic<IconFullScreen | { slot: string }>(
   () => import('./IconFullScreen').then((m) => m.SpIconFullScreen as any),
-  { ssr: false}
+  { ssr: false }
 );

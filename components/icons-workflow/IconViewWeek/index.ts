@@ -4,5 +4,5 @@ import { IconViewWeek } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconViewWeek = dynamic<IconViewWeek | { slot: string }>(
   () => import('./IconViewWeek').then((m) => m.SpIconViewWeek as any),
-  { ssr: false}
+  { ssr: false }
 );

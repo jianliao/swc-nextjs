@@ -4,5 +4,5 @@ import { IconDistributeBottomEdge } from '@spectrum-web-components/icons-workflo
 
 export const SpIconDistributeBottomEdge = dynamic<IconDistributeBottomEdge | { slot: string }>(
   () => import('./IconDistributeBottomEdge').then((m) => m.SpIconDistributeBottomEdge as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconSingleGripper } from '@spectrum-web-components/icons-ui/src/element
 
 export const SpIconSingleGripper = dynamic<IconSingleGripper | { slot: string }>(
   () => import('./IconSingleGripper').then((m) => m.SpIconSingleGripper as any),
-  { ssr: false}
+  { ssr: false }
 );

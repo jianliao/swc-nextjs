@@ -4,5 +4,5 @@ import { IconMoveLeftRight } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconMoveLeftRight = dynamic<IconMoveLeftRight | { slot: string }>(
   () => import('./IconMoveLeftRight').then((m) => m.SpIconMoveLeftRight as any),
-  { ssr: false}
+  { ssr: false }
 );

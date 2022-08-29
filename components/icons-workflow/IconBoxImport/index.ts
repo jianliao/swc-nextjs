@@ -4,5 +4,5 @@ import { IconBoxImport } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconBoxImport = dynamic<IconBoxImport | { slot: string }>(
   () => import('./IconBoxImport').then((m) => m.SpIconBoxImport as any),
-  { ssr: false}
+  { ssr: false }
 );

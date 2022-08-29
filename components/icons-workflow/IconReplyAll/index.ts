@@ -4,5 +4,5 @@ import { IconReplyAll } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconReplyAll = dynamic<IconReplyAll | { slot: string }>(
   () => import('./IconReplyAll').then((m) => m.SpIconReplyAll as any),
-  { ssr: false}
+  { ssr: false }
 );

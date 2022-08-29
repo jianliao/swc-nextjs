@@ -4,5 +4,5 @@ import { IconMergeLayers } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconMergeLayers = dynamic<IconMergeLayers | { slot: string }>(
   () => import('./IconMergeLayers').then((m) => m.SpIconMergeLayers as any),
-  { ssr: false}
+  { ssr: false }
 );

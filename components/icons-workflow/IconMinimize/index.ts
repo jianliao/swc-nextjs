@@ -4,5 +4,5 @@ import { IconMinimize } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconMinimize = dynamic<IconMinimize | { slot: string }>(
   () => import('./IconMinimize').then((m) => m.SpIconMinimize as any),
-  { ssr: false}
+  { ssr: false }
 );

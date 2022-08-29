@@ -4,5 +4,5 @@ import { IconUnlink } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconUnlink = dynamic<IconUnlink | { slot: string }>(
   () => import('./IconUnlink').then((m) => m.SpIconUnlink as any),
-  { ssr: false}
+  { ssr: false }
 );

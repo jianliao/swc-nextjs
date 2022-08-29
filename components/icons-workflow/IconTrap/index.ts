@@ -4,5 +4,5 @@ import { IconTrap } from '@spectrum-web-components/icons-workflow/src/elements/I
 
 export const SpIconTrap = dynamic<IconTrap | { slot: string }>(
   () => import('./IconTrap').then((m) => m.SpIconTrap as any),
-  { ssr: false}
+  { ssr: false }
 );

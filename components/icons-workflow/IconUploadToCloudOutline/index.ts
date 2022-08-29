@@ -4,5 +4,5 @@ import { IconUploadToCloudOutline } from '@spectrum-web-components/icons-workflo
 
 export const SpIconUploadToCloudOutline = dynamic<IconUploadToCloudOutline | { slot: string }>(
   () => import('./IconUploadToCloudOutline').then((m) => m.SpIconUploadToCloudOutline as any),
-  { ssr: false}
+  { ssr: false }
 );

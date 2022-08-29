@@ -4,5 +4,5 @@ import { IconSQLQuery } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconSQLQuery = dynamic<IconSQLQuery | { slot: string }>(
   () => import('./IconSQLQuery').then((m) => m.SpIconSQLQuery as any),
-  { ssr: false}
+  { ssr: false }
 );

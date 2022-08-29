@@ -4,5 +4,5 @@ import { IconCaptcha } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconCaptcha = dynamic<IconCaptcha | { slot: string }>(
   () => import('./IconCaptcha').then((m) => m.SpIconCaptcha as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconTransferToPlatform } from '@spectrum-web-components/icons-workflow/
 
 export const SpIconTransferToPlatform = dynamic<IconTransferToPlatform | { slot: string }>(
   () => import('./IconTransferToPlatform').then((m) => m.SpIconTransferToPlatform as any),
-  { ssr: false}
+  { ssr: false }
 );

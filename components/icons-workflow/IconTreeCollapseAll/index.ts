@@ -4,5 +4,5 @@ import { IconTreeCollapseAll } from '@spectrum-web-components/icons-workflow/src
 
 export const SpIconTreeCollapseAll = dynamic<IconTreeCollapseAll | { slot: string }>(
   () => import('./IconTreeCollapseAll').then((m) => m.SpIconTreeCollapseAll as any),
-  { ssr: false}
+  { ssr: false }
 );

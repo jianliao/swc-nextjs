@@ -4,5 +4,5 @@ import { IconGraphStreamRanked } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconGraphStreamRanked = dynamic<IconGraphStreamRanked | { slot: string }>(
   () => import('./IconGraphStreamRanked').then((m) => m.SpIconGraphStreamRanked as any),
-  { ssr: false}
+  { ssr: false }
 );

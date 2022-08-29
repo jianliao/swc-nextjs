@@ -4,5 +4,5 @@ import { IconTable } from '@spectrum-web-components/icons-workflow/src/elements/
 
 export const SpIconTable = dynamic<IconTable | { slot: string }>(
   () => import('./IconTable').then((m) => m.SpIconTable as any),
-  { ssr: false}
+  { ssr: false }
 );

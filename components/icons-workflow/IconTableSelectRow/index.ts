@@ -4,5 +4,5 @@ import { IconTableSelectRow } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconTableSelectRow = dynamic<IconTableSelectRow | { slot: string }>(
   () => import('./IconTableSelectRow').then((m) => m.SpIconTableSelectRow as any),
-  { ssr: false}
+  { ssr: false }
 );

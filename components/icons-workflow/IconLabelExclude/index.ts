@@ -4,5 +4,5 @@ import { IconLabelExclude } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconLabelExclude = dynamic<IconLabelExclude | { slot: string }>(
   () => import('./IconLabelExclude').then((m) => m.SpIconLabelExclude as any),
-  { ssr: false}
+  { ssr: false }
 );

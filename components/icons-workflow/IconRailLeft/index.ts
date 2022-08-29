@@ -4,5 +4,5 @@ import { IconRailLeft } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconRailLeft = dynamic<IconRailLeft | { slot: string }>(
   () => import('./IconRailLeft').then((m) => m.SpIconRailLeft as any),
-  { ssr: false}
+  { ssr: false }
 );

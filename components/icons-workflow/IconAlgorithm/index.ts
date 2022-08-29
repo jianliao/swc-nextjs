@@ -4,5 +4,5 @@ import { IconAlgorithm } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconAlgorithm = dynamic<IconAlgorithm | { slot: string }>(
   () => import('./IconAlgorithm').then((m) => m.SpIconAlgorithm as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconSpotHeal } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconSpotHeal = dynamic<IconSpotHeal | { slot: string }>(
   () => import('./IconSpotHeal').then((m) => m.SpIconSpotHeal as any),
-  { ssr: false}
+  { ssr: false }
 );

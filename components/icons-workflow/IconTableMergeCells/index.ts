@@ -4,5 +4,5 @@ import { IconTableMergeCells } from '@spectrum-web-components/icons-workflow/src
 
 export const SpIconTableMergeCells = dynamic<IconTableMergeCells | { slot: string }>(
   () => import('./IconTableMergeCells').then((m) => m.SpIconTableMergeCells as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconRegionSelect } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconRegionSelect = dynamic<IconRegionSelect | { slot: string }>(
   () => import('./IconRegionSelect').then((m) => m.SpIconRegionSelect as any),
-  { ssr: false}
+  { ssr: false }
 );

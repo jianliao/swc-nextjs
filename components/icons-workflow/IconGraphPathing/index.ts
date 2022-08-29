@@ -4,5 +4,5 @@ import { IconGraphPathing } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconGraphPathing = dynamic<IconGraphPathing | { slot: string }>(
   () => import('./IconGraphPathing').then((m) => m.SpIconGraphPathing as any),
-  { ssr: false}
+  { ssr: false }
 );

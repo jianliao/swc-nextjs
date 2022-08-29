@@ -4,5 +4,5 @@ import { IconTableRowRemoveCenter } from '@spectrum-web-components/icons-workflo
 
 export const SpIconTableRowRemoveCenter = dynamic<IconTableRowRemoveCenter | { slot: string }>(
   () => import('./IconTableRowRemoveCenter').then((m) => m.SpIconTableRowRemoveCenter as any),
-  { ssr: false}
+  { ssr: false }
 );

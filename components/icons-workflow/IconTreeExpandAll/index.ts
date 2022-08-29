@@ -4,5 +4,5 @@ import { IconTreeExpandAll } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconTreeExpandAll = dynamic<IconTreeExpandAll | { slot: string }>(
   () => import('./IconTreeExpandAll').then((m) => m.SpIconTreeExpandAll as any),
-  { ssr: false}
+  { ssr: false }
 );

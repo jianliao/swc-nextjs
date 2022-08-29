@@ -4,5 +4,5 @@ import { IconCalendarUnlocked } from '@spectrum-web-components/icons-workflow/sr
 
 export const SpIconCalendarUnlocked = dynamic<IconCalendarUnlocked | { slot: string }>(
   () => import('./IconCalendarUnlocked').then((m) => m.SpIconCalendarUnlocked as any),
-  { ssr: false}
+  { ssr: false }
 );

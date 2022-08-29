@@ -4,5 +4,5 @@ import { IconLoupeView } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconLoupeView = dynamic<IconLoupeView | { slot: string }>(
   () => import('./IconLoupeView').then((m) => m.SpIconLoupeView as any),
-  { ssr: false}
+  { ssr: false }
 );

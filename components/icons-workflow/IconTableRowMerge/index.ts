@@ -4,5 +4,5 @@ import { IconTableRowMerge } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconTableRowMerge = dynamic<IconTableRowMerge | { slot: string }>(
   () => import('./IconTableRowMerge').then((m) => m.SpIconTableRowMerge as any),
-  { ssr: false}
+  { ssr: false }
 );

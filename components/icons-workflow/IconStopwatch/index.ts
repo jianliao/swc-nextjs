@@ -4,5 +4,5 @@ import { IconStopwatch } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconStopwatch = dynamic<IconStopwatch | { slot: string }>(
   () => import('./IconStopwatch').then((m) => m.SpIconStopwatch as any),
-  { ssr: false}
+  { ssr: false }
 );

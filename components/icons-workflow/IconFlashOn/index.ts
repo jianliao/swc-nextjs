@@ -4,5 +4,5 @@ import { IconFlashOn } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconFlashOn = dynamic<IconFlashOn | { slot: string }>(
   () => import('./IconFlashOn').then((m) => m.SpIconFlashOn as any),
-  { ssr: false}
+  { ssr: false }
 );

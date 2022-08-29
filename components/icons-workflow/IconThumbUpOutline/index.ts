@@ -4,5 +4,5 @@ import { IconThumbUpOutline } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconThumbUpOutline = dynamic<IconThumbUpOutline | { slot: string }>(
   () => import('./IconThumbUpOutline').then((m) => m.SpIconThumbUpOutline as any),
-  { ssr: false}
+  { ssr: false }
 );

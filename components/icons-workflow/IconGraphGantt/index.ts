@@ -4,5 +4,5 @@ import { IconGraphGantt } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconGraphGantt = dynamic<IconGraphGantt | { slot: string }>(
   () => import('./IconGraphGantt').then((m) => m.SpIconGraphGantt as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconSmallCaps } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconSmallCaps = dynamic<IconSmallCaps | { slot: string }>(
   () => import('./IconSmallCaps').then((m) => m.SpIconSmallCaps as any),
-  { ssr: false}
+  { ssr: false }
 );

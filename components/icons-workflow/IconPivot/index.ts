@@ -4,5 +4,5 @@ import { IconPivot } from '@spectrum-web-components/icons-workflow/src/elements/
 
 export const SpIconPivot = dynamic<IconPivot | { slot: string }>(
   () => import('./IconPivot').then((m) => m.SpIconPivot as any),
-  { ssr: false}
+  { ssr: false }
 );

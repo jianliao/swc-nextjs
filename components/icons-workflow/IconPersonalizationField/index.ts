@@ -4,5 +4,5 @@ import { IconPersonalizationField } from '@spectrum-web-components/icons-workflo
 
 export const SpIconPersonalizationField = dynamic<IconPersonalizationField | { slot: string }>(
   () => import('./IconPersonalizationField').then((m) => m.SpIconPersonalizationField as any),
-  { ssr: false}
+  { ssr: false }
 );

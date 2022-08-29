@@ -4,5 +4,5 @@ import { IconGauge1 } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconGauge1 = dynamic<IconGauge1 | { slot: string }>(
   () => import('./IconGauge1').then((m) => m.SpIconGauge1 as any),
-  { ssr: false}
+  { ssr: false }
 );

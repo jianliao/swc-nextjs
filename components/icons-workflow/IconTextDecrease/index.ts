@@ -4,5 +4,5 @@ import { IconTextDecrease } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconTextDecrease = dynamic<IconTextDecrease | { slot: string }>(
   () => import('./IconTextDecrease').then((m) => m.SpIconTextDecrease as any),
-  { ssr: false}
+  { ssr: false }
 );

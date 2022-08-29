@@ -4,5 +4,5 @@ import { IconDistributeRightEdge } from '@spectrum-web-components/icons-workflow
 
 export const SpIconDistributeRightEdge = dynamic<IconDistributeRightEdge | { slot: string }>(
   () => import('./IconDistributeRightEdge').then((m) => m.SpIconDistributeRightEdge as any),
-  { ssr: false}
+  { ssr: false }
 );

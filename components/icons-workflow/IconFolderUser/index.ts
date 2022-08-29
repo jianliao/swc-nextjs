@@ -4,5 +4,5 @@ import { IconFolderUser } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconFolderUser = dynamic<IconFolderUser | { slot: string }>(
   () => import('./IconFolderUser').then((m) => m.SpIconFolderUser as any),
-  { ssr: false}
+  { ssr: false }
 );

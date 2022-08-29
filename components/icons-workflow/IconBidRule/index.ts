@@ -4,5 +4,5 @@ import { IconBidRule } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconBidRule = dynamic<IconBidRule | { slot: string }>(
   () => import('./IconBidRule').then((m) => m.SpIconBidRule as any),
-  { ssr: false}
+  { ssr: false }
 );

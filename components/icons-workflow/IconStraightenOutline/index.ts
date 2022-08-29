@@ -4,5 +4,5 @@ import { IconStraightenOutline } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconStraightenOutline = dynamic<IconStraightenOutline | { slot: string }>(
   () => import('./IconStraightenOutline').then((m) => m.SpIconStraightenOutline as any),
-  { ssr: false}
+  { ssr: false }
 );

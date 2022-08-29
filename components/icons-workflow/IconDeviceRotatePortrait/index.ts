@@ -4,5 +4,5 @@ import { IconDeviceRotatePortrait } from '@spectrum-web-components/icons-workflo
 
 export const SpIconDeviceRotatePortrait = dynamic<IconDeviceRotatePortrait | { slot: string }>(
   () => import('./IconDeviceRotatePortrait').then((m) => m.SpIconDeviceRotatePortrait as any),
-  { ssr: false}
+  { ssr: false }
 );

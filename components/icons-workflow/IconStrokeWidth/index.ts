@@ -4,5 +4,5 @@ import { IconStrokeWidth } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconStrokeWidth = dynamic<IconStrokeWidth | { slot: string }>(
   () => import('./IconStrokeWidth').then((m) => m.SpIconStrokeWidth as any),
-  { ssr: false}
+  { ssr: false }
 );

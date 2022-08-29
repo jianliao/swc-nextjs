@@ -4,5 +4,5 @@ import { IconFeedback } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconFeedback = dynamic<IconFeedback | { slot: string }>(
   () => import('./IconFeedback').then((m) => m.SpIconFeedback as any),
-  { ssr: false}
+  { ssr: false }
 );

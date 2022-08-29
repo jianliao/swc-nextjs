@@ -4,5 +4,5 @@ import { IconStarOutline } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconStarOutline = dynamic<IconStarOutline | { slot: string }>(
   () => import('./IconStarOutline').then((m) => m.SpIconStarOutline as any),
-  { ssr: false}
+  { ssr: false }
 );

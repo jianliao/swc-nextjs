@@ -4,5 +4,5 @@ import { IconCheckmark } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconCheckmark = dynamic<IconCheckmark | { slot: string }>(
   () => import('./IconCheckmark').then((m) => m.SpIconCheckmark as any),
-  { ssr: false}
+  { ssr: false }
 );

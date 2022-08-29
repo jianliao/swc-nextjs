@@ -4,5 +4,5 @@ import { IconDivide } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconDivide = dynamic<IconDivide | { slot: string }>(
   () => import('./IconDivide').then((m) => m.SpIconDivide as any),
-  { ssr: false}
+  { ssr: false }
 );

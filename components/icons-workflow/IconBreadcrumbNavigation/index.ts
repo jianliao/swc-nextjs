@@ -4,5 +4,5 @@ import { IconBreadcrumbNavigation } from '@spectrum-web-components/icons-workflo
 
 export const SpIconBreadcrumbNavigation = dynamic<IconBreadcrumbNavigation | { slot: string }>(
   () => import('./IconBreadcrumbNavigation').then((m) => m.SpIconBreadcrumbNavigation as any),
-  { ssr: false}
+  { ssr: false }
 );

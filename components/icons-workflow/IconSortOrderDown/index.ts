@@ -4,5 +4,5 @@ import { IconSortOrderDown } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconSortOrderDown = dynamic<IconSortOrderDown | { slot: string }>(
   () => import('./IconSortOrderDown').then((m) => m.SpIconSortOrderDown as any),
-  { ssr: false}
+  { ssr: false }
 );

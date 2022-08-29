@@ -4,5 +4,5 @@ import { IconMoreVertical } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconMoreVertical = dynamic<IconMoreVertical | { slot: string }>(
   () => import('./IconMoreVertical').then((m) => m.SpIconMoreVertical as any),
-  { ssr: false}
+  { ssr: false }
 );

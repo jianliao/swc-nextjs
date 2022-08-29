@@ -4,5 +4,5 @@ import { IconGraphScatter } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconGraphScatter = dynamic<IconGraphScatter | { slot: string }>(
   () => import('./IconGraphScatter').then((m) => m.SpIconGraphScatter as any),
-  { ssr: false}
+  { ssr: false }
 );

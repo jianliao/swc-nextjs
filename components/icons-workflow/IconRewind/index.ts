@@ -4,5 +4,5 @@ import { IconRewind } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconRewind = dynamic<IconRewind | { slot: string }>(
   () => import('./IconRewind').then((m) => m.SpIconRewind as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconDesktopAndMobile } from '@spectrum-web-components/icons-workflow/sr
 
 export const SpIconDesktopAndMobile = dynamic<IconDesktopAndMobile | { slot: string }>(
   () => import('./IconDesktopAndMobile').then((m) => m.SpIconDesktopAndMobile as any),
-  { ssr: false}
+  { ssr: false }
 );

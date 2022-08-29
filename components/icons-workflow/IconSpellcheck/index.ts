@@ -4,5 +4,5 @@ import { IconSpellcheck } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconSpellcheck = dynamic<IconSpellcheck | { slot: string }>(
   () => import('./IconSpellcheck').then((m) => m.SpIconSpellcheck as any),
-  { ssr: false}
+  { ssr: false }
 );

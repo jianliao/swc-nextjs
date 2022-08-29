@@ -4,5 +4,5 @@ import { IconGraphConfidenceBands } from '@spectrum-web-components/icons-workflo
 
 export const SpIconGraphConfidenceBands = dynamic<IconGraphConfidenceBands | { slot: string }>(
   () => import('./IconGraphConfidenceBands').then((m) => m.SpIconGraphConfidenceBands as any),
-  { ssr: false}
+  { ssr: false }
 );

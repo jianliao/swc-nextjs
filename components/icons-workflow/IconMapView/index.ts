@@ -4,5 +4,5 @@ import { IconMapView } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconMapView = dynamic<IconMapView | { slot: string }>(
   () => import('./IconMapView').then((m) => m.SpIconMapView as any),
-  { ssr: false}
+  { ssr: false }
 );

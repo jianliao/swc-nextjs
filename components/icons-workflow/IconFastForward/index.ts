@@ -4,5 +4,5 @@ import { IconFastForward } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconFastForward = dynamic<IconFastForward | { slot: string }>(
   () => import('./IconFastForward').then((m) => m.SpIconFastForward as any),
-  { ssr: false}
+  { ssr: false }
 );

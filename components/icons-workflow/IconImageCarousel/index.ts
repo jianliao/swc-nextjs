@@ -4,5 +4,5 @@ import { IconImageCarousel } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconImageCarousel = dynamic<IconImageCarousel | { slot: string }>(
   () => import('./IconImageCarousel').then((m) => m.SpIconImageCarousel as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconImageProfile } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconImageProfile = dynamic<IconImageProfile | { slot: string }>(
   () => import('./IconImageProfile').then((m) => m.SpIconImageProfile as any),
-  { ssr: false}
+  { ssr: false }
 );

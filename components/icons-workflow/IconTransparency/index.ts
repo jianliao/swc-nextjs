@@ -4,5 +4,5 @@ import { IconTransparency } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconTransparency = dynamic<IconTransparency | { slot: string }>(
   () => import('./IconTransparency').then((m) => m.SpIconTransparency as any),
-  { ssr: false}
+  { ssr: false }
 );

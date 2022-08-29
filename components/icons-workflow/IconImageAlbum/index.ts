@@ -4,5 +4,5 @@ import { IconImageAlbum } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconImageAlbum = dynamic<IconImageAlbum | { slot: string }>(
   () => import('./IconImageAlbum').then((m) => m.SpIconImageAlbum as any),
-  { ssr: false}
+  { ssr: false }
 );

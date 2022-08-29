@@ -4,5 +4,5 @@ import { IconBorder } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconBorder = dynamic<IconBorder | { slot: string }>(
   () => import('./IconBorder').then((m) => m.SpIconBorder as any),
-  { ssr: false}
+  { ssr: false }
 );

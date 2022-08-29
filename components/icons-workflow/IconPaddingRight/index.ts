@@ -4,5 +4,5 @@ import { IconPaddingRight } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconPaddingRight = dynamic<IconPaddingRight | { slot: string }>(
   () => import('./IconPaddingRight').then((m) => m.SpIconPaddingRight as any),
-  { ssr: false}
+  { ssr: false }
 );

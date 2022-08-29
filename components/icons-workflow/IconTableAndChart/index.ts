@@ -4,5 +4,5 @@ import { IconTableAndChart } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconTableAndChart = dynamic<IconTableAndChart | { slot: string }>(
   () => import('./IconTableAndChart').then((m) => m.SpIconTableAndChart as any),
-  { ssr: false}
+  { ssr: false }
 );

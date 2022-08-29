@@ -4,5 +4,5 @@ import { IconTextStrikethrough } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconTextStrikethrough = dynamic<IconTextStrikethrough | { slot: string }>(
   () => import('./IconTextStrikethrough').then((m) => m.SpIconTextStrikethrough as any),
-  { ssr: false}
+  { ssr: false }
 );

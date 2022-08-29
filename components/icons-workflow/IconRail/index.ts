@@ -4,5 +4,5 @@ import { IconRail } from '@spectrum-web-components/icons-workflow/src/elements/I
 
 export const SpIconRail = dynamic<IconRail | { slot: string }>(
   () => import('./IconRail').then((m) => m.SpIconRail as any),
-  { ssr: false}
+  { ssr: false }
 );

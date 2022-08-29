@@ -4,5 +4,5 @@ import { IconLinkCheck } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconLinkCheck = dynamic<IconLinkCheck | { slot: string }>(
   () => import('./IconLinkCheck').then((m) => m.SpIconLinkCheck as any),
-  { ssr: false}
+  { ssr: false }
 );

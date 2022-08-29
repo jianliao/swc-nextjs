@@ -4,5 +4,5 @@ import { IconDistributeTopEdge } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconDistributeTopEdge = dynamic<IconDistributeTopEdge | { slot: string }>(
   () => import('./IconDistributeTopEdge').then((m) => m.SpIconDistributeTopEdge as any),
-  { ssr: false}
+  { ssr: false }
 );

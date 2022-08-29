@@ -4,5 +4,5 @@ import { IconFileMobile } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconFileMobile = dynamic<IconFileMobile | { slot: string }>(
   () => import('./IconFileMobile').then((m) => m.SpIconFileMobile as any),
-  { ssr: false}
+  { ssr: false }
 );

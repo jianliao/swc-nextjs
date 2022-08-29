@@ -4,5 +4,5 @@ import { IconFileSingleWebPage } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconFileSingleWebPage = dynamic<IconFileSingleWebPage | { slot: string }>(
   () => import('./IconFileSingleWebPage').then((m) => m.SpIconFileSingleWebPage as any),
-  { ssr: false}
+  { ssr: false }
 );

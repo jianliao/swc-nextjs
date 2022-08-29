@@ -4,5 +4,5 @@ import { IconDistributeVertically } from '@spectrum-web-components/icons-workflo
 
 export const SpIconDistributeVertically = dynamic<IconDistributeVertically | { slot: string }>(
   () => import('./IconDistributeVertically').then((m) => m.SpIconDistributeVertically as any),
-  { ssr: false}
+  { ssr: false }
 );

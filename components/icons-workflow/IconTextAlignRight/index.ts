@@ -4,5 +4,5 @@ import { IconTextAlignRight } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconTextAlignRight = dynamic<IconTextAlignRight | { slot: string }>(
   () => import('./IconTextAlignRight').then((m) => m.SpIconTextAlignRight as any),
-  { ssr: false}
+  { ssr: false }
 );

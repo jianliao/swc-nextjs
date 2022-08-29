@@ -4,5 +4,5 @@ import { IconRotateRightOutline } from '@spectrum-web-components/icons-workflow/
 
 export const SpIconRotateRightOutline = dynamic<IconRotateRightOutline | { slot: string }>(
   () => import('./IconRotateRightOutline').then((m) => m.SpIconRotateRightOutline as any),
-  { ssr: false}
+  { ssr: false }
 );

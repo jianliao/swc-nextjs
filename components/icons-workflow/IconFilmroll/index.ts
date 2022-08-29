@@ -4,5 +4,5 @@ import { IconFilmroll } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconFilmroll = dynamic<IconFilmroll | { slot: string }>(
   () => import('./IconFilmroll').then((m) => m.SpIconFilmroll as any),
-  { ssr: false}
+  { ssr: false }
 );

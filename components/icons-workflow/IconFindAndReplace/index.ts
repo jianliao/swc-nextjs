@@ -4,5 +4,5 @@ import { IconFindAndReplace } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconFindAndReplace = dynamic<IconFindAndReplace | { slot: string }>(
   () => import('./IconFindAndReplace').then((m) => m.SpIconFindAndReplace as any),
-  { ssr: false}
+  { ssr: false }
 );

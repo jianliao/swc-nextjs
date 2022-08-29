@@ -4,5 +4,5 @@ import { IconUsersExclude } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconUsersExclude = dynamic<IconUsersExclude | { slot: string }>(
   () => import('./IconUsersExclude').then((m) => m.SpIconUsersExclude as any),
-  { ssr: false}
+  { ssr: false }
 );

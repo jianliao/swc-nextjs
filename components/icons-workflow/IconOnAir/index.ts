@@ -4,5 +4,5 @@ import { IconOnAir } from '@spectrum-web-components/icons-workflow/src/elements/
 
 export const SpIconOnAir = dynamic<IconOnAir | { slot: string }>(
   () => import('./IconOnAir').then((m) => m.SpIconOnAir as any),
-  { ssr: false}
+  { ssr: false }
 );

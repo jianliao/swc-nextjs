@@ -4,5 +4,5 @@ import { IconShareAndroid } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconShareAndroid = dynamic<IconShareAndroid | { slot: string }>(
   () => import('./IconShareAndroid').then((m) => m.SpIconShareAndroid as any),
-  { ssr: false}
+  { ssr: false }
 );

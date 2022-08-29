@@ -4,5 +4,5 @@ import { IconFileWorkflow } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconFileWorkflow = dynamic<IconFileWorkflow | { slot: string }>(
   () => import('./IconFileWorkflow').then((m) => m.SpIconFileWorkflow as any),
-  { ssr: false}
+  { ssr: false }
 );

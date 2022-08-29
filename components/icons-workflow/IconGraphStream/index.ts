@@ -4,5 +4,5 @@ import { IconGraphStream } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconGraphStream = dynamic<IconGraphStream | { slot: string }>(
   () => import('./IconGraphStream').then((m) => m.SpIconGraphStream as any),
-  { ssr: false}
+  { ssr: false }
 );

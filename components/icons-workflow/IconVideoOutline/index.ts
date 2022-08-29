@@ -4,5 +4,5 @@ import { IconVideoOutline } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconVideoOutline = dynamic<IconVideoOutline | { slot: string }>(
   () => import('./IconVideoOutline').then((m) => m.SpIconVideoOutline as any),
-  { ssr: false}
+  { ssr: false }
 );

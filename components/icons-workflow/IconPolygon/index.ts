@@ -4,5 +4,5 @@ import { IconPolygon } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconPolygon = dynamic<IconPolygon | { slot: string }>(
   () => import('./IconPolygon').then((m) => m.SpIconPolygon as any),
-  { ssr: false}
+  { ssr: false }
 );

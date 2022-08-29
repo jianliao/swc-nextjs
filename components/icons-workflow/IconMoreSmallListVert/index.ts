@@ -4,5 +4,5 @@ import { IconMoreSmallListVert } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconMoreSmallListVert = dynamic<IconMoreSmallListVert | { slot: string }>(
   () => import('./IconMoreSmallListVert').then((m) => m.SpIconMoreSmallListVert as any),
-  { ssr: false}
+  { ssr: false }
 );

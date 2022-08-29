@@ -4,5 +4,5 @@ import { IconSentimentPositive } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconSentimentPositive = dynamic<IconSentimentPositive | { slot: string }>(
   () => import('./IconSentimentPositive').then((m) => m.SpIconSentimentPositive as any),
-  { ssr: false}
+  { ssr: false }
 );

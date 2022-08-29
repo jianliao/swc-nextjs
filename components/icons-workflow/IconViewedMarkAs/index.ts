@@ -4,5 +4,5 @@ import { IconViewedMarkAs } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconViewedMarkAs = dynamic<IconViewedMarkAs | { slot: string }>(
   () => import('./IconViewedMarkAs').then((m) => m.SpIconViewedMarkAs as any),
-  { ssr: false}
+  { ssr: false }
 );

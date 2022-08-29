@@ -4,5 +4,5 @@ import { IconCloseCaptions } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconCloseCaptions = dynamic<IconCloseCaptions | { slot: string }>(
   () => import('./IconCloseCaptions').then((m) => m.SpIconCloseCaptions as any),
-  { ssr: false}
+  { ssr: false }
 );

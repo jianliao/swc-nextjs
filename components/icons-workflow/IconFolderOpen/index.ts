@@ -4,5 +4,5 @@ import { IconFolderOpen } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconFolderOpen = dynamic<IconFolderOpen | { slot: string }>(
   () => import('./IconFolderOpen').then((m) => m.SpIconFolderOpen as any),
-  { ssr: false}
+  { ssr: false }
 );

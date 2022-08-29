@@ -4,5 +4,5 @@ import { IconChevronDoubleLeft } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconChevronDoubleLeft = dynamic<IconChevronDoubleLeft | { slot: string }>(
   () => import('./IconChevronDoubleLeft').then((m) => m.SpIconChevronDoubleLeft as any),
-  { ssr: false}
+  { ssr: false }
 );

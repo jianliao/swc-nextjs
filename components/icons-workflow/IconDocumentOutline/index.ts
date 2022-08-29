@@ -4,5 +4,5 @@ import { IconDocumentOutline } from '@spectrum-web-components/icons-workflow/src
 
 export const SpIconDocumentOutline = dynamic<IconDocumentOutline | { slot: string }>(
   () => import('./IconDocumentOutline').then((m) => m.SpIconDocumentOutline as any),
-  { ssr: false}
+  { ssr: false }
 );

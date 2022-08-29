@@ -4,5 +4,5 @@ import { IconCallCenter } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconCallCenter = dynamic<IconCallCenter | { slot: string }>(
   () => import('./IconCallCenter').then((m) => m.SpIconCallCenter as any),
-  { ssr: false}
+  { ssr: false }
 );

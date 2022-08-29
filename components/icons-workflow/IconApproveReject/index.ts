@@ -4,5 +4,5 @@ import { IconApproveReject } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconApproveReject = dynamic<IconApproveReject | { slot: string }>(
   () => import('./IconApproveReject').then((m) => m.SpIconApproveReject as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconDistributeSpaceHoriz } from '@spectrum-web-components/icons-workflo
 
 export const SpIconDistributeSpaceHoriz = dynamic<IconDistributeSpaceHoriz | { slot: string }>(
   () => import('./IconDistributeSpaceHoriz').then((m) => m.SpIconDistributeSpaceHoriz as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconLinkPage } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconLinkPage = dynamic<IconLinkPage | { slot: string }>(
   () => import('./IconLinkPage').then((m) => m.SpIconLinkPage as any),
-  { ssr: false}
+  { ssr: false }
 );

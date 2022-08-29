@@ -4,5 +4,5 @@ import { IconBrowse } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconBrowse = dynamic<IconBrowse | { slot: string }>(
   () => import('./IconBrowse').then((m) => m.SpIconBrowse as any),
-  { ssr: false}
+  { ssr: false }
 );

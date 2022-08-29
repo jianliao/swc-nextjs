@@ -4,5 +4,5 @@ import { IconFolderRemove } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconFolderRemove = dynamic<IconFolderRemove | { slot: string }>(
   () => import('./IconFolderRemove').then((m) => m.SpIconFolderRemove as any),
-  { ssr: false}
+  { ssr: false }
 );

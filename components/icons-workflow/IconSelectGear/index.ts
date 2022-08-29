@@ -4,5 +4,5 @@ import { IconSelectGear } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconSelectGear = dynamic<IconSelectGear | { slot: string }>(
   () => import('./IconSelectGear').then((m) => m.SpIconSelectGear as any),
-  { ssr: false}
+  { ssr: false }
 );

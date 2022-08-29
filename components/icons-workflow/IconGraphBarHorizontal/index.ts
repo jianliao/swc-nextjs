@@ -4,5 +4,5 @@ import { IconGraphBarHorizontal } from '@spectrum-web-components/icons-workflow/
 
 export const SpIconGraphBarHorizontal = dynamic<IconGraphBarHorizontal | { slot: string }>(
   () => import('./IconGraphBarHorizontal').then((m) => m.SpIconGraphBarHorizontal as any),
-  { ssr: false}
+  { ssr: false }
 );

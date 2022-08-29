@@ -4,5 +4,5 @@ import { IconFileChart } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconFileChart = dynamic<IconFileChart | { slot: string }>(
   () => import('./IconFileChart').then((m) => m.SpIconFileChart as any),
-  { ssr: false}
+  { ssr: false }
 );

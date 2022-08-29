@@ -4,5 +4,5 @@ import { IconFilePDF } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconFilePDF = dynamic<IconFilePDF | { slot: string }>(
   () => import('./IconFilePDF').then((m) => m.SpIconFilePDF as any),
-  { ssr: false}
+  { ssr: false }
 );

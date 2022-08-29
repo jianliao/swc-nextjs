@@ -4,5 +4,5 @@ import { IconDataUnavailable } from '@spectrum-web-components/icons-workflow/src
 
 export const SpIconDataUnavailable = dynamic<IconDataUnavailable | { slot: string }>(
   () => import('./IconDataUnavailable').then((m) => m.SpIconDataUnavailable as any),
-  { ssr: false}
+  { ssr: false }
 );

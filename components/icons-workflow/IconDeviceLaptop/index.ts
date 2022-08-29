@@ -4,5 +4,5 @@ import { IconDeviceLaptop } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconDeviceLaptop = dynamic<IconDeviceLaptop | { slot: string }>(
   () => import('./IconDeviceLaptop').then((m) => m.SpIconDeviceLaptop as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconPaddingTop } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconPaddingTop = dynamic<IconPaddingTop | { slot: string }>(
   () => import('./IconPaddingTop').then((m) => m.SpIconPaddingTop as any),
-  { ssr: false}
+  { ssr: false }
 );

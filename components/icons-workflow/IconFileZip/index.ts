@@ -4,5 +4,5 @@ import { IconFileZip } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconFileZip = dynamic<IconFileZip | { slot: string }>(
   () => import('./IconFileZip').then((m) => m.SpIconFileZip as any),
-  { ssr: false}
+  { ssr: false }
 );

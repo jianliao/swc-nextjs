@@ -4,5 +4,5 @@ import { IconFileKey } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconFileKey = dynamic<IconFileKey | { slot: string }>(
   () => import('./IconFileKey').then((m) => m.SpIconFileKey as any),
-  { ssr: false}
+  { ssr: false }
 );

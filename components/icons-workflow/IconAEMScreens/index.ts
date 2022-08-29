@@ -4,5 +4,5 @@ import { IconAEMScreens } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconAEMScreens = dynamic<IconAEMScreens | { slot: string }>(
   () => import('./IconAEMScreens').then((m) => m.SpIconAEMScreens as any),
-  { ssr: false}
+  { ssr: false }
 );

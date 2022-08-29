@@ -4,5 +4,5 @@ import { IconResize } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconResize = dynamic<IconResize | { slot: string }>(
   () => import('./IconResize').then((m) => m.SpIconResize as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconUngroup } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconUngroup = dynamic<IconUngroup | { slot: string }>(
   () => import('./IconUngroup').then((m) => m.SpIconUngroup as any),
-  { ssr: false}
+  { ssr: false }
 );

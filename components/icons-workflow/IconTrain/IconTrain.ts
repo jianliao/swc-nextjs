@@ -1,4 +1,3 @@
-
 import { createComponent } from '@lit-labs/react';
 import * as React from 'react';
 import { IconTrain } from '@spectrum-web-components/icons-workflow/src/elements/IconTrain.js';

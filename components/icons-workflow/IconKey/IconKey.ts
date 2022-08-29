@@ -1,4 +1,3 @@
-
 import { createComponent } from '@lit-labs/react';
 import * as React from 'react';
 import { IconKey } from '@spectrum-web-components/icons-workflow/src/elements/IconKey.js';

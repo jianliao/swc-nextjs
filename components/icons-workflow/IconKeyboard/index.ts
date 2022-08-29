@@ -4,5 +4,5 @@ import { IconKeyboard } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconKeyboard = dynamic<IconKeyboard | { slot: string }>(
   () => import('./IconKeyboard').then((m) => m.SpIconKeyboard as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconLockClosed } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconLockClosed = dynamic<IconLockClosed | { slot: string }>(
   () => import('./IconLockClosed').then((m) => m.SpIconLockClosed as any),
-  { ssr: false}
+  { ssr: false }
 );

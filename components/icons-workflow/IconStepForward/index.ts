@@ -4,5 +4,5 @@ import { IconStepForward } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconStepForward = dynamic<IconStepForward | { slot: string }>(
   () => import('./IconStepForward').then((m) => m.SpIconStepForward as any),
-  { ssr: false}
+  { ssr: false }
 );

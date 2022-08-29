@@ -4,5 +4,5 @@ import { IconLocationBasedDate } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconLocationBasedDate = dynamic<IconLocationBasedDate | { slot: string }>(
   () => import('./IconLocationBasedDate').then((m) => m.SpIconLocationBasedDate as any),
-  { ssr: false}
+  { ssr: false }
 );

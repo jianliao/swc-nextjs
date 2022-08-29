@@ -4,5 +4,5 @@ import { IconIntersectOverlap } from '@spectrum-web-components/icons-workflow/sr
 
 export const SpIconIntersectOverlap = dynamic<IconIntersectOverlap | { slot: string }>(
   () => import('./IconIntersectOverlap').then((m) => m.SpIconIntersectOverlap as any),
-  { ssr: false}
+  { ssr: false }
 );

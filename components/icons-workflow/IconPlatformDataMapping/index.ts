@@ -4,5 +4,5 @@ import { IconPlatformDataMapping } from '@spectrum-web-components/icons-workflow
 
 export const SpIconPlatformDataMapping = dynamic<IconPlatformDataMapping | { slot: string }>(
   () => import('./IconPlatformDataMapping').then((m) => m.SpIconPlatformDataMapping as any),
-  { ssr: false}
+  { ssr: false }
 );

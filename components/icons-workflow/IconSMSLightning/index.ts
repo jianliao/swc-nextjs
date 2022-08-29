@@ -4,5 +4,5 @@ import { IconSMSLightning } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconSMSLightning = dynamic<IconSMSLightning | { slot: string }>(
   () => import('./IconSMSLightning').then((m) => m.SpIconSMSLightning as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconReorder } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconReorder = dynamic<IconReorder | { slot: string }>(
   () => import('./IconReorder').then((m) => m.SpIconReorder as any),
-  { ssr: false}
+  { ssr: false }
 );

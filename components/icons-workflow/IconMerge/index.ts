@@ -4,5 +4,5 @@ import { IconMerge } from '@spectrum-web-components/icons-workflow/src/elements/
 
 export const SpIconMerge = dynamic<IconMerge | { slot: string }>(
   () => import('./IconMerge').then((m) => m.SpIconMerge as any),
-  { ssr: false}
+  { ssr: false }
 );

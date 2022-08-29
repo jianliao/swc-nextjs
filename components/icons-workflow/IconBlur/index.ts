@@ -4,5 +4,5 @@ import { IconBlur } from '@spectrum-web-components/icons-workflow/src/elements/I
 
 export const SpIconBlur = dynamic<IconBlur | { slot: string }>(
   () => import('./IconBlur').then((m) => m.SpIconBlur as any),
-  { ssr: false}
+  { ssr: false }
 );

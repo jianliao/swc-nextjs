@@ -4,5 +4,5 @@ import { IconDuplicate } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconDuplicate = dynamic<IconDuplicate | { slot: string }>(
   () => import('./IconDuplicate').then((m) => m.SpIconDuplicate as any),
-  { ssr: false}
+  { ssr: false }
 );

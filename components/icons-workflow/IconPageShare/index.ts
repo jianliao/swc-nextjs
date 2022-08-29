@@ -4,5 +4,5 @@ import { IconPageShare } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconPageShare = dynamic<IconPageShare | { slot: string }>(
   () => import('./IconPageShare').then((m) => m.SpIconPageShare as any),
-  { ssr: false}
+  { ssr: false }
 );

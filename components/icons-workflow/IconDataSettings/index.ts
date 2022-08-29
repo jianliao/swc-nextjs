@@ -4,5 +4,5 @@ import { IconDataSettings } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconDataSettings = dynamic<IconDataSettings | { slot: string }>(
   () => import('./IconDataSettings').then((m) => m.SpIconDataSettings as any),
-  { ssr: false}
+  { ssr: false }
 );

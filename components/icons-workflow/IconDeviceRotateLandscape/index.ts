@@ -4,5 +4,5 @@ import { IconDeviceRotateLandscape } from '@spectrum-web-components/icons-workfl
 
 export const SpIconDeviceRotateLandscape = dynamic<IconDeviceRotateLandscape | { slot: string }>(
   () => import('./IconDeviceRotateLandscape').then((m) => m.SpIconDeviceRotateLandscape as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -5,4 +5,7 @@ import { Icon } from '@spectrum-web-components/icon';
 
 const ssr = false;
 
-export const SpIcon = dynamic<Icon | { children?: ReactNode } >(() => import('./Icon').then(m => m.SpIcon as any), { ssr });
+export const SpIcon = dynamic<Icon | { children?: ReactNode }>(
+  () => import('./Icon').then((m) => m.SpIcon as any),
+  { ssr }
+);

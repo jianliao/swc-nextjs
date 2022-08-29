@@ -4,5 +4,5 @@ import { IconVignette } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconVignette = dynamic<IconVignette | { slot: string }>(
   () => import('./IconVignette').then((m) => m.SpIconVignette as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconDistributeHorizontally } from '@spectrum-web-components/icons-workf
 
 export const SpIconDistributeHorizontally = dynamic<IconDistributeHorizontally | { slot: string }>(
   () => import('./IconDistributeHorizontally').then((m) => m.SpIconDistributeHorizontally as any),
-  { ssr: false}
+  { ssr: false }
 );

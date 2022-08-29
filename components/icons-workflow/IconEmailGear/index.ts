@@ -4,5 +4,5 @@ import { IconEmailGear } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconEmailGear = dynamic<IconEmailGear | { slot: string }>(
   () => import('./IconEmailGear').then((m) => m.SpIconEmailGear as any),
-  { ssr: false}
+  { ssr: false }
 );

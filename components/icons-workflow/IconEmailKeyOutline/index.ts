@@ -4,5 +4,5 @@ import { IconEmailKeyOutline } from '@spectrum-web-components/icons-workflow/src
 
 export const SpIconEmailKeyOutline = dynamic<IconEmailKeyOutline | { slot: string }>(
   () => import('./IconEmailKeyOutline').then((m) => m.SpIconEmailKeyOutline as any),
-  { ssr: false}
+  { ssr: false }
 );

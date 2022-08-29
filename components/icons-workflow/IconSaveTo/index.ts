@@ -4,5 +4,5 @@ import { IconSaveTo } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconSaveTo = dynamic<IconSaveTo | { slot: string }>(
   () => import('./IconSaveTo').then((m) => m.SpIconSaveTo as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconGraphProfitCurve } from '@spectrum-web-components/icons-workflow/sr
 
 export const SpIconGraphProfitCurve = dynamic<IconGraphProfitCurve | { slot: string }>(
   () => import('./IconGraphProfitCurve').then((m) => m.SpIconGraphProfitCurve as any),
-  { ssr: false}
+  { ssr: false }
 );

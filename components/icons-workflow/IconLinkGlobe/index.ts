@@ -4,5 +4,5 @@ import { IconLinkGlobe } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconLinkGlobe = dynamic<IconLinkGlobe | { slot: string }>(
   () => import('./IconLinkGlobe').then((m) => m.SpIconLinkGlobe as any),
-  { ssr: false}
+  { ssr: false }
 );

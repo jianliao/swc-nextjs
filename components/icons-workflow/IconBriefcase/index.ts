@@ -4,5 +4,5 @@ import { IconBriefcase } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconBriefcase = dynamic<IconBriefcase | { slot: string }>(
   () => import('./IconBriefcase').then((m) => m.SpIconBriefcase as any),
-  { ssr: false}
+  { ssr: false }
 );

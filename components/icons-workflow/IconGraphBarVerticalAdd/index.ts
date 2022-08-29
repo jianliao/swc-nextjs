@@ -4,5 +4,5 @@ import { IconGraphBarVerticalAdd } from '@spectrum-web-components/icons-workflow
 
 export const SpIconGraphBarVerticalAdd = dynamic<IconGraphBarVerticalAdd | { slot: string }>(
   () => import('./IconGraphBarVerticalAdd').then((m) => m.SpIconGraphBarVerticalAdd as any),
-  { ssr: false}
+  { ssr: false }
 );

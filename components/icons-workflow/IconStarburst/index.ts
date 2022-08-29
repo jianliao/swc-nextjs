@@ -4,5 +4,5 @@ import { IconStarburst } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconStarburst = dynamic<IconStarburst | { slot: string }>(
   () => import('./IconStarburst').then((m) => m.SpIconStarburst as any),
-  { ssr: false}
+  { ssr: false }
 );

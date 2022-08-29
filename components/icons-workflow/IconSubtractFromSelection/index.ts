@@ -4,5 +4,5 @@ import { IconSubtractFromSelection } from '@spectrum-web-components/icons-workfl
 
 export const SpIconSubtractFromSelection = dynamic<IconSubtractFromSelection | { slot: string }>(
   () => import('./IconSubtractFromSelection').then((m) => m.SpIconSubtractFromSelection as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconHand } from '@spectrum-web-components/icons-workflow/src/elements/I
 
 export const SpIconHand = dynamic<IconHand | { slot: string }>(
   () => import('./IconHand').then((m) => m.SpIconHand as any),
-  { ssr: false}
+  { ssr: false }
 );

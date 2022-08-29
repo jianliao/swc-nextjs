@@ -4,5 +4,5 @@ import { IconShuffle } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconShuffle = dynamic<IconShuffle | { slot: string }>(
   () => import('./IconShuffle').then((m) => m.SpIconShuffle as any),
-  { ssr: false}
+  { ssr: false }
 );

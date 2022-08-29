@@ -4,5 +4,5 @@ import { IconCornerTriangle100 } from '@spectrum-web-components/icons-ui/src/ele
 
 export const SpIconCornerTriangle100 = dynamic<IconCornerTriangle100 | { slot: string }>(
   () => import('./IconCornerTriangle100').then((m) => m.SpIconCornerTriangle100 as any),
-  { ssr: false}
+  { ssr: false }
 );

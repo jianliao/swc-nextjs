@@ -4,5 +4,5 @@ import { IconColorFill } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconColorFill = dynamic<IconColorFill | { slot: string }>(
   () => import('./IconColorFill').then((m) => m.SpIconColorFill as any),
-  { ssr: false}
+  { ssr: false }
 );

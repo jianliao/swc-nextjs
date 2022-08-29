@@ -4,5 +4,5 @@ import { IconBeakerCheck } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconBeakerCheck = dynamic<IconBeakerCheck | { slot: string }>(
   () => import('./IconBeakerCheck').then((m) => m.SpIconBeakerCheck as any),
-  { ssr: false}
+  { ssr: false }
 );

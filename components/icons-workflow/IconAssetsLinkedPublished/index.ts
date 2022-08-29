@@ -4,5 +4,5 @@ import { IconAssetsLinkedPublished } from '@spectrum-web-components/icons-workfl
 
 export const SpIconAssetsLinkedPublished = dynamic<IconAssetsLinkedPublished | { slot: string }>(
   () => import('./IconAssetsLinkedPublished').then((m) => m.SpIconAssetsLinkedPublished as any),
-  { ssr: false}
+  { ssr: false }
 );

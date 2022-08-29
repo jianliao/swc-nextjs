@@ -4,5 +4,5 @@ import { IconTextBulletedHierarchy } from '@spectrum-web-components/icons-workfl
 
 export const SpIconTextBulletedHierarchy = dynamic<IconTextBulletedHierarchy | { slot: string }>(
   () => import('./IconTextBulletedHierarchy').then((m) => m.SpIconTextBulletedHierarchy as any),
-  { ssr: false}
+  { ssr: false }
 );

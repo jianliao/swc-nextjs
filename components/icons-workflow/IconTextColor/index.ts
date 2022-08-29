@@ -4,5 +4,5 @@ import { IconTextColor } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconTextColor = dynamic<IconTextColor | { slot: string }>(
   () => import('./IconTextColor').then((m) => m.SpIconTextColor as any),
-  { ssr: false}
+  { ssr: false }
 );

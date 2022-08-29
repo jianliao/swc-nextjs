@@ -4,5 +4,5 @@ import { IconFilterEdit } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconFilterEdit = dynamic<IconFilterEdit | { slot: string }>(
   () => import('./IconFilterEdit').then((m) => m.SpIconFilterEdit as any),
-  { ssr: false}
+  { ssr: false }
 );

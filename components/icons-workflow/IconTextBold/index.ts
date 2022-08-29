@@ -4,5 +4,5 @@ import { IconTextBold } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconTextBold = dynamic<IconTextBold | { slot: string }>(
   () => import('./IconTextBold').then((m) => m.SpIconTextBold as any),
-  { ssr: false}
+  { ssr: false }
 );

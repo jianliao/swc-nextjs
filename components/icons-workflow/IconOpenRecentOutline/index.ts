@@ -4,5 +4,5 @@ import { IconOpenRecentOutline } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconOpenRecentOutline = dynamic<IconOpenRecentOutline | { slot: string }>(
   () => import('./IconOpenRecentOutline').then((m) => m.SpIconOpenRecentOutline as any),
-  { ssr: false}
+  { ssr: false }
 );

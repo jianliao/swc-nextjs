@@ -4,5 +4,5 @@ import { IconDoubleGripper } from '@spectrum-web-components/icons-ui/src/element
 
 export const SpIconDoubleGripper = dynamic<IconDoubleGripper | { slot: string }>(
   () => import('./IconDoubleGripper').then((m) => m.SpIconDoubleGripper as any),
-  { ssr: false}
+  { ssr: false }
 );

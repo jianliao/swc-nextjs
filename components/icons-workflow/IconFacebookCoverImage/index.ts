@@ -4,5 +4,5 @@ import { IconFacebookCoverImage } from '@spectrum-web-components/icons-workflow/
 
 export const SpIconFacebookCoverImage = dynamic<IconFacebookCoverImage | { slot: string }>(
   () => import('./IconFacebookCoverImage').then((m) => m.SpIconFacebookCoverImage as any),
-  { ssr: false}
+  { ssr: false }
 );

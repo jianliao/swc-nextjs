@@ -4,5 +4,5 @@ import { IconCameraFlip } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconCameraFlip = dynamic<IconCameraFlip | { slot: string }>(
   () => import('./IconCameraFlip').then((m) => m.SpIconCameraFlip as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconRibbon } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconRibbon = dynamic<IconRibbon | { slot: string }>(
   () => import('./IconRibbon').then((m) => m.SpIconRibbon as any),
-  { ssr: false}
+  { ssr: false }
 );

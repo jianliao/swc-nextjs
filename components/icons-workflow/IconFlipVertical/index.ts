@@ -4,5 +4,5 @@ import { IconFlipVertical } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconFlipVertical = dynamic<IconFlipVertical | { slot: string }>(
   () => import('./IconFlipVertical').then((m) => m.SpIconFlipVertical as any),
-  { ssr: false}
+  { ssr: false }
 );

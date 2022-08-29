@@ -4,5 +4,5 @@ import { IconLocationContribution } from '@spectrum-web-components/icons-workflo
 
 export const SpIconLocationContribution = dynamic<IconLocationContribution | { slot: string }>(
   () => import('./IconLocationContribution').then((m) => m.SpIconLocationContribution as any),
-  { ssr: false}
+  { ssr: false }
 );

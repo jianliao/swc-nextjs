@@ -16,6 +16,7 @@
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.4.0",
     "@types/react": "^18.0.17",
+    "next": "^12.2.5",
     "rollup": "^2.78.1",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-dts": "^4.2.2",

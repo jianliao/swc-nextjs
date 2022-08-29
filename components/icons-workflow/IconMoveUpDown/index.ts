@@ -4,5 +4,5 @@ import { IconMoveUpDown } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconMoveUpDown = dynamic<IconMoveUpDown | { slot: string }>(
   () => import('./IconMoveUpDown').then((m) => m.SpIconMoveUpDown as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconBoxExport } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconBoxExport = dynamic<IconBoxExport | { slot: string }>(
   () => import('./IconBoxExport').then((m) => m.SpIconBoxExport as any),
-  { ssr: false}
+  { ssr: false }
 );

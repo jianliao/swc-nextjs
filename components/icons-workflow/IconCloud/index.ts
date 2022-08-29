@@ -4,5 +4,5 @@ import { IconCloud } from '@spectrum-web-components/icons-workflow/src/elements/
 
 export const SpIconCloud = dynamic<IconCloud | { slot: string }>(
   () => import('./IconCloud').then((m) => m.SpIconCloud as any),
-  { ssr: false}
+  { ssr: false }
 );

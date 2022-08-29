@@ -4,5 +4,5 @@ import { IconUserActivity } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconUserActivity = dynamic<IconUserActivity | { slot: string }>(
   () => import('./IconUserActivity').then((m) => m.SpIconUserActivity as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconUserLock } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconUserLock = dynamic<IconUserLock | { slot: string }>(
   () => import('./IconUserLock').then((m) => m.SpIconUserLock as any),
-  { ssr: false}
+  { ssr: false }
 );

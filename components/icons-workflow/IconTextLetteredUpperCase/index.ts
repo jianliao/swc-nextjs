@@ -4,5 +4,5 @@ import { IconTextLetteredUpperCase } from '@spectrum-web-components/icons-workfl
 
 export const SpIconTextLetteredUpperCase = dynamic<IconTextLetteredUpperCase | { slot: string }>(
   () => import('./IconTextLetteredUpperCase').then((m) => m.SpIconTextLetteredUpperCase as any),
-  { ssr: false}
+  { ssr: false }
 );

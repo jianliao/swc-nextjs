@@ -4,5 +4,5 @@ import { IconExperienceAddTo } from '@spectrum-web-components/icons-workflow/src
 
 export const SpIconExperienceAddTo = dynamic<IconExperienceAddTo | { slot: string }>(
   () => import('./IconExperienceAddTo').then((m) => m.SpIconExperienceAddTo as any),
-  { ssr: false}
+  { ssr: false }
 );

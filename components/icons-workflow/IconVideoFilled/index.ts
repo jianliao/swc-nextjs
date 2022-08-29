@@ -4,5 +4,5 @@ import { IconVideoFilled } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconVideoFilled = dynamic<IconVideoFilled | { slot: string }>(
   () => import('./IconVideoFilled').then((m) => m.SpIconVideoFilled as any),
-  { ssr: false}
+  { ssr: false }
 );

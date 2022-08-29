@@ -4,5 +4,5 @@ import { IconAlertCheck } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconAlertCheck = dynamic<IconAlertCheck | { slot: string }>(
   () => import('./IconAlertCheck').then((m) => m.SpIconAlertCheck as any),
-  { ssr: false}
+  { ssr: false }
 );

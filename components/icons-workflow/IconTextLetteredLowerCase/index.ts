@@ -4,5 +4,5 @@ import { IconTextLetteredLowerCase } from '@spectrum-web-components/icons-workfl
 
 export const SpIconTextLetteredLowerCase = dynamic<IconTextLetteredLowerCase | { slot: string }>(
   () => import('./IconTextLetteredLowerCase').then((m) => m.SpIconTextLetteredLowerCase as any),
-  { ssr: false}
+  { ssr: false }
 );

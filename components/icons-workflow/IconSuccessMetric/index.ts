@@ -4,5 +4,5 @@ import { IconSuccessMetric } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconSuccessMetric = dynamic<IconSuccessMetric | { slot: string }>(
   () => import('./IconSuccessMetric').then((m) => m.SpIconSuccessMetric as any),
-  { ssr: false}
+  { ssr: false }
 );
