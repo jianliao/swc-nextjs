@@ -90,8 +90,8 @@
     "@spectrum-web-components/tooltip": "^0.11.1",
     "@spectrum-web-components/top-nav": "^0.6.1",
     "@spectrum-web-components/tray": "^0.4.0",
-    "custom-elements-manifest": "^1.0.0",
     "fs-extra": "^10.1.0",
+    "glob": "^8.0.3",
     "prettier": "2.7.1"
   },
   "dependencies": {

@@ -69,8 +69,8 @@ importers:
       '@spectrum-web-components/tooltip': ^0.11.1
       '@spectrum-web-components/top-nav': ^0.6.1
       '@spectrum-web-components/tray': ^0.4.0
-      custom-elements-manifest: ^1.0.0
       fs-extra: ^10.1.0
+      glob: ^8.0.3
       prettier: 2.7.1
     dependencies:
       '@spectrum-web-components/base': 0.7.0
@@ -139,8 +139,8 @@ importers:
       '@spectrum-web-components/tooltip': 0.11.1
       '@spectrum-web-components/top-nav': 0.6.1
       '@spectrum-web-components/tray': 0.4.0
-      custom-elements-manifest: 1.0.0
       fs-extra: 10.1.0
+      glob: 8.0.3
       prettier: 2.7.1
 
   components/accordion:
@@ -718,6 +718,29 @@ importers:
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
       typescript: 4.8.2
 
+  components/icon:
+    specifiers:
+      '@lit-labs/react': ^1.0.8
+      '@rollup/plugin-typescript': ^8.4.0
+      '@spectrum-web-components/icon': 0.12.0
+      '@types/react': ^18.0.17
+      next: ^12.2.5
+      rollup: ^2.78.1
+      rollup-plugin-delete: ^2.0.0
+      rollup-plugin-dts: ^4.2.2
+      typescript: ^4.8.2
+    dependencies:
+      '@lit-labs/react': 1.0.8
+      '@spectrum-web-components/icon': 0.12.0
+    devDependencies:
+      '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
+      '@types/react': 18.0.17
+      next: 12.2.5_biqbaboplfbrettd7655fr4n2y
+      rollup: 2.78.1
+      rollup-plugin-delete: 2.0.0
+      rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
+      typescript: 4.8.2
+
   components/icons:
     specifiers:
       '@lit-labs/react': ^1.0.8
@@ -732,6 +755,52 @@ importers:
     dependencies:
       '@lit-labs/react': 1.0.8
       '@spectrum-web-components/icons': 0.9.0
+    devDependencies:
+      '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
+      '@types/react': 18.0.17
+      next: 12.2.5_biqbaboplfbrettd7655fr4n2y
+      rollup: 2.78.1
+      rollup-plugin-delete: 2.0.0
+      rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
+      typescript: 4.8.2
+
+  components/icons-ui:
+    specifiers:
+      '@lit-labs/react': ^1.0.8
+      '@rollup/plugin-typescript': ^8.4.0
+      '@spectrum-web-components/icons-ui': ^0.9.0
+      '@types/react': ^18.0.17
+      next: ^12.2.5
+      rollup: ^2.78.1
+      rollup-plugin-delete: ^2.0.0
+      rollup-plugin-dts: ^4.2.2
+      typescript: ^4.8.2
+    dependencies:
+      '@lit-labs/react': 1.0.8
+      '@spectrum-web-components/icons-ui': 0.9.0
+    devDependencies:
+      '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
+      '@types/react': 18.0.17
+      next: 12.2.5_biqbaboplfbrettd7655fr4n2y
+      rollup: 2.78.1
+      rollup-plugin-delete: 2.0.0
+      rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
+      typescript: 4.8.2
+
+  components/icons-workflow:
+    specifiers:
+      '@lit-labs/react': ^1.0.8
+      '@rollup/plugin-typescript': ^8.4.0
+      '@spectrum-web-components/icons-workflow': ^0.9.0
+      '@types/react': ^18.0.17
+      next: ^12.2.5
+      rollup: ^2.78.1
+      rollup-plugin-delete: ^2.0.0
+      rollup-plugin-dts: ^4.2.2
+      typescript: ^4.8.2
+    dependencies:
+      '@lit-labs/react': 1.0.8
+      '@spectrum-web-components/icons-workflow': 0.9.0
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -2259,6 +2328,12 @@ packages:
       concat-map: 0.0.1
     dev: true
 
+  /brace-expansion/2.0.1:
+    resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
+    dependencies:
+      balanced-match: 1.0.2
+    dev: true
+
   /braces/3.0.2:
     resolution: {integrity: sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==}
     engines: {node: '>=8'}
@@ -2303,10 +2378,6 @@ packages:
 
   /csstype/3.1.0:
     resolution: {integrity: sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==}
-    dev: true
-
-  /custom-elements-manifest/1.0.0:
-    resolution: {integrity: sha512-j59k0ExGCKA8T6Mzaq+7axc+KVHwpEphEERU7VZ99260npu/p/9kd+Db+I3cGKxHkM5y6q5gnlXn00mzRQkX2A==}
     dev: true
 
   /del/5.1.0:
@@ -2408,6 +2479,17 @@ packages:
       minimatch: 3.1.2
       once: 1.4.0
       path-is-absolute: 1.0.1
+    dev: true
+
+  /glob/8.0.3:
+    resolution: {integrity: sha512-ull455NHSHI/Y1FqGaaYFaLGkNMMJbavMrEGFXG/PGrg6y7sutWHUHrz6gy6WEBH6akM1M414dWKCNs+IhKdiQ==}
+    engines: {node: '>=12'}
+    dependencies:
+      fs.realpath: 1.0.0
+      inflight: 1.0.6
+      inherits: 2.0.4
+      minimatch: 5.1.0
+      once: 1.4.0
     dev: true
 
   /globby/10.0.2:
@@ -2556,6 +2638,13 @@ packages:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
     dependencies:
       brace-expansion: 1.1.11
+    dev: true
+
+  /minimatch/5.1.0:
+    resolution: {integrity: sha512-9TPBGGak4nHfGZsPBohm9AWg6NoT7QTCehS3BIJABslyZbzxfV78QM2Y6+i741OPZIafFAaiiEMh5OyIrJPgtg==}
+    engines: {node: '>=10'}
+    dependencies:
+      brace-expansion: 2.0.1
     dev: true
 
   /nanoid/3.3.4:
