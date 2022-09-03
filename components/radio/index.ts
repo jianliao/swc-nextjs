@@ -7,12 +7,12 @@ import { RadioGroup } from '@spectrum-web-components/radio';
 const ssr = false;
 
 export const SpRadio = dynamic<
-  | Radio
+  | Partial<Radio>
   | { children?: ReactNode }
   | { click: Function }
   | { keydown: Function }
   | { change: Function }
 >(() => import('./Radio').then((m) => m.SpRadio as any), { ssr });
 export const SpRadioGroup = dynamic<
-  RadioGroup | { children?: ReactNode } | { focus: Function } | { change: Function }
+  Partial<RadioGroup> | { children?: ReactNode } | { focus: Function } | { change: Function }
 >(() => import('./Radio').then((m) => m.SpRadioGroup as any), { ssr });

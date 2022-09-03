@@ -6,7 +6,7 @@ import { Search } from '@spectrum-web-components/search';
 const ssr = false;
 
 export const SpSearch = dynamic<
-  | Search
+  | Partial<Search>
   | { children?: ReactNode }
   | { reset: Function }
   | { submit: Function }

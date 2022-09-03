@@ -5,7 +5,7 @@ import { Coachmark } from '@spectrum-web-components/coachmark';
 
 const ssr = false;
 
-export const SpCoachmark = dynamic<Coachmark | { children?: ReactNode }>(
+export const SpCoachmark = dynamic<Partial<Coachmark> | { children?: ReactNode }>(
   () => import('./Coachmark').then((m) => m.SpCoachmark as any),
   { ssr }
 );

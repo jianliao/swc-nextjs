@@ -6,7 +6,7 @@ import { Card } from '@spectrum-web-components/card';
 const ssr = false;
 
 export const SpCard = dynamic<
-  | Card
+  | Partial<Card>
   | { children?: ReactNode }
   | { click: Function }
   | { toggleSelected: Function }

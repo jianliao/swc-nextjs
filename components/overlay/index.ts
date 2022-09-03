@@ -7,7 +7,7 @@ import { OverlayTrigger } from '@spectrum-web-components/overlay';
 const ssr = false;
 
 export const SpActiveOverlay = dynamic<
-  | ActiveOverlay
+  | Partial<ActiveOverlay>
   | { children?: ReactNode }
   | { focus: Function }
   | { feature: Function }
@@ -20,7 +20,7 @@ export const SpActiveOverlay = dynamic<
   | { create: Function }
 >(() => import('./Overlay').then((m) => m.SpActiveOverlay as any), { ssr });
 export const SpOverlayTrigger = dynamic<
-  | OverlayTrigger
+  | Partial<OverlayTrigger>
   | { children?: ReactNode }
   | { onTriggerClick: Function }
   | { onTriggerMouseEnter: Function }

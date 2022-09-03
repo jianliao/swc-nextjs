@@ -6,7 +6,7 @@ import { NumberField } from '@spectrum-web-components/number-field';
 const ssr = false;
 
 export const SpNumberField = dynamic<
-  | NumberField
+  | Partial<NumberField>
   | { children?: ReactNode }
   | { change: Function }
   | { input: Function }

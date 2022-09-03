@@ -71,7 +71,7 @@ importers:
       '@spectrum-web-components/tray': ^0.4.0
       fs-extra: ^10.1.0
       glob: ^8.0.3
-      prettier: 2.7.1
+      prettier: ^2.7.1
     dependencies:
       '@spectrum-web-components/base': 0.7.0
     devDependencies:

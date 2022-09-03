@@ -2,7 +2,7 @@ import dynamic from 'next/dynamic';
 
 import { IconDataAdd } from '@spectrum-web-components/icons-workflow/src/elements/IconDataAdd.js';
 
-export const SpIconDataAdd = dynamic<IconDataAdd | { slot: string }>(
+export const SpIconDataAdd = dynamic<Partial<IconDataAdd> | { slot: string }>(
   () => import('./IconDataAdd').then((m) => m.SpIconDataAdd as any),
-  { ssr: false }
+  { ssr: false}
 );

@@ -2,7 +2,7 @@ import dynamic from 'next/dynamic';
 
 import { IconErase } from '@spectrum-web-components/icons-workflow/src/elements/IconErase.js';
 
-export const SpIconErase = dynamic<IconErase | { slot: string }>(
+export const SpIconErase = dynamic<Partial<IconErase> | { slot: string }>(
   () => import('./IconErase').then((m) => m.SpIconErase as any),
-  { ssr: false }
+  { ssr: false}
 );

@@ -2,7 +2,7 @@ import dynamic from 'next/dynamic';
 
 import { IconChevronRight } from '@spectrum-web-components/icons-workflow/src/elements/IconChevronRight.js';
 
-export const SpIconChevronRight = dynamic<IconChevronRight | { slot: string }>(
+export const SpIconChevronRight = dynamic<Partial<IconChevronRight> | { slot: string }>(
   () => import('./IconChevronRight').then((m) => m.SpIconChevronRight as any),
-  { ssr: false }
+  { ssr: false}
 );

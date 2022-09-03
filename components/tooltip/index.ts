@@ -7,10 +7,10 @@ import { Tooltip } from '@spectrum-web-components/tooltip';
 const ssr = false;
 
 export const SpTooltipProxy = dynamic<
-  TooltipProxy | { children?: ReactNode } | { disconnected: Function }
+  Partial<TooltipProxy> | { children?: ReactNode } | { disconnected: Function }
 >(() => import('./Tooltip').then((m) => m.SpTooltipProxy as any), { ssr });
 export const SpTooltip = dynamic<
-  | Tooltip
+  | Partial<Tooltip>
   | { children?: ReactNode }
   | { onOverlayQuery: Function }
   | { overlayWillOpenCallback: Function }

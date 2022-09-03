@@ -5,7 +5,7 @@ import { Avatar } from '@spectrum-web-components/avatar';
 
 const ssr = false;
 
-export const SpAvatar = dynamic<Avatar | { children?: ReactNode }>(
+export const SpAvatar = dynamic<Partial<Avatar> | { children?: ReactNode }>(
   () => import('./Avatar').then((m) => m.SpAvatar as any),
   { ssr }
 );

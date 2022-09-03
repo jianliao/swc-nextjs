@@ -5,7 +5,7 @@ import { Link } from '@spectrum-web-components/link';
 
 const ssr = false;
 
-export const SpLink = dynamic<Link | { children?: ReactNode }>(
+export const SpLink = dynamic<Partial<Link> | { children?: ReactNode }>(
   () => import('./Link').then((m) => m.SpLink as any),
   { ssr }
 );

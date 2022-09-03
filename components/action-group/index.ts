@@ -6,5 +6,5 @@ import { ActionGroup } from '@spectrum-web-components/action-group';
 const ssr = false;
 
 export const SpActionGroup = dynamic<
-  ActionGroup | { children?: ReactNode } | { focus: Function } | { change: Function }
+  Partial<ActionGroup> | { children?: ReactNode } | { focus: Function } | { change: Function }
 >(() => import('./ActionGroup').then((m) => m.SpActionGroup as any), { ssr });

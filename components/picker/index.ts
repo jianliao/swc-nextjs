@@ -6,7 +6,7 @@ import { Picker } from '@spectrum-web-components/picker';
 const ssr = false;
 
 export const SpPicker = dynamic<
-  | Picker
+  | Partial<Picker>
   | { children?: ReactNode }
   | { forceFocusVisible: Function }
   | { onButtonBlur: Function }

@@ -2,7 +2,7 @@ import dynamic from 'next/dynamic';
 
 import { IconUserShare } from '@spectrum-web-components/icons-workflow/src/elements/IconUserShare.js';
 
-export const SpIconUserShare = dynamic<IconUserShare | { slot: string }>(
+export const SpIconUserShare = dynamic<Partial<IconUserShare> | { slot: string }>(
   () => import('./IconUserShare').then((m) => m.SpIconUserShare as any),
-  { ssr: false }
+  { ssr: false}
 );

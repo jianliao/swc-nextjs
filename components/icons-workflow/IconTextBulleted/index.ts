@@ -2,7 +2,7 @@ import dynamic from 'next/dynamic';
 
 import { IconTextBulleted } from '@spectrum-web-components/icons-workflow/src/elements/IconTextBulleted.js';
 
-export const SpIconTextBulleted = dynamic<IconTextBulleted | { slot: string }>(
+export const SpIconTextBulleted = dynamic<Partial<IconTextBulleted> | { slot: string }>(
   () => import('./IconTextBulleted').then((m) => m.SpIconTextBulleted as any),
-  { ssr: false }
+  { ssr: false}
 );

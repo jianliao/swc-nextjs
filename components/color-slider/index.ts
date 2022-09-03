@@ -6,7 +6,7 @@ import { ColorSlider } from '@spectrum-web-components/color-slider';
 const ssr = false;
 
 export const SpColorSlider = dynamic<
-  | ColorSlider
+  | Partial<ColorSlider>
   | { children?: ReactNode }
   | { focus: Function }
   | { input: Function }

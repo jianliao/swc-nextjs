@@ -5,7 +5,7 @@ import { Banner } from '@spectrum-web-components/banner';
 
 const ssr = false;
 
-export const SpBanner = dynamic<Banner | { children?: ReactNode }>(
+export const SpBanner = dynamic<Partial<Banner> | { children?: ReactNode }>(
   () => import('./Banner').then((m) => m.SpBanner as any),
   { ssr }
 );

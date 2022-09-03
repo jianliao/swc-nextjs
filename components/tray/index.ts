@@ -6,7 +6,7 @@ import { Tray } from '@spectrum-web-components/tray';
 const ssr = false;
 
 export const SpTray = dynamic<
-  | Tray
+  | Partial<Tray>
   | { children?: ReactNode }
   | { focus: Function }
   | { overlayWillCloseCallback: Function }

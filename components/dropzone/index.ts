@@ -6,7 +6,7 @@ import { Dropzone } from '@spectrum-web-components/dropzone';
 const ssr = false;
 
 export const SpDropzone = dynamic<
-  | Dropzone
+  | Partial<Dropzone>
   | { children?: ReactNode }
   | { onDragOver: Function }
   | { onDragLeave: Function }

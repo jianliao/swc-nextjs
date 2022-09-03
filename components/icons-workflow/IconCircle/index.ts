@@ -2,7 +2,7 @@ import dynamic from 'next/dynamic';
 
 import { IconCircle } from '@spectrum-web-components/icons-workflow/src/elements/IconCircle.js';
 
-export const SpIconCircle = dynamic<IconCircle | { slot: string }>(
+export const SpIconCircle = dynamic<Partial<IconCircle> | { slot: string }>(
   () => import('./IconCircle').then((m) => m.SpIconCircle as any),
-  { ssr: false }
+  { ssr: false}
 );

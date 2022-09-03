@@ -6,12 +6,12 @@ import { DialogWrapper } from '@spectrum-web-components/dialog';
 
 const ssr = false;
 
-export const SpDialog = dynamic<Dialog | { children?: ReactNode } | { close: Function }>(
+export const SpDialog = dynamic<Partial<Dialog> | { children?: ReactNode } | { close: Function }>(
   () => import('./Dialog').then((m) => m.SpDialog as any),
   { ssr }
 );
 export const SpDialogWrapper = dynamic<
-  | DialogWrapper
+  | Partial<DialogWrapper>
   | { children?: ReactNode }
   | { focus: Function }
   | { overlayWillCloseCallback: Function }

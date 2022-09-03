@@ -5,7 +5,7 @@ import { SplitView } from '@spectrum-web-components/split-view';
 
 const ssr = false;
 
-export const SpSplitView = dynamic<SplitView | { children?: ReactNode }>(
+export const SpSplitView = dynamic<Partial<SplitView> | { children?: ReactNode }>(
   () => import('./SplitView').then((m) => m.SpSplitView as any),
   { ssr }
 );

@@ -5,7 +5,7 @@ import { FieldLabel } from '@spectrum-web-components/field-label';
 
 const ssr = false;
 
-export const SpFieldLabel = dynamic<FieldLabel | { children?: ReactNode }>(
+export const SpFieldLabel = dynamic<Partial<FieldLabel> | { children?: ReactNode }>(
   () => import('./FieldLabel').then((m) => m.SpFieldLabel as any),
   { ssr }
 );

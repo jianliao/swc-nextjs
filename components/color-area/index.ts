@@ -6,7 +6,7 @@ import { ColorArea } from '@spectrum-web-components/color-area';
 const ssr = false;
 
 export const SpColorArea = dynamic<
-  | ColorArea
+  | Partial<ColorArea>
   | { children?: ReactNode }
   | { focus: Function }
   | { input: Function }

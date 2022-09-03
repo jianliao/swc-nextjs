@@ -7,7 +7,7 @@ import { SliderHandle } from '@spectrum-web-components/slider';
 const ssr = false;
 
 export const SpSlider = dynamic<
-  | Slider
+  | Partial<Slider>
   | { children?: ReactNode }
   | { dispatchInputEvent: Function }
   | { spSliderHandleReady: Function }
@@ -15,7 +15,7 @@ export const SpSlider = dynamic<
   | { change: Function }
 >(() => import('./Slider').then((m) => m.SpSlider as any), { ssr });
 export const SpSliderHandle = dynamic<
-  | SliderHandle
+  | Partial<SliderHandle>
   | { children?: ReactNode }
   | { dispatchInputEvent: Function }
   | { spSliderHandleReady: Function }

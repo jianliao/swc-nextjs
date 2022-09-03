@@ -1,3 +1,4 @@
+
 import { createComponent } from '@lit-labs/react';
 import * as React from 'react';
 import { IconStar } from '@spectrum-web-components/icons-workflow/src/elements/IconStar.js';

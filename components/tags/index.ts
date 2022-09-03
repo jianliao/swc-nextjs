@@ -6,11 +6,11 @@ import { Tags } from '@spectrum-web-components/tags';
 
 const ssr = false;
 
-export const SpTag = dynamic<Tag | { children?: ReactNode } | { delete: Function }>(
+export const SpTag = dynamic<Partial<Tag> | { children?: ReactNode } | { delete: Function }>(
   () => import('./Tags').then((m) => m.SpTag as any),
   { ssr }
 );
-export const SpTags = dynamic<Tags | { children?: ReactNode } | { focus: Function }>(
+export const SpTags = dynamic<Partial<Tags> | { children?: ReactNode } | { focus: Function }>(
   () => import('./Tags').then((m) => m.SpTags as any),
   { ssr }
 );

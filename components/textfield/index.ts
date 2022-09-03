@@ -6,7 +6,7 @@ import { Textfield } from '@spectrum-web-components/textfield';
 const ssr = false;
 
 export const SpTextfield = dynamic<
-  | Textfield
+  | Partial<Textfield>
   | { children?: ReactNode }
   | { setSelectionRange: Function }
   | { select: Function }

@@ -6,7 +6,7 @@ import { ActionMenu } from '@spectrum-web-components/action-menu';
 const ssr = false;
 
 export const SpActionMenu = dynamic<
-  | ActionMenu
+  | Partial<ActionMenu>
   | { children?: ReactNode }
   | { forceFocusVisible: Function }
   | { onButtonBlur: Function }

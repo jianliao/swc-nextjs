@@ -8,11 +8,11 @@ import { CloseButton } from '@spectrum-web-components/button';
 const ssr = false;
 
 export const SpButton = dynamic<
-  Button | { children?: ReactNode } | { click: Function } | { renderAnchor: Function }
+  Partial<Button> | { children?: ReactNode } | { click: Function } | { renderAnchor: Function }
 >(() => import('./Button').then((m) => m.SpButton as any), { ssr });
 export const SpClearButton = dynamic<
-  ClearButton | { children?: ReactNode } | { click: Function } | { renderAnchor: Function }
+  Partial<ClearButton> | { children?: ReactNode } | { click: Function } | { renderAnchor: Function }
 >(() => import('./Button').then((m) => m.SpClearButton as any), { ssr });
 export const SpCloseButton = dynamic<
-  CloseButton | { children?: ReactNode } | { click: Function } | { renderAnchor: Function }
+  Partial<CloseButton> | { children?: ReactNode } | { click: Function } | { renderAnchor: Function }
 >(() => import('./Button').then((m) => m.SpCloseButton as any), { ssr });

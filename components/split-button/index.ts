@@ -6,7 +6,7 @@ import { SplitButton } from '@spectrum-web-components/split-button';
 const ssr = false;
 
 export const SpSplitButton = dynamic<
-  | SplitButton
+  | Partial<SplitButton>
   | { children?: ReactNode }
   | { forceFocusVisible: Function }
   | { onButtonBlur: Function }

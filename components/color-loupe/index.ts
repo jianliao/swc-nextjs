@@ -5,7 +5,7 @@ import { ColorLoupe } from '@spectrum-web-components/color-loupe';
 
 const ssr = false;
 
-export const SpColorLoupe = dynamic<ColorLoupe | { children?: ReactNode }>(
+export const SpColorLoupe = dynamic<Partial<ColorLoupe> | { children?: ReactNode }>(
   () => import('./ColorLoupe').then((m) => m.SpColorLoupe as any),
   { ssr }
 );

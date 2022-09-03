@@ -6,7 +6,7 @@ import { ColorWheel } from '@spectrum-web-components/color-wheel';
 const ssr = false;
 
 export const SpColorWheel = dynamic<
-  | ColorWheel
+  | Partial<ColorWheel>
   | { children?: ReactNode }
   | { focus: Function }
   | { input: Function }

@@ -2,7 +2,7 @@ import dynamic from 'next/dynamic';
 
 import { IconTestABGear } from '@spectrum-web-components/icons-workflow/src/elements/IconTestABGear.js';
 
-export const SpIconTestABGear = dynamic<IconTestABGear | { slot: string }>(
+export const SpIconTestABGear = dynamic<Partial<IconTestABGear> | { slot: string }>(
   () => import('./IconTestABGear').then((m) => m.SpIconTestABGear as any),
-  { ssr: false }
+  { ssr: false}
 );

@@ -29,7 +29,7 @@ const generateIndex = (elementName, displayName) => {
 
 import { ${displayName} } from '@spectrum-web-components/icons-ui/src/elements/${displayName}.js';
 
-export const Sp${displayName} = dynamic<${displayName} | { slot: string }>(
+export const Sp${displayName} = dynamic<Partial<${displayName}> | { slot: string }>(
   () => import('./${displayName}').then((m) => m.Sp${displayName} as any),
   { ssr: false}
 );

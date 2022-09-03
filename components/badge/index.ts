@@ -5,7 +5,7 @@ import { Badge } from '@spectrum-web-components/badge';
 
 const ssr = false;
 
-export const SpBadge = dynamic<Badge | { children?: ReactNode }>(
+export const SpBadge = dynamic<Partial<Badge> | { children?: ReactNode }>(
   () => import('./Badge').then((m) => m.SpBadge as any),
   { ssr }
 );

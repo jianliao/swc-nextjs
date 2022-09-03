@@ -41,7 +41,6 @@ function getEventFromSuperClass(className, componentName) {
   const customElementFile = `./node_modules/${componentName}/custom-elements.json`;
   if (!existsSync(customElementFile)) return [];
   const componentManifest = readJsonSync(path.resolve(customElementFile));
-  // const modules = getCustomElementModules(componentManifest);
   const modules = componentManifest.modules;
   const events = modules.flatMap((m) => {
     return m.declarations
@@ -122,9 +121,9 @@ const ssr = false;
 ${elements.reduce(
   (pre, element) =>
     pre +
-    `export const Sp${element.name} = dynamic<${
+    `export const Sp${element.name} = dynamic<Partial<${
       element.name
-    } | { children?: ReactNode } ${element.events.reduce(
+    }> | { children?: ReactNode } ${element.events.reduce(
       (pre, cur) => pre + `| { ${cur.name.replace(/-./g, (m) => m[1].toUpperCase())}: Function }`,
       ''
     )}>(() => import('./${componentFileName}').then(m => m.Sp${element.name} as any), { ssr });` +

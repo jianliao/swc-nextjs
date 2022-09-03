@@ -5,7 +5,7 @@ import { ActionBar } from '@spectrum-web-components/action-bar';
 
 const ssr = false;
 
-export const SpActionBar = dynamic<ActionBar | { children?: ReactNode }>(
+export const SpActionBar = dynamic<Partial<ActionBar> | { children?: ReactNode }>(
   () => import('./ActionBar').then((m) => m.SpActionBar as any),
   { ssr }
 );

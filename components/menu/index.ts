@@ -9,7 +9,7 @@ import { MenuItem } from '@spectrum-web-components/menu';
 const ssr = false;
 
 export const SpMenu = dynamic<
-  | Menu
+  | Partial<Menu>
   | { children?: ReactNode }
   | { focus: Function }
   | { handleFocusin: Function }
@@ -23,12 +23,12 @@ export const SpMenu = dynamic<
   | { change: Function }
   | { close: Function }
 >(() => import('./Menu').then((m) => m.SpMenu as any), { ssr });
-export const SpMenuDivider = dynamic<MenuDivider | { children?: ReactNode }>(
+export const SpMenuDivider = dynamic<Partial<MenuDivider> | { children?: ReactNode }>(
   () => import('./Menu').then((m) => m.SpMenuDivider as any),
   { ssr }
 );
 export const SpMenuGroup = dynamic<
-  | MenuGroup
+  | Partial<MenuGroup>
   | { children?: ReactNode }
   | { focus: Function }
   | { handleFocusin: Function }
@@ -43,7 +43,7 @@ export const SpMenuGroup = dynamic<
   | { close: Function }
 >(() => import('./Menu').then((m) => m.SpMenuGroup as any), { ssr });
 export const SpMenuItem = dynamic<
-  | MenuItem
+  | Partial<MenuItem>
   | { children?: ReactNode }
   | { click: Function }
   | { openOverlay: Function }

@@ -7,8 +7,8 @@ import { SwatchGroup } from '@spectrum-web-components/swatch';
 const ssr = false;
 
 export const SpSwatch = dynamic<
-  Swatch | { children?: ReactNode } | { toggle: Function } | { change: Function }
+  Partial<Swatch> | { children?: ReactNode } | { toggle: Function } | { change: Function }
 >(() => import('./Swatch').then((m) => m.SpSwatch as any), { ssr });
 export const SpSwatchGroup = dynamic<
-  SwatchGroup | { children?: ReactNode } | { focus: Function } | { change: Function }
+  Partial<SwatchGroup> | { children?: ReactNode } | { focus: Function } | { change: Function }
 >(() => import('./Swatch').then((m) => m.SpSwatchGroup as any), { ssr });

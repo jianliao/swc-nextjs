@@ -5,7 +5,7 @@ import { Meter } from '@spectrum-web-components/meter';
 
 const ssr = false;
 
-export const SpMeter = dynamic<Meter | { children?: ReactNode }>(
+export const SpMeter = dynamic<Partial<Meter> | { children?: ReactNode }>(
   () => import('./Meter').then((m) => m.SpMeter as any),
   { ssr }
 );

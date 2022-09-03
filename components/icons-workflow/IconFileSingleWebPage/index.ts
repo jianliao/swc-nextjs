@@ -2,7 +2,7 @@ import dynamic from 'next/dynamic';
 
 import { IconFileSingleWebPage } from '@spectrum-web-components/icons-workflow/src/elements/IconFileSingleWebPage.js';
 
-export const SpIconFileSingleWebPage = dynamic<IconFileSingleWebPage | { slot: string }>(
+export const SpIconFileSingleWebPage = dynamic<Partial<IconFileSingleWebPage> | { slot: string }>(
   () => import('./IconFileSingleWebPage').then((m) => m.SpIconFileSingleWebPage as any),
-  { ssr: false }
+  { ssr: false}
 );
