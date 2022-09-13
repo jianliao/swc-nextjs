@@ -37,18 +37,35 @@ export function createElementMetadata(customElementsManifest, entrypoint) {
   return { elements, fileImports };
 }
 
-function getEventFromSuperClass(className, componentName) {
-  const customElementFile = `./node_modules/${componentName}/custom-elements.json`;
+function getEventFromSuperClass(className, packageName) {
+  const customElementFile = `./node_modules/${packageName}/custom-elements.json`;
   if (!existsSync(customElementFile)) return [];
   const componentManifest = readJsonSync(path.resolve(customElementFile));
   const modules = componentManifest.modules;
-  const events = modules.flatMap((m) => {
-    return m.declarations
-      .filter((d) => d.name === className)
-      .map((d) => {
-        return getCustomElementEvents(d);
-      });
-  });
+  let events = [];
+  events = events.concat(
+    modules.flatMap((m) => {
+      return m.declarations
+        .filter((d) => d.name === className)
+        .map((d) => {
+          return getEventFromSuperClass(
+            d.superclass.name,
+            d.superclass.package
+              ? `${d.superclass.package.split('/')[0]}/${d.superclass.package.split('/')[1]}`
+              : ''
+          );
+        });
+    })
+  );
+  events = events.concat(
+    modules.flatMap((m) => {
+      return m.declarations
+        .filter((d) => d.name === className)
+        .map((d) => {
+          return getCustomElementEvents(d);
+        });
+    })
+  );
   return events.flat();
 }
 
