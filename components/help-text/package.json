@@ -1,6 +1,6 @@
 {
   "name": "@swc-nextjs/help-text",
-  "version": "0.2.2",
+  "version": "0.0.1",
   "description": "React wrapper of the @spectrum-web-components/help-text component for the Next.js static site generator",
   "main": "dist/index.js",
   "scripts": {

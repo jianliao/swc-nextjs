@@ -1,6 +1,6 @@
 {
   "name": "@swc-nextjs/split-button",
-  "version": "0.9.2",
+  "version": "0.0.1",
   "description": "React wrapper of the @spectrum-web-components/split-button component for the Next.js static site generator",
   "main": "dist/index.js",
   "scripts": {

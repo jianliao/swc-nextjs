@@ -1,6 +1,6 @@
 {
   "name": "@swc-nextjs/search",
-  "version": "0.12.2",
+  "version": "0.0.1",
   "description": "React wrapper of the @spectrum-web-components/search component for the Next.js static site generator",
   "main": "dist/index.js",
   "scripts": {

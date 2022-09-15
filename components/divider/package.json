@@ -1,6 +1,6 @@
 {
   "name": "@swc-nextjs/divider",
-  "version": "0.5.1",
+  "version": "0.0.1",
   "description": "React wrapper of the @spectrum-web-components/divider component for the Next.js static site generator",
   "main": "dist/index.js",
   "scripts": {

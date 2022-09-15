@@ -1,6 +1,6 @@
 {
   "name": "@swc-nextjs/overlay",
-  "version": "0.18.2",
+  "version": "0.0.1",
   "description": "React wrapper of the @spectrum-web-components/overlay component for the Next.js static site generator",
   "main": "dist/index.js",
   "scripts": {

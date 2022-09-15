@@ -1,6 +1,6 @@
 {
   "name": "@swc-nextjs/top-nav",
-  "version": "0.6.2",
+  "version": "0.0.1",
   "description": "React wrapper of the @spectrum-web-components/top-nav component for the Next.js static site generator",
   "main": "dist/index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 {
   "name": "@swc-nextjs/number-field",
-  "version": "0.5.2",
+  "version": "0.0.1",
   "description": "React wrapper of the @spectrum-web-components/number-field component for the Next.js static site generator",
   "main": "dist/index.js",
   "scripts": {

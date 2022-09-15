@@ -171,7 +171,7 @@ async function run(component) {
 
     const packageJson = `{
   "name": "@swc-nextjs/${component.split('/')[1]}",
-  "version": "${componentVersion}",
+  "version": "0.0.1",
   "description": "React wrapper of the ${component} component for the Next.js static site generator",
   "main": "dist/index.js",
   "scripts": {
