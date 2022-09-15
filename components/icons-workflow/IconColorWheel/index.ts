@@ -4,5 +4,5 @@ import { IconColorWheel } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconColorWheel = dynamic<Partial<IconColorWheel> | { slot: string }>(
   () => import('./IconColorWheel').then((m) => m.SpIconColorWheel as any),
-  { ssr: false}
+  { ssr: false }
 );

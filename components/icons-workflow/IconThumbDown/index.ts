@@ -4,5 +4,5 @@ import { IconThumbDown } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconThumbDown = dynamic<Partial<IconThumbDown> | { slot: string }>(
   () => import('./IconThumbDown').then((m) => m.SpIconThumbDown as any),
-  { ssr: false}
+  { ssr: false }
 );

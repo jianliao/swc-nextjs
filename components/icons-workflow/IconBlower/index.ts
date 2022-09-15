@@ -4,5 +4,5 @@ import { IconBlower } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconBlower = dynamic<Partial<IconBlower> | { slot: string }>(
   () => import('./IconBlower').then((m) => m.SpIconBlower as any),
-  { ssr: false}
+  { ssr: false }
 );

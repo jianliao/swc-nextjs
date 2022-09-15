@@ -4,5 +4,5 @@ import { IconSubtractBackPath } from '@spectrum-web-components/icons-workflow/sr
 
 export const SpIconSubtractBackPath = dynamic<Partial<IconSubtractBackPath> | { slot: string }>(
   () => import('./IconSubtractBackPath').then((m) => m.SpIconSubtractBackPath as any),
-  { ssr: false}
+  { ssr: false }
 );

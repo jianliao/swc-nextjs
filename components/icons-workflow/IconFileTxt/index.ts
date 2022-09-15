@@ -4,5 +4,5 @@ import { IconFileTxt } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconFileTxt = dynamic<Partial<IconFileTxt> | { slot: string }>(
   () => import('./IconFileTxt').then((m) => m.SpIconFileTxt as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconModernGridView } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconModernGridView = dynamic<Partial<IconModernGridView> | { slot: string }>(
   () => import('./IconModernGridView').then((m) => m.SpIconModernGridView as any),
-  { ssr: false}
+  { ssr: false }
 );

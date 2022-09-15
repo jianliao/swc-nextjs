@@ -4,5 +4,5 @@ import { IconForPlacementOnly } from '@spectrum-web-components/icons-workflow/sr
 
 export const SpIconForPlacementOnly = dynamic<Partial<IconForPlacementOnly> | { slot: string }>(
   () => import('./IconForPlacementOnly').then((m) => m.SpIconForPlacementOnly as any),
-  { ssr: false}
+  { ssr: false }
 );

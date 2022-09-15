@@ -4,5 +4,5 @@ import { IconJumpToTop } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconJumpToTop = dynamic<Partial<IconJumpToTop> | { slot: string }>(
   () => import('./IconJumpToTop').then((m) => m.SpIconJumpToTop as any),
-  { ssr: false}
+  { ssr: false }
 );

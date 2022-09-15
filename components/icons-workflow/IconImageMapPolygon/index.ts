@@ -4,5 +4,5 @@ import { IconImageMapPolygon } from '@spectrum-web-components/icons-workflow/src
 
 export const SpIconImageMapPolygon = dynamic<Partial<IconImageMapPolygon> | { slot: string }>(
   () => import('./IconImageMapPolygon').then((m) => m.SpIconImageMapPolygon as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconTextSpaceBefore } from '@spectrum-web-components/icons-workflow/src
 
 export const SpIconTextSpaceBefore = dynamic<Partial<IconTextSpaceBefore> | { slot: string }>(
   () => import('./IconTextSpaceBefore').then((m) => m.SpIconTextSpaceBefore as any),
-  { ssr: false}
+  { ssr: false }
 );

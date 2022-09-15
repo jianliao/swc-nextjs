@@ -4,5 +4,5 @@ import { IconDeduplication } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconDeduplication = dynamic<Partial<IconDeduplication> | { slot: string }>(
   () => import('./IconDeduplication').then((m) => m.SpIconDeduplication as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -1,4 +1,3 @@
-
 import { createComponent } from '@lit-labs/react';
 import * as React from 'react';
 import { IconDate } from '@spectrum-web-components/icons-workflow/src/elements/IconDate.js';

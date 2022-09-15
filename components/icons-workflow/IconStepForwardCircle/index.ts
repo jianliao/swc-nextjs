@@ -4,5 +4,5 @@ import { IconStepForwardCircle } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconStepForwardCircle = dynamic<Partial<IconStepForwardCircle> | { slot: string }>(
   () => import('./IconStepForwardCircle').then((m) => m.SpIconStepForwardCircle as any),
-  { ssr: false}
+  { ssr: false }
 );

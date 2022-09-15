@@ -4,5 +4,5 @@ import { IconTreeExpand } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconTreeExpand = dynamic<Partial<IconTreeExpand> | { slot: string }>(
   () => import('./IconTreeExpand').then((m) => m.SpIconTreeExpand as any),
-  { ssr: false}
+  { ssr: false }
 );

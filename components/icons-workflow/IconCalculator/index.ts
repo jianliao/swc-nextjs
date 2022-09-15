@@ -4,5 +4,5 @@ import { IconCalculator } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconCalculator = dynamic<Partial<IconCalculator> | { slot: string }>(
   () => import('./IconCalculator').then((m) => m.SpIconCalculator as any),
-  { ssr: false}
+  { ssr: false }
 );

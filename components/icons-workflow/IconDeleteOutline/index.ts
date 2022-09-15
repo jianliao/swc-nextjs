@@ -4,5 +4,5 @@ import { IconDeleteOutline } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconDeleteOutline = dynamic<Partial<IconDeleteOutline> | { slot: string }>(
   () => import('./IconDeleteOutline').then((m) => m.SpIconDeleteOutline as any),
-  { ssr: false}
+  { ssr: false }
 );

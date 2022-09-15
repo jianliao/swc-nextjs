@@ -4,5 +4,5 @@ import { IconTableColumnAddLeft } from '@spectrum-web-components/icons-workflow/
 
 export const SpIconTableColumnAddLeft = dynamic<Partial<IconTableColumnAddLeft> | { slot: string }>(
   () => import('./IconTableColumnAddLeft').then((m) => m.SpIconTableColumnAddLeft as any),
-  { ssr: false}
+  { ssr: false }
 );

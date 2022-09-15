@@ -4,5 +4,5 @@ import { IconFolderLocked } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconFolderLocked = dynamic<Partial<IconFolderLocked> | { slot: string }>(
   () => import('./IconFolderLocked').then((m) => m.SpIconFolderLocked as any),
-  { ssr: false}
+  { ssr: false }
 );

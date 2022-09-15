@@ -4,5 +4,5 @@ import { IconRailRightClose } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconRailRightClose = dynamic<Partial<IconRailRightClose> | { slot: string }>(
   () => import('./IconRailRightClose').then((m) => m.SpIconRailRightClose as any),
-  { ssr: false}
+  { ssr: false }
 );

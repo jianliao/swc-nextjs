@@ -4,5 +4,5 @@ import { IconTableRowSplit } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconTableRowSplit = dynamic<Partial<IconTableRowSplit> | { slot: string }>(
   () => import('./IconTableRowSplit').then((m) => m.SpIconTableRowSplit as any),
-  { ssr: false}
+  { ssr: false }
 );

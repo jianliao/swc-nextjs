@@ -4,5 +4,5 @@ import { IconHammer } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconHammer = dynamic<Partial<IconHammer> | { slot: string }>(
   () => import('./IconHammer').then((m) => m.SpIconHammer as any),
-  { ssr: false}
+  { ssr: false }
 );

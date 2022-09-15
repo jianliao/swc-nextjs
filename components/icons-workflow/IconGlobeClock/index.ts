@@ -4,5 +4,5 @@ import { IconGlobeClock } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconGlobeClock = dynamic<Partial<IconGlobeClock> | { slot: string }>(
   () => import('./IconGlobeClock').then((m) => m.SpIconGlobeClock as any),
-  { ssr: false}
+  { ssr: false }
 );

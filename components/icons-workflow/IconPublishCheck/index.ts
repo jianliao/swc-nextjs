@@ -4,5 +4,5 @@ import { IconPublishCheck } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconPublishCheck = dynamic<Partial<IconPublishCheck> | { slot: string }>(
   () => import('./IconPublishCheck').then((m) => m.SpIconPublishCheck as any),
-  { ssr: false}
+  { ssr: false }
 );

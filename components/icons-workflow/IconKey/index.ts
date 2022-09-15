@@ -4,5 +4,5 @@ import { IconKey } from '@spectrum-web-components/icons-workflow/src/elements/Ic
 
 export const SpIconKey = dynamic<Partial<IconKey> | { slot: string }>(
   () => import('./IconKey').then((m) => m.SpIconKey as any),
-  { ssr: false}
+  { ssr: false }
 );

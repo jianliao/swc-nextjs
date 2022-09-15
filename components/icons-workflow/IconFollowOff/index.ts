@@ -4,5 +4,5 @@ import { IconFollowOff } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconFollowOff = dynamic<Partial<IconFollowOff> | { slot: string }>(
   () => import('./IconFollowOff').then((m) => m.SpIconFollowOff as any),
-  { ssr: false}
+  { ssr: false }
 );

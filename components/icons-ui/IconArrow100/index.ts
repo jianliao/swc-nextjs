@@ -4,5 +4,5 @@ import { IconArrow100 } from '@spectrum-web-components/icons-ui/src/elements/Ico
 
 export const SpIconArrow100 = dynamic<Partial<IconArrow100> | { slot: string }>(
   () => import('./IconArrow100').then((m) => m.SpIconArrow100 as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconPeopleGroup } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconPeopleGroup = dynamic<Partial<IconPeopleGroup> | { slot: string }>(
   () => import('./IconPeopleGroup').then((m) => m.SpIconPeopleGroup as any),
-  { ssr: false}
+  { ssr: false }
 );

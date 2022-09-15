@@ -15,8 +15,6 @@ export const SpNumberField = createComponent(
     setSelectionRange: 'setSelectionRange',
     select: 'select',
     checkValidity: 'checkValidity',
-    change: 'change',
-    input: 'input',
   },
   'SpNumberField'
 );

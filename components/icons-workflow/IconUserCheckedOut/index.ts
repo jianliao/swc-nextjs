@@ -4,5 +4,5 @@ import { IconUserCheckedOut } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconUserCheckedOut = dynamic<Partial<IconUserCheckedOut> | { slot: string }>(
   () => import('./IconUserCheckedOut').then((m) => m.SpIconUserCheckedOut as any),
-  { ssr: false}
+  { ssr: false }
 );

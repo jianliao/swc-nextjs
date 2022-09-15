@@ -4,5 +4,5 @@ import { IconSampler } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconSampler = dynamic<Partial<IconSampler> | { slot: string }>(
   () => import('./IconSampler').then((m) => m.SpIconSampler as any),
-  { ssr: false}
+  { ssr: false }
 );

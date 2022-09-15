@@ -4,5 +4,5 @@ import { IconCollectionAddTo } from '@spectrum-web-components/icons-workflow/src
 
 export const SpIconCollectionAddTo = dynamic<Partial<IconCollectionAddTo> | { slot: string }>(
   () => import('./IconCollectionAddTo').then((m) => m.SpIconCollectionAddTo as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -3,6 +3,10 @@ import fsExtra from 'fs-extra';
 
 const { readJson, readJsonSync, outputFile, existsSync } = fsExtra;
 
+const uniqueBy = (arr, prop) => {
+  return [...new Map(arr.map((m) => [m[prop], m])).values()];
+};
+
 export function createElementMetadata(customElementsManifest, entrypoint) {
   const modules = getCustomElementModules(customElementsManifest);
 
@@ -23,7 +27,7 @@ export function createElementMetadata(customElementsManifest, entrypoint) {
           import: `import { ${d.name} } from '${entrypoint}';`,
           slots: d.slots ?? [],
           cssProperties: d.cssProperties ?? [],
-          events: [...getCustomElementEvents(d), ...events],
+          events: uniqueBy([...getCustomElementEvents(d), ...events], 'name'),
           propeties: getPublicProperties(d),
         };
       });

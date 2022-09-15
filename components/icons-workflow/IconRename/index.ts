@@ -4,5 +4,5 @@ import { IconRename } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconRename = dynamic<Partial<IconRename> | { slot: string }>(
   () => import('./IconRename').then((m) => m.SpIconRename as any),
-  { ssr: false}
+  { ssr: false }
 );

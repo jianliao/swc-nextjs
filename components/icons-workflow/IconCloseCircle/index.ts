@@ -4,5 +4,5 @@ import { IconCloseCircle } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconCloseCircle = dynamic<Partial<IconCloseCircle> | { slot: string }>(
   () => import('./IconCloseCircle').then((m) => m.SpIconCloseCircle as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconImageAutoMode } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconImageAutoMode = dynamic<Partial<IconImageAutoMode> | { slot: string }>(
   () => import('./IconImageAutoMode').then((m) => m.SpIconImageAutoMode as any),
-  { ssr: false}
+  { ssr: false }
 );

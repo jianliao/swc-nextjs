@@ -13,6 +13,4 @@ export const SpNumberField = dynamic<
   | { setSelectionRange: Function }
   | { select: Function }
   | { checkValidity: Function }
-  | { change: Function }
-  | { input: Function }
 >(() => import('./NumberField').then((m) => m.SpNumberField as any), { ssr });

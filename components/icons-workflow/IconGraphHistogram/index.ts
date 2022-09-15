@@ -4,5 +4,5 @@ import { IconGraphHistogram } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconGraphHistogram = dynamic<Partial<IconGraphHistogram> | { slot: string }>(
   () => import('./IconGraphHistogram').then((m) => m.SpIconGraphHistogram as any),
-  { ssr: false}
+  { ssr: false }
 );

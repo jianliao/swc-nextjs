@@ -4,5 +4,5 @@ import { IconMagnify } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconMagnify = dynamic<Partial<IconMagnify> | { slot: string }>(
   () => import('./IconMagnify').then((m) => m.SpIconMagnify as any),
-  { ssr: false}
+  { ssr: false }
 );

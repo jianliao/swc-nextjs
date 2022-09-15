@@ -4,5 +4,5 @@ import { IconDownloadFromCloud } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconDownloadFromCloud = dynamic<Partial<IconDownloadFromCloud> | { slot: string }>(
   () => import('./IconDownloadFromCloud').then((m) => m.SpIconDownloadFromCloud as any),
-  { ssr: false}
+  { ssr: false }
 );

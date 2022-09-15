@@ -4,5 +4,5 @@ import { IconGlobeStrike } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconGlobeStrike = dynamic<Partial<IconGlobeStrike> | { slot: string }>(
   () => import('./IconGlobeStrike').then((m) => m.SpIconGlobeStrike as any),
-  { ssr: false}
+  { ssr: false }
 );

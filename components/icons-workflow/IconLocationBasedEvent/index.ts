@@ -4,5 +4,5 @@ import { IconLocationBasedEvent } from '@spectrum-web-components/icons-workflow/
 
 export const SpIconLocationBasedEvent = dynamic<Partial<IconLocationBasedEvent> | { slot: string }>(
   () => import('./IconLocationBasedEvent').then((m) => m.SpIconLocationBasedEvent as any),
-  { ssr: false}
+  { ssr: false }
 );

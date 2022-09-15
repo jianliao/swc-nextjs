@@ -4,5 +4,5 @@ import { IconGraphDonutAdd } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconGraphDonutAdd = dynamic<Partial<IconGraphDonutAdd> | { slot: string }>(
   () => import('./IconGraphDonutAdd').then((m) => m.SpIconGraphDonutAdd as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconFullScreenExit } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconFullScreenExit = dynamic<Partial<IconFullScreenExit> | { slot: string }>(
   () => import('./IconFullScreenExit').then((m) => m.SpIconFullScreenExit as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconTrimPath } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconTrimPath = dynamic<Partial<IconTrimPath> | { slot: string }>(
   () => import('./IconTrimPath').then((m) => m.SpIconTrimPath as any),
-  { ssr: false}
+  { ssr: false }
 );

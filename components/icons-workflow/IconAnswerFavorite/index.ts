@@ -4,5 +4,5 @@ import { IconAnswerFavorite } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconAnswerFavorite = dynamic<Partial<IconAnswerFavorite> | { slot: string }>(
   () => import('./IconAnswerFavorite').then((m) => m.SpIconAnswerFavorite as any),
-  { ssr: false}
+  { ssr: false }
 );

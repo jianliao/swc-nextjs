@@ -4,5 +4,5 @@ import { IconTextStyle } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconTextStyle = dynamic<Partial<IconTextStyle> | { slot: string }>(
   () => import('./IconTextStyle').then((m) => m.SpIconTextStyle as any),
-  { ssr: false}
+  { ssr: false }
 );

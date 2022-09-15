@@ -4,5 +4,5 @@ import { IconMovieCamera } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconMovieCamera = dynamic<Partial<IconMovieCamera> | { slot: string }>(
   () => import('./IconMovieCamera').then((m) => m.SpIconMovieCamera as any),
-  { ssr: false}
+  { ssr: false }
 );

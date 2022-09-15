@@ -4,5 +4,5 @@ import { IconDataMapping } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconDataMapping = dynamic<Partial<IconDataMapping> | { slot: string }>(
   () => import('./IconDataMapping').then((m) => m.SpIconDataMapping as any),
-  { ssr: false}
+  { ssr: false }
 );

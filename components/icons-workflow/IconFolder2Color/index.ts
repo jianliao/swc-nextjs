@@ -4,5 +4,5 @@ import { IconFolder2Color } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconFolder2Color = dynamic<Partial<IconFolder2Color> | { slot: string }>(
   () => import('./IconFolder2Color').then((m) => m.SpIconFolder2Color as any),
-  { ssr: false}
+  { ssr: false }
 );

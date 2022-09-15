@@ -4,5 +4,5 @@ import { IconCloudDisconnected } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconCloudDisconnected = dynamic<Partial<IconCloudDisconnected> | { slot: string }>(
   () => import('./IconCloudDisconnected').then((m) => m.SpIconCloudDisconnected as any),
-  { ssr: false}
+  { ssr: false }
 );

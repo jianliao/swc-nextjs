@@ -4,5 +4,5 @@ import { IconEmailKey } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconEmailKey = dynamic<Partial<IconEmailKey> | { slot: string }>(
   () => import('./IconEmailKey').then((m) => m.SpIconEmailKey as any),
-  { ssr: false}
+  { ssr: false }
 );

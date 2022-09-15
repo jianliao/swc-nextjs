@@ -4,5 +4,5 @@ import { IconJourneyEvent } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconJourneyEvent = dynamic<Partial<IconJourneyEvent> | { slot: string }>(
   () => import('./IconJourneyEvent').then((m) => m.SpIconJourneyEvent as any),
-  { ssr: false}
+  { ssr: false }
 );

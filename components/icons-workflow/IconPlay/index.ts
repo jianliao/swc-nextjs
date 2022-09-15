@@ -4,5 +4,5 @@ import { IconPlay } from '@spectrum-web-components/icons-workflow/src/elements/I
 
 export const SpIconPlay = dynamic<Partial<IconPlay> | { slot: string }>(
   () => import('./IconPlay').then((m) => m.SpIconPlay as any),
-  { ssr: false}
+  { ssr: false }
 );

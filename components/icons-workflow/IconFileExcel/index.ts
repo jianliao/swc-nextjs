@@ -4,5 +4,5 @@ import { IconFileExcel } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconFileExcel = dynamic<Partial<IconFileExcel> | { slot: string }>(
   () => import('./IconFileExcel').then((m) => m.SpIconFileExcel as any),
-  { ssr: false}
+  { ssr: false }
 );

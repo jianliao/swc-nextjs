@@ -4,5 +4,5 @@ import { IconZoomOut } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconZoomOut = dynamic<Partial<IconZoomOut> | { slot: string }>(
   () => import('./IconZoomOut').then((m) => m.SpIconZoomOut as any),
-  { ssr: false}
+  { ssr: false }
 );

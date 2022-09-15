@@ -4,5 +4,5 @@ import { IconSentimentNeutral } from '@spectrum-web-components/icons-workflow/sr
 
 export const SpIconSentimentNeutral = dynamic<Partial<IconSentimentNeutral> | { slot: string }>(
   () => import('./IconSentimentNeutral').then((m) => m.SpIconSentimentNeutral as any),
-  { ssr: false}
+  { ssr: false }
 );

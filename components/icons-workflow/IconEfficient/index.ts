@@ -4,5 +4,5 @@ import { IconEfficient } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconEfficient = dynamic<Partial<IconEfficient> | { slot: string }>(
   () => import('./IconEfficient').then((m) => m.SpIconEfficient as any),
-  { ssr: false}
+  { ssr: false }
 );

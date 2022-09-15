@@ -4,5 +4,5 @@ import { IconCompare } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconCompare = dynamic<Partial<IconCompare> | { slot: string }>(
   () => import('./IconCompare').then((m) => m.SpIconCompare as any),
-  { ssr: false}
+  { ssr: false }
 );

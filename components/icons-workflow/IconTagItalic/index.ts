@@ -4,5 +4,5 @@ import { IconTagItalic } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconTagItalic = dynamic<Partial<IconTagItalic> | { slot: string }>(
   () => import('./IconTagItalic').then((m) => m.SpIconTagItalic as any),
-  { ssr: false}
+  { ssr: false }
 );

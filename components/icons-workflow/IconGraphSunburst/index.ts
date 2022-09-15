@@ -4,5 +4,5 @@ import { IconGraphSunburst } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconGraphSunburst = dynamic<Partial<IconGraphSunburst> | { slot: string }>(
   () => import('./IconGraphSunburst').then((m) => m.SpIconGraphSunburst as any),
-  { ssr: false}
+  { ssr: false }
 );

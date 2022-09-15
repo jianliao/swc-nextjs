@@ -4,5 +4,5 @@ import { IconPublishReject } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconPublishReject = dynamic<Partial<IconPublishReject> | { slot: string }>(
   () => import('./IconPublishReject').then((m) => m.SpIconPublishReject as any),
-  { ssr: false}
+  { ssr: false }
 );

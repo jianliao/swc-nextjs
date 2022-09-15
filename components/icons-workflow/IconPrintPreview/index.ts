@@ -4,5 +4,5 @@ import { IconPrintPreview } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconPrintPreview = dynamic<Partial<IconPrintPreview> | { slot: string }>(
   () => import('./IconPrintPreview').then((m) => m.SpIconPrintPreview as any),
-  { ssr: false}
+  { ssr: false }
 );

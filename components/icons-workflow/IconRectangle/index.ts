@@ -4,5 +4,5 @@ import { IconRectangle } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconRectangle = dynamic<Partial<IconRectangle> | { slot: string }>(
   () => import('./IconRectangle').then((m) => m.SpIconRectangle as any),
-  { ssr: false}
+  { ssr: false }
 );

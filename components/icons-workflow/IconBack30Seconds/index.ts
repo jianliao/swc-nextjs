@@ -4,5 +4,5 @@ import { IconBack30Seconds } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconBack30Seconds = dynamic<Partial<IconBack30Seconds> | { slot: string }>(
   () => import('./IconBack30Seconds').then((m) => m.SpIconBack30Seconds as any),
-  { ssr: false}
+  { ssr: false }
 );

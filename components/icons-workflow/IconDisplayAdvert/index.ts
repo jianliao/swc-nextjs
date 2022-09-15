@@ -4,5 +4,5 @@ import { IconDisplayAdvert } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconDisplayAdvert = dynamic<Partial<IconDisplayAdvert> | { slot: string }>(
   () => import('./IconDisplayAdvert').then((m) => m.SpIconDisplayAdvert as any),
-  { ssr: false}
+  { ssr: false }
 );

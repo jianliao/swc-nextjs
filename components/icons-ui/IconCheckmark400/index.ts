@@ -4,5 +4,5 @@ import { IconCheckmark400 } from '@spectrum-web-components/icons-ui/src/elements
 
 export const SpIconCheckmark400 = dynamic<Partial<IconCheckmark400> | { slot: string }>(
   () => import('./IconCheckmark400').then((m) => m.SpIconCheckmark400 as any),
-  { ssr: false}
+  { ssr: false }
 );

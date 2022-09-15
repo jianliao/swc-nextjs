@@ -4,5 +4,5 @@ import { IconAppRefresh } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconAppRefresh = dynamic<Partial<IconAppRefresh> | { slot: string }>(
   () => import('./IconAppRefresh').then((m) => m.SpIconAppRefresh as any),
-  { ssr: false}
+  { ssr: false }
 );

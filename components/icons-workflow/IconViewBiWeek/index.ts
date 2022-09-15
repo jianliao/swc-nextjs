@@ -4,5 +4,5 @@ import { IconViewBiWeek } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconViewBiWeek = dynamic<Partial<IconViewBiWeek> | { slot: string }>(
   () => import('./IconViewBiWeek').then((m) => m.SpIconViewBiWeek as any),
-  { ssr: false}
+  { ssr: false }
 );

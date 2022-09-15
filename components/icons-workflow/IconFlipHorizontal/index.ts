@@ -4,5 +4,5 @@ import { IconFlipHorizontal } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconFlipHorizontal = dynamic<Partial<IconFlipHorizontal> | { slot: string }>(
   () => import('./IconFlipHorizontal').then((m) => m.SpIconFlipHorizontal as any),
-  { ssr: false}
+  { ssr: false }
 );

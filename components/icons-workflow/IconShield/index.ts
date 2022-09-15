@@ -4,5 +4,5 @@ import { IconShield } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconShield = dynamic<Partial<IconShield> | { slot: string }>(
   () => import('./IconShield').then((m) => m.SpIconShield as any),
-  { ssr: false}
+  { ssr: false }
 );

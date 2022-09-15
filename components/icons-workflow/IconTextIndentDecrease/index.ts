@@ -4,5 +4,5 @@ import { IconTextIndentDecrease } from '@spectrum-web-components/icons-workflow/
 
 export const SpIconTextIndentDecrease = dynamic<Partial<IconTextIndentDecrease> | { slot: string }>(
   () => import('./IconTextIndentDecrease').then((m) => m.SpIconTextIndentDecrease as any),
-  { ssr: false}
+  { ssr: false }
 );

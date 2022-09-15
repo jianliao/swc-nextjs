@@ -4,5 +4,5 @@ import { IconPublishPending } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconPublishPending = dynamic<Partial<IconPublishPending> | { slot: string }>(
   () => import('./IconPublishPending').then((m) => m.SpIconPublishPending as any),
-  { ssr: false}
+  { ssr: false }
 );

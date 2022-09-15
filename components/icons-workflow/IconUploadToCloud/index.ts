@@ -4,5 +4,5 @@ import { IconUploadToCloud } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconUploadToCloud = dynamic<Partial<IconUploadToCloud> | { slot: string }>(
   () => import('./IconUploadToCloud').then((m) => m.SpIconUploadToCloud as any),
-  { ssr: false}
+  { ssr: false }
 );

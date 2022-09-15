@@ -4,5 +4,5 @@ import { IconPaste } from '@spectrum-web-components/icons-workflow/src/elements/
 
 export const SpIconPaste = dynamic<Partial<IconPaste> | { slot: string }>(
   () => import('./IconPaste').then((m) => m.SpIconPaste as any),
-  { ssr: false}
+  { ssr: false }
 );

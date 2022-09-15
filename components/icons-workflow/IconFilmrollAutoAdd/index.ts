@@ -4,5 +4,5 @@ import { IconFilmrollAutoAdd } from '@spectrum-web-components/icons-workflow/src
 
 export const SpIconFilmrollAutoAdd = dynamic<Partial<IconFilmrollAutoAdd> | { slot: string }>(
   () => import('./IconFilmrollAutoAdd').then((m) => m.SpIconFilmrollAutoAdd as any),
-  { ssr: false}
+  { ssr: false }
 );

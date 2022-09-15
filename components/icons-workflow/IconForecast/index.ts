@@ -4,5 +4,5 @@ import { IconForecast } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconForecast = dynamic<Partial<IconForecast> | { slot: string }>(
   () => import('./IconForecast').then((m) => m.SpIconForecast as any),
-  { ssr: false}
+  { ssr: false }
 );

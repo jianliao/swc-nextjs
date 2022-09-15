@@ -4,6 +4,7 @@ import { createComponent } from '@lit-labs/react';
 import { Dialog } from '@spectrum-web-components/dialog';
 import { DialogWrapper } from '@spectrum-web-components/dialog';
 
+import '@spectrum-web-components/dialog/sp-dialog-base.js';
 import '@spectrum-web-components/dialog/sp-dialog-wrapper.js';
 import '@spectrum-web-components/dialog/sp-dialog.js';
 

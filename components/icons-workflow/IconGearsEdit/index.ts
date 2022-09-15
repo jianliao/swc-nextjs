@@ -4,5 +4,5 @@ import { IconGearsEdit } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconGearsEdit = dynamic<Partial<IconGearsEdit> | { slot: string }>(
   () => import('./IconGearsEdit').then((m) => m.SpIconGearsEdit as any),
-  { ssr: false}
+  { ssr: false }
 );

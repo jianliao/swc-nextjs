@@ -4,5 +4,5 @@ import { IconBackAndroid } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconBackAndroid = dynamic<Partial<IconBackAndroid> | { slot: string }>(
   () => import('./IconBackAndroid').then((m) => m.SpIconBackAndroid as any),
-  { ssr: false}
+  { ssr: false }
 );

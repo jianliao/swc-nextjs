@@ -4,5 +4,5 @@ import { IconSelectBoxAll } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconSelectBoxAll = dynamic<Partial<IconSelectBoxAll> | { slot: string }>(
   () => import('./IconSelectBoxAll').then((m) => m.SpIconSelectBoxAll as any),
-  { ssr: false}
+  { ssr: false }
 );

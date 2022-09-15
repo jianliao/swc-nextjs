@@ -4,5 +4,5 @@ import { IconChevron500 } from '@spectrum-web-components/icons-ui/src/elements/I
 
 export const SpIconChevron500 = dynamic<Partial<IconChevron500> | { slot: string }>(
   () => import('./IconChevron500').then((m) => m.SpIconChevron500 as any),
-  { ssr: false}
+  { ssr: false }
 );

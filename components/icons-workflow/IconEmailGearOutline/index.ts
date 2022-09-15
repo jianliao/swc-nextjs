@@ -4,5 +4,5 @@ import { IconEmailGearOutline } from '@spectrum-web-components/icons-workflow/sr
 
 export const SpIconEmailGearOutline = dynamic<Partial<IconEmailGearOutline> | { slot: string }>(
   () => import('./IconEmailGearOutline').then((m) => m.SpIconEmailGearOutline as any),
-  { ssr: false}
+  { ssr: false }
 );

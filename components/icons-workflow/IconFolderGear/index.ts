@@ -4,5 +4,5 @@ import { IconFolderGear } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconFolderGear = dynamic<Partial<IconFolderGear> | { slot: string }>(
   () => import('./IconFolderGear').then((m) => m.SpIconFolderGear as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconCalendarAdd } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconCalendarAdd = dynamic<Partial<IconCalendarAdd> | { slot: string }>(
   () => import('./IconCalendarAdd').then((m) => m.SpIconCalendarAdd as any),
-  { ssr: false}
+  { ssr: false }
 );

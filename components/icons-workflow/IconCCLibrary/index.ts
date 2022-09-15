@@ -4,5 +4,5 @@ import { IconCCLibrary } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconCCLibrary = dynamic<Partial<IconCCLibrary> | { slot: string }>(
   () => import('./IconCCLibrary').then((m) => m.SpIconCCLibrary as any),
-  { ssr: false}
+  { ssr: false }
 );

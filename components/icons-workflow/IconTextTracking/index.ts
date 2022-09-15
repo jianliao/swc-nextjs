@@ -4,5 +4,5 @@ import { IconTextTracking } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconTextTracking = dynamic<Partial<IconTextTracking> | { slot: string }>(
   () => import('./IconTextTracking').then((m) => m.SpIconTextTracking as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconAlignTop } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconAlignTop = dynamic<Partial<IconAlignTop> | { slot: string }>(
   () => import('./IconAlignTop').then((m) => m.SpIconAlignTop as any),
-  { ssr: false}
+  { ssr: false }
 );

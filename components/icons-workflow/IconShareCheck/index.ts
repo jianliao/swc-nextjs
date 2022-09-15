@@ -4,5 +4,5 @@ import { IconShareCheck } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconShareCheck = dynamic<Partial<IconShareCheck> | { slot: string }>(
   () => import('./IconShareCheck').then((m) => m.SpIconShareCheck as any),
-  { ssr: false}
+  { ssr: false }
 );

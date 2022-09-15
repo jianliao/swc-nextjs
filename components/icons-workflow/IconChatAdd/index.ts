@@ -4,5 +4,5 @@ import { IconChatAdd } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconChatAdd = dynamic<Partial<IconChatAdd> | { slot: string }>(
   () => import('./IconChatAdd').then((m) => m.SpIconChatAdd as any),
-  { ssr: false}
+  { ssr: false }
 );

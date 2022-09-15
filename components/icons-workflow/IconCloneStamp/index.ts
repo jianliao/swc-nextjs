@@ -4,5 +4,5 @@ import { IconCloneStamp } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconCloneStamp = dynamic<Partial<IconCloneStamp> | { slot: string }>(
   () => import('./IconCloneStamp').then((m) => m.SpIconCloneStamp as any),
-  { ssr: false}
+  { ssr: false }
 );

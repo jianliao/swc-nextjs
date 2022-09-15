@@ -4,5 +4,5 @@ import { IconTextRomanLowercase } from '@spectrum-web-components/icons-workflow/
 
 export const SpIconTextRomanLowercase = dynamic<Partial<IconTextRomanLowercase> | { slot: string }>(
   () => import('./IconTextRomanLowercase').then((m) => m.SpIconTextRomanLowercase as any),
-  { ssr: false}
+  { ssr: false }
 );

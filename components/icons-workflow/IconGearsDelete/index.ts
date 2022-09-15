@@ -4,5 +4,5 @@ import { IconGearsDelete } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconGearsDelete = dynamic<Partial<IconGearsDelete> | { slot: string }>(
   () => import('./IconGearsDelete').then((m) => m.SpIconGearsDelete as any),
-  { ssr: false}
+  { ssr: false }
 );

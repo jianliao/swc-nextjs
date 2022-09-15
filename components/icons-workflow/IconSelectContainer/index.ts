@@ -4,5 +4,5 @@ import { IconSelectContainer } from '@spectrum-web-components/icons-workflow/src
 
 export const SpIconSelectContainer = dynamic<Partial<IconSelectContainer> | { slot: string }>(
   () => import('./IconSelectContainer').then((m) => m.SpIconSelectContainer as any),
-  { ssr: false}
+  { ssr: false }
 );

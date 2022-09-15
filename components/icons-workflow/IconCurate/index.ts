@@ -4,5 +4,5 @@ import { IconCurate } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconCurate = dynamic<Partial<IconCurate> | { slot: string }>(
   () => import('./IconCurate').then((m) => m.SpIconCurate as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconGraphTrend } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconGraphTrend = dynamic<Partial<IconGraphTrend> | { slot: string }>(
   () => import('./IconGraphTrend').then((m) => m.SpIconGraphTrend as any),
-  { ssr: false}
+  { ssr: false }
 );

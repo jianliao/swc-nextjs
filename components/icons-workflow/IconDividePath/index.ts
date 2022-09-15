@@ -4,5 +4,5 @@ import { IconDividePath } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconDividePath = dynamic<Partial<IconDividePath> | { slot: string }>(
   () => import('./IconDividePath').then((m) => m.SpIconDividePath as any),
-  { ssr: false}
+  { ssr: false }
 );

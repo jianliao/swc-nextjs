@@ -4,5 +4,5 @@ import { IconViewAllTags } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconViewAllTags = dynamic<Partial<IconViewAllTags> | { slot: string }>(
   () => import('./IconViewAllTags').then((m) => m.SpIconViewAllTags as any),
-  { ssr: false}
+  { ssr: false }
 );

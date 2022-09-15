@@ -4,5 +4,5 @@ import { IconMessenger } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconMessenger = dynamic<Partial<IconMessenger> | { slot: string }>(
   () => import('./IconMessenger').then((m) => m.SpIconMessenger as any),
-  { ssr: false}
+  { ssr: false }
 );

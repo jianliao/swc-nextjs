@@ -4,5 +4,5 @@ import { IconTextSize } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconTextSize = dynamic<Partial<IconTextSize> | { slot: string }>(
   () => import('./IconTextSize').then((m) => m.SpIconTextSize as any),
-  { ssr: false}
+  { ssr: false }
 );

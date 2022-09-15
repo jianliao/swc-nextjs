@@ -4,5 +4,5 @@ import { IconSubtractFrontPath } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconSubtractFrontPath = dynamic<Partial<IconSubtractFrontPath> | { slot: string }>(
   () => import('./IconSubtractFrontPath').then((m) => m.SpIconSubtractFrontPath as any),
-  { ssr: false}
+  { ssr: false }
 );

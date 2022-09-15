@@ -4,5 +4,5 @@ import { IconTextKerning } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconTextKerning = dynamic<Partial<IconTextKerning> | { slot: string }>(
   () => import('./IconTextKerning').then((m) => m.SpIconTextKerning as any),
-  { ssr: false}
+  { ssr: false }
 );

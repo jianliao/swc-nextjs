@@ -4,5 +4,5 @@ import { IconCreditCard } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconCreditCard = dynamic<Partial<IconCreditCard> | { slot: string }>(
   () => import('./IconCreditCard').then((m) => m.SpIconCreditCard as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconEventExclude } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconEventExclude = dynamic<Partial<IconEventExclude> | { slot: string }>(
   () => import('./IconEventExclude').then((m) => m.SpIconEventExclude as any),
-  { ssr: false}
+  { ssr: false }
 );

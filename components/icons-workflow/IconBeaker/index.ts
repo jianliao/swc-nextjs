@@ -4,5 +4,5 @@ import { IconBeaker } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconBeaker = dynamic<Partial<IconBeaker> | { slot: string }>(
   () => import('./IconBeaker').then((m) => m.SpIconBeaker as any),
-  { ssr: false}
+  { ssr: false }
 );

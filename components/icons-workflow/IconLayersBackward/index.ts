@@ -4,5 +4,5 @@ import { IconLayersBackward } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconLayersBackward = dynamic<Partial<IconLayersBackward> | { slot: string }>(
   () => import('./IconLayersBackward').then((m) => m.SpIconLayersBackward as any),
-  { ssr: false}
+  { ssr: false }
 );

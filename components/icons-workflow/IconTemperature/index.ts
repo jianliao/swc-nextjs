@@ -4,5 +4,5 @@ import { IconTemperature } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconTemperature = dynamic<Partial<IconTemperature> | { slot: string }>(
   () => import('./IconTemperature').then((m) => m.SpIconTemperature as any),
-  { ssr: false}
+  { ssr: false }
 );

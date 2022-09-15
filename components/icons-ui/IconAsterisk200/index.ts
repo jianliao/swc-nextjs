@@ -4,5 +4,5 @@ import { IconAsterisk200 } from '@spectrum-web-components/icons-ui/src/elements/
 
 export const SpIconAsterisk200 = dynamic<Partial<IconAsterisk200> | { slot: string }>(
   () => import('./IconAsterisk200').then((m) => m.SpIconAsterisk200 as any),
-  { ssr: false}
+  { ssr: false }
 );

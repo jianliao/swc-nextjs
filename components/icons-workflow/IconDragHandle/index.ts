@@ -4,5 +4,5 @@ import { IconDragHandle } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconDragHandle = dynamic<Partial<IconDragHandle> | { slot: string }>(
   () => import('./IconDragHandle').then((m) => m.SpIconDragHandle as any),
-  { ssr: false}
+  { ssr: false }
 );

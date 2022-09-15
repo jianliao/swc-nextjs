@@ -4,5 +4,5 @@ import { IconDateInput } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconDateInput = dynamic<Partial<IconDateInput> | { slot: string }>(
   () => import('./IconDateInput').then((m) => m.SpIconDateInput as any),
-  { ssr: false}
+  { ssr: false }
 );

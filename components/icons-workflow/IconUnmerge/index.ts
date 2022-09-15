@@ -4,5 +4,5 @@ import { IconUnmerge } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconUnmerge = dynamic<Partial<IconUnmerge> | { slot: string }>(
   () => import('./IconUnmerge').then((m) => m.SpIconUnmerge as any),
-  { ssr: false}
+  { ssr: false }
 );

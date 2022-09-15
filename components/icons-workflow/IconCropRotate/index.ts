@@ -4,5 +4,5 @@ import { IconCropRotate } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconCropRotate = dynamic<Partial<IconCropRotate> | { slot: string }>(
   () => import('./IconCropRotate').then((m) => m.SpIconCropRotate as any),
-  { ssr: false}
+  { ssr: false }
 );

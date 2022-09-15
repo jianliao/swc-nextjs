@@ -4,5 +4,5 @@ import { IconDeselectCircular } from '@spectrum-web-components/icons-workflow/sr
 
 export const SpIconDeselectCircular = dynamic<Partial<IconDeselectCircular> | { slot: string }>(
   () => import('./IconDeselectCircular').then((m) => m.SpIconDeselectCircular as any),
-  { ssr: false}
+  { ssr: false }
 );

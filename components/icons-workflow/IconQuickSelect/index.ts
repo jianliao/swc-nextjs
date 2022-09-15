@@ -4,5 +4,5 @@ import { IconQuickSelect } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconQuickSelect = dynamic<Partial<IconQuickSelect> | { slot: string }>(
   () => import('./IconQuickSelect').then((m) => m.SpIconQuickSelect as any),
-  { ssr: false}
+  { ssr: false }
 );

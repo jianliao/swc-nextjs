@@ -4,5 +4,5 @@ import { IconTextBulleted } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconTextBulleted = dynamic<Partial<IconTextBulleted> | { slot: string }>(
   () => import('./IconTextBulleted').then((m) => m.SpIconTextBulleted as any),
-  { ssr: false}
+  { ssr: false }
 );

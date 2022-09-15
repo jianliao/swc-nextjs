@@ -4,5 +4,5 @@ import { IconRelevance } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconRelevance = dynamic<Partial<IconRelevance> | { slot: string }>(
   () => import('./IconRelevance').then((m) => m.SpIconRelevance as any),
-  { ssr: false}
+  { ssr: false }
 );

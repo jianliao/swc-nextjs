@@ -1,4 +1,3 @@
-
 import { createComponent } from '@lit-labs/react';
 import * as React from 'react';
 import { IconReply } from '@spectrum-web-components/icons-workflow/src/elements/IconReply.js';

@@ -4,5 +4,5 @@ import { IconSyncRemove } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconSyncRemove = dynamic<Partial<IconSyncRemove> | { slot: string }>(
   () => import('./IconSyncRemove').then((m) => m.SpIconSyncRemove as any),
-  { ssr: false}
+  { ssr: false }
 );

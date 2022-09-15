@@ -4,5 +4,5 @@ import { IconDeviceDesktop } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconDeviceDesktop = dynamic<Partial<IconDeviceDesktop> | { slot: string }>(
   () => import('./IconDeviceDesktop').then((m) => m.SpIconDeviceDesktop as any),
-  { ssr: false}
+  { ssr: false }
 );

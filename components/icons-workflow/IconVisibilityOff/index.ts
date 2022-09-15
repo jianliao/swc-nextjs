@@ -4,5 +4,5 @@ import { IconVisibilityOff } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconVisibilityOff = dynamic<Partial<IconVisibilityOff> | { slot: string }>(
   () => import('./IconVisibilityOff').then((m) => m.SpIconVisibilityOff as any),
-  { ssr: false}
+  { ssr: false }
 );

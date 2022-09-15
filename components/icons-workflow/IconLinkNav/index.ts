@@ -4,5 +4,5 @@ import { IconLinkNav } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconLinkNav = dynamic<Partial<IconLinkNav> | { slot: string }>(
   () => import('./IconLinkNav').then((m) => m.SpIconLinkNav as any),
-  { ssr: false}
+  { ssr: false }
 );

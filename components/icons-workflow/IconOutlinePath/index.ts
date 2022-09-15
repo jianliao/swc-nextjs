@@ -4,5 +4,5 @@ import { IconOutlinePath } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconOutlinePath = dynamic<Partial<IconOutlinePath> | { slot: string }>(
   () => import('./IconOutlinePath').then((m) => m.SpIconOutlinePath as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconAlignCenter } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconAlignCenter = dynamic<Partial<IconAlignCenter> | { slot: string }>(
   () => import('./IconAlignCenter').then((m) => m.SpIconAlignCenter as any),
-  { ssr: false}
+  { ssr: false }
 );

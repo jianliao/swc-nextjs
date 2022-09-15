@@ -4,5 +4,5 @@ import { IconEmailNotification } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconEmailNotification = dynamic<Partial<IconEmailNotification> | { slot: string }>(
   () => import('./IconEmailNotification').then((m) => m.SpIconEmailNotification as any),
-  { ssr: false}
+  { ssr: false }
 );

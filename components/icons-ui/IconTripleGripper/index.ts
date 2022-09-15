@@ -4,5 +4,5 @@ import { IconTripleGripper } from '@spectrum-web-components/icons-ui/src/element
 
 export const SpIconTripleGripper = dynamic<Partial<IconTripleGripper> | { slot: string }>(
   () => import('./IconTripleGripper').then((m) => m.SpIconTripleGripper as any),
-  { ssr: false}
+  { ssr: false }
 );

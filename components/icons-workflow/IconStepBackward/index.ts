@@ -4,5 +4,5 @@ import { IconStepBackward } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconStepBackward = dynamic<Partial<IconStepBackward> | { slot: string }>(
   () => import('./IconStepBackward').then((m) => m.SpIconStepBackward as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconLinkOutLight } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconLinkOutLight = dynamic<Partial<IconLinkOutLight> | { slot: string }>(
   () => import('./IconLinkOutLight').then((m) => m.SpIconLinkOutLight as any),
-  { ssr: false}
+  { ssr: false }
 );

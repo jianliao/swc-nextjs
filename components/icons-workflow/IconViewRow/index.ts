@@ -4,5 +4,5 @@ import { IconViewRow } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconViewRow = dynamic<Partial<IconViewRow> | { slot: string }>(
   () => import('./IconViewRow').then((m) => m.SpIconViewRow as any),
-  { ssr: false}
+  { ssr: false }
 );

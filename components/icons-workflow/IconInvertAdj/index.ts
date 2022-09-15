@@ -4,5 +4,5 @@ import { IconInvertAdj } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconInvertAdj = dynamic<Partial<IconInvertAdj> | { slot: string }>(
   () => import('./IconInvertAdj').then((m) => m.SpIconInvertAdj as any),
-  { ssr: false}
+  { ssr: false }
 );

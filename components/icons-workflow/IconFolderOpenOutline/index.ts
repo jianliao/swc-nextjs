@@ -4,5 +4,5 @@ import { IconFolderOpenOutline } from '@spectrum-web-components/icons-workflow/s
 
 export const SpIconFolderOpenOutline = dynamic<Partial<IconFolderOpenOutline> | { slot: string }>(
   () => import('./IconFolderOpenOutline').then((m) => m.SpIconFolderOpenOutline as any),
-  { ssr: false}
+  { ssr: false }
 );

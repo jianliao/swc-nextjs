@@ -4,5 +4,5 @@ import { IconViewStack } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconViewStack = dynamic<Partial<IconViewStack> | { slot: string }>(
   () => import('./IconViewStack').then((m) => m.SpIconViewStack as any),
-  { ssr: false}
+  { ssr: false }
 );

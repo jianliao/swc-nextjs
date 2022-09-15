@@ -4,5 +4,5 @@ import { IconMarginTop } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconMarginTop = dynamic<Partial<IconMarginTop> | { slot: string }>(
   () => import('./IconMarginTop').then((m) => m.SpIconMarginTop as any),
-  { ssr: false}
+  { ssr: false }
 );

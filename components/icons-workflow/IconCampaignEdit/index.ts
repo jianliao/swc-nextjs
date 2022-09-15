@@ -4,5 +4,5 @@ import { IconCampaignEdit } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconCampaignEdit = dynamic<Partial<IconCampaignEdit> | { slot: string }>(
   () => import('./IconCampaignEdit').then((m) => m.SpIconCampaignEdit as any),
-  { ssr: false}
+  { ssr: false }
 );

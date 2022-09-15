@@ -4,5 +4,5 @@ import { IconMagicWand } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconMagicWand = dynamic<Partial<IconMagicWand> | { slot: string }>(
   () => import('./IconMagicWand').then((m) => m.SpIconMagicWand as any),
-  { ssr: false}
+  { ssr: false }
 );

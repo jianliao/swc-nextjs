@@ -4,5 +4,5 @@ import { IconSaveToLight } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconSaveToLight = dynamic<Partial<IconSaveToLight> | { slot: string }>(
   () => import('./IconSaveToLight').then((m) => m.SpIconSaveToLight as any),
-  { ssr: false}
+  { ssr: false }
 );

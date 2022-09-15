@@ -4,5 +4,5 @@ import { IconImageMapCircle } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconImageMapCircle = dynamic<Partial<IconImageMapCircle> | { slot: string }>(
   () => import('./IconImageMapCircle').then((m) => m.SpIconImageMapCircle as any),
-  { ssr: false}
+  { ssr: false }
 );

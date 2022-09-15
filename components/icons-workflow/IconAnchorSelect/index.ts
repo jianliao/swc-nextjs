@@ -4,5 +4,5 @@ import { IconAnchorSelect } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconAnchorSelect = dynamic<Partial<IconAnchorSelect> | { slot: string }>(
   () => import('./IconAnchorSelect').then((m) => m.SpIconAnchorSelect as any),
-  { ssr: false}
+  { ssr: false }
 );

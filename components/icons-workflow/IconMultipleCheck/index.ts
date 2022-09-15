@@ -4,5 +4,5 @@ import { IconMultipleCheck } from '@spectrum-web-components/icons-workflow/src/e
 
 export const SpIconMultipleCheck = dynamic<Partial<IconMultipleCheck> | { slot: string }>(
   () => import('./IconMultipleCheck').then((m) => m.SpIconMultipleCheck as any),
-  { ssr: false}
+  { ssr: false }
 );

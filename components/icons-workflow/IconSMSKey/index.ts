@@ -4,5 +4,5 @@ import { IconSMSKey } from '@spectrum-web-components/icons-workflow/src/elements
 
 export const SpIconSMSKey = dynamic<Partial<IconSMSKey> | { slot: string }>(
   () => import('./IconSMSKey').then((m) => m.SpIconSMSKey as any),
-  { ssr: false}
+  { ssr: false }
 );

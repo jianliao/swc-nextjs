@@ -4,5 +4,5 @@ import { IconAnnotate } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconAnnotate = dynamic<Partial<IconAnnotate> | { slot: string }>(
   () => import('./IconAnnotate').then((m) => m.SpIconAnnotate as any),
-  { ssr: false}
+  { ssr: false }
 );

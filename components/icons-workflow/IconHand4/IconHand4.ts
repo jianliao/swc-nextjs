@@ -1,4 +1,3 @@
-
 import { createComponent } from '@lit-labs/react';
 import * as React from 'react';
 import { IconHand4 } from '@spectrum-web-components/icons-workflow/src/elements/IconHand4.js';

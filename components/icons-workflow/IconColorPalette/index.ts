@@ -4,5 +4,5 @@ import { IconColorPalette } from '@spectrum-web-components/icons-workflow/src/el
 
 export const SpIconColorPalette = dynamic<Partial<IconColorPalette> | { slot: string }>(
   () => import('./IconColorPalette').then((m) => m.SpIconColorPalette as any),
-  { ssr: false}
+  { ssr: false }
 );

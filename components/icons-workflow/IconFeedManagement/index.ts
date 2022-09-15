@@ -4,5 +4,5 @@ import { IconFeedManagement } from '@spectrum-web-components/icons-workflow/src/
 
 export const SpIconFeedManagement = dynamic<Partial<IconFeedManagement> | { slot: string }>(
   () => import('./IconFeedManagement').then((m) => m.SpIconFeedManagement as any),
-  { ssr: false}
+  { ssr: false }
 );

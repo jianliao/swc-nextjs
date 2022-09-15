@@ -4,5 +4,5 @@ import { IconGraphArea } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconGraphArea = dynamic<Partial<IconGraphArea> | { slot: string }>(
   () => import('./IconGraphArea').then((m) => m.SpIconGraphArea as any),
-  { ssr: false}
+  { ssr: false }
 );

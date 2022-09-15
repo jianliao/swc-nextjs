@@ -4,5 +4,5 @@ import { IconGradient } from '@spectrum-web-components/icons-workflow/src/elemen
 
 export const SpIconGradient = dynamic<Partial<IconGradient> | { slot: string }>(
   () => import('./IconGradient').then((m) => m.SpIconGradient as any),
-  { ssr: false}
+  { ssr: false }
 );

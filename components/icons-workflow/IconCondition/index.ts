@@ -4,5 +4,5 @@ import { IconCondition } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconCondition = dynamic<Partial<IconCondition> | { slot: string }>(
   () => import('./IconCondition').then((m) => m.SpIconCondition as any),
-  { ssr: false}
+  { ssr: false }
 );

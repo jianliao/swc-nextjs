@@ -4,5 +4,5 @@ import { IconSeparator } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconSeparator = dynamic<Partial<IconSeparator> | { slot: string }>(
   () => import('./IconSeparator').then((m) => m.SpIconSeparator as any),
-  { ssr: false}
+  { ssr: false }
 );

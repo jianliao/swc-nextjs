@@ -4,5 +4,5 @@ import { IconSummarize } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconSummarize = dynamic<Partial<IconSummarize> | { slot: string }>(
   () => import('./IconSummarize').then((m) => m.SpIconSummarize as any),
-  { ssr: false}
+  { ssr: false }
 );

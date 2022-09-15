@@ -4,5 +4,5 @@ import { IconForward } from '@spectrum-web-components/icons-workflow/src/element
 
 export const SpIconForward = dynamic<Partial<IconForward> | { slot: string }>(
   () => import('./IconForward').then((m) => m.SpIconForward as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconLineHeight } from '@spectrum-web-components/icons-workflow/src/elem
 
 export const SpIconLineHeight = dynamic<Partial<IconLineHeight> | { slot: string }>(
   () => import('./IconLineHeight').then((m) => m.SpIconLineHeight as any),
-  { ssr: false}
+  { ssr: false }
 );

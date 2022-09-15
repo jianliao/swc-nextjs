@@ -4,5 +4,5 @@ import { IconPageBreak } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconPageBreak = dynamic<Partial<IconPageBreak> | { slot: string }>(
   () => import('./IconPageBreak').then((m) => m.SpIconPageBreak as any),
-  { ssr: false}
+  { ssr: false }
 );

@@ -4,5 +4,5 @@ import { IconFilterCheck } from '@spectrum-web-components/icons-workflow/src/ele
 
 export const SpIconFilterCheck = dynamic<Partial<IconFilterCheck> | { slot: string }>(
   () => import('./IconFilterCheck').then((m) => m.SpIconFilterCheck as any),
-  { ssr: false}
+  { ssr: false }
 );

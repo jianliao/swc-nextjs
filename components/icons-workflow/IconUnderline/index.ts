@@ -4,5 +4,5 @@ import { IconUnderline } from '@spectrum-web-components/icons-workflow/src/eleme
 
 export const SpIconUnderline = dynamic<Partial<IconUnderline> | { slot: string }>(
   () => import('./IconUnderline').then((m) => m.SpIconUnderline as any),
-  { ssr: false}
+  { ssr: false }
 );
