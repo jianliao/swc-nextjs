@@ -47,7 +47,7 @@ const generate = async () => {
       let rootIndexContent = '';
       for (let icon of icons) {
         let fileContent = generateStaticImport();
-        const content = (await readFile(icon)).toString().split(';')[0];
+        const content = (await readFile(icon)).toString().split(';')[1]; // ignore 0 line because it is "use strict;"
         const displayName = content.substring(content.indexOf('{') + 1, content.indexOf(' '));
         const displayFileName = content.substring(content.lastIndexOf('/') + 1, content.length - 4);
         const elementName = path.parse(icon).name;
