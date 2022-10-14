@@ -5,7 +5,7 @@ import { Icon } from '@spectrum-web-components/icon';
 
 const ssr = false;
 
-export const SpIcon = dynamic<Icon | { children?: ReactNode }>(
+export const SpIcon = dynamic<Partial<Icon> | { children?: ReactNode }>(
   () => import('./Icon').then((m) => m.SpIcon as any),
   { ssr }
 );
