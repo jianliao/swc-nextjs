@@ -1,6 +1,6 @@
 {
   "name": "@swc-nextjs/illustrated-message",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React wrapper of the @spectrum-web-components/illustrated-message component for the Next.js static site generator",
   "main": "dist/index.js",
   "scripts": {
@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "@lit-labs/react": "1.0.9",
-    "@spectrum-web-components/illustrated-message": "0.9.3"
+    "@spectrum-web-components/illustrated-message": "0.9.4"
   }
 }
