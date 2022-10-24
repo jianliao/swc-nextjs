@@ -39,7 +39,7 @@ export const Sp${displayName} = dynamic<Partial<${displayName}> | { slot: string
 const generate = async () => {
   glob(
     path.resolve(__dirname, '..', 'node_modules/@spectrum-web-components/icons-ui/icons/**.js'),
-    async (error, icons) => {
+    async (_, icons) => {
       let rootIndexContent = '';
       for (let icon of icons) {
         let fileContent = generateStaticImport();
