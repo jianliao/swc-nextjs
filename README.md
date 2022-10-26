@@ -23,4 +23,4 @@ Runs `npm publish` to publish the wrapper packages.
 
 ## Learn More
 
-* [@lit-labs/react](https://www.npmjs.com/package/@lit-labs/react)
+- [@lit-labs/react](https://www.npmjs.com/package/@lit-labs/react)

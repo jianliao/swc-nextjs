@@ -138,13 +138,15 @@ ${elements.reduce(
     pre +
     `export const Sp${element.name} = createComponent(React, '${element.tagName}', ${
       element.name
-    }, { ${element.events.reduce(
-      (pre, cur) =>
-        pre +
-        // Convert event name sp-on-press to spOnPress
-        `${cur.name.replace(/-./g, (m) => m[1].toUpperCase())}: '${cur.name}', `,
-      ''
-    )}}, 'Sp${element.name}');\n`,
+    }, { ${element.events
+      .filter((e) => e.name !== undefined)
+      .reduce(
+        (pre, cur) =>
+          pre +
+          // Convert event name sp-on-press to spOnPress
+          `${cur.name.replace(/-./g, (m) => m[1].toUpperCase())}: '${cur.name}', `,
+        ''
+      )}}, 'Sp${element.name}');\n`,
   ''
 )}`;
 
@@ -159,10 +161,12 @@ ${elements.reduce(
     pre +
     `export const Sp${element.name} = dynamic<Partial<${
       element.name
-    }> | { children?: ReactNode } ${element.events.reduce(
-      (pre, cur) => pre + `| { ${cur.name.replace(/-./g, (m) => m[1].toUpperCase())}: Function }`,
-      ''
-    )}>(() => import('./${componentFileName}').then(m => m.Sp${element.name} as any), { ssr });` +
+    }> | { children?: ReactNode } ${element.events
+      .filter((e) => e.name !== undefined)
+      .reduce(
+        (pre, cur) => pre + `| { ${cur.name.replace(/-./g, (m) => m[1].toUpperCase())}: Function }`,
+        ''
+      )}>(() => import('./${componentFileName}').then(m => m.Sp${element.name} as any), { ssr });` +
     '\n',
   ''
 )}`;
@@ -337,6 +341,7 @@ run('@spectrum-web-components/status-light');
 // run('@spectrum-web-components/styles');
 run('@spectrum-web-components/swatch');
 run('@spectrum-web-components/switch');
+run('@spectrum-web-components/table');
 run('@spectrum-web-components/tabs');
 run('@spectrum-web-components/tags');
 run('@spectrum-web-components/textfield');
