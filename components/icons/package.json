@@ -1,6 +1,6 @@
 {
   "name": "@swc-nextjs/icons",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "React wrapper of the @spectrum-web-components/icons component for the Next.js static site generator",
   "main": "dist/index.js",
   "scripts": {
@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "@lit-labs/react": "1.0.9",
-    "@spectrum-web-components/icons": "0.9.1"
+    "@spectrum-web-components/icons": "0.9.2"
   }
 }

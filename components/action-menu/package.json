@@ -1,6 +1,6 @@
 {
   "name": "@swc-nextjs/action-menu",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "React wrapper of the @spectrum-web-components/action-menu component for the Next.js static site generator",
   "main": "dist/index.js",
   "scripts": {
@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "@lit-labs/react": "1.0.9",
-    "@spectrum-web-components/action-menu": "0.15.5"
+    "@spectrum-web-components/action-menu": "0.15.6"
   }
 }
