@@ -5,11 +5,11 @@ import { SplitButton } from '@spectrum-web-components/split-button';
 
 import '@spectrum-web-components/split-button/sp-split-button.js';
 
-export const SpSplitButton = createComponent(
-  React,
-  'sp-split-button',
-  SplitButton,
-  {
+export const SpSplitButton = createComponent({
+  react: React,
+  tagName: 'sp-split-button',
+  elementClass: SplitButton,
+  events: {
     forceFocusVisible: 'forceFocusVisible',
     onButtonBlur: 'onButtonBlur',
     focus: 'focus',
@@ -23,5 +23,5 @@ export const SpSplitButton = createComponent(
     spOpened: 'sp-opened',
     spClosed: 'sp-closed',
   },
-  'SpSplitButton'
-);
+  displayName: 'SpSplitButton',
+});

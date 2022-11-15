@@ -7,17 +7,17 @@ import { IconsMedium } from '@spectrum-web-components/icons';
 import '@spectrum-web-components/icons/sp-icons-large.js';
 import '@spectrum-web-components/icons/sp-icons-medium.js';
 
-export const SpIconsLarge = createComponent(
-  React,
-  'sp-icons-large',
-  IconsLarge,
-  {},
-  'SpIconsLarge'
-);
-export const SpIconsMedium = createComponent(
-  React,
-  'sp-icons-medium',
-  IconsMedium,
-  {},
-  'SpIconsMedium'
-);
+export const SpIconsLarge = createComponent({
+  react: React,
+  tagName: 'sp-icons-large',
+  elementClass: IconsLarge,
+  events: {},
+  displayName: 'SpIconsLarge',
+});
+export const SpIconsMedium = createComponent({
+  react: React,
+  tagName: 'sp-icons-medium',
+  elementClass: IconsMedium,
+  events: {},
+  displayName: 'SpIconsMedium',
+});

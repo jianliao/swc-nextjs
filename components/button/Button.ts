@@ -9,24 +9,24 @@ import '@spectrum-web-components/button/sp-button.js';
 import '@spectrum-web-components/button/sp-clear-button.js';
 import '@spectrum-web-components/button/sp-close-button.js';
 
-export const SpButton = createComponent(
-  React,
-  'sp-button',
-  Button,
-  { click: 'click', renderAnchor: 'renderAnchor' },
-  'SpButton'
-);
-export const SpClearButton = createComponent(
-  React,
-  'sp-clear-button',
-  ClearButton,
-  { click: 'click', renderAnchor: 'renderAnchor' },
-  'SpClearButton'
-);
-export const SpCloseButton = createComponent(
-  React,
-  'sp-close-button',
-  CloseButton,
-  { click: 'click', renderAnchor: 'renderAnchor' },
-  'SpCloseButton'
-);
+export const SpButton = createComponent({
+  react: React,
+  tagName: 'sp-button',
+  elementClass: Button,
+  events: { click: 'click', renderAnchor: 'renderAnchor' },
+  displayName: 'SpButton',
+});
+export const SpClearButton = createComponent({
+  react: React,
+  tagName: 'sp-clear-button',
+  elementClass: ClearButton,
+  events: { click: 'click', renderAnchor: 'renderAnchor' },
+  displayName: 'SpClearButton',
+});
+export const SpCloseButton = createComponent({
+  react: React,
+  tagName: 'sp-close-button',
+  elementClass: CloseButton,
+  events: { click: 'click', renderAnchor: 'renderAnchor' },
+  displayName: 'SpCloseButton',
+});

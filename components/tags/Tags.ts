@@ -7,5 +7,17 @@ import { Tags } from '@spectrum-web-components/tags';
 import '@spectrum-web-components/tags/sp-tag.js';
 import '@spectrum-web-components/tags/sp-tags.js';
 
-export const SpTag = createComponent(React, 'sp-tag', Tag, { delete: 'delete' }, 'SpTag');
-export const SpTags = createComponent(React, 'sp-tags', Tags, { focus: 'focus' }, 'SpTags');
+export const SpTag = createComponent({
+  react: React,
+  tagName: 'sp-tag',
+  elementClass: Tag,
+  events: { delete: 'delete' },
+  displayName: 'SpTag',
+});
+export const SpTags = createComponent({
+  react: React,
+  tagName: 'sp-tags',
+  elementClass: Tags,
+  events: { focus: 'focus' },
+  displayName: 'SpTags',
+});

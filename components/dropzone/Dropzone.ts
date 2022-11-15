@@ -5,11 +5,11 @@ import { Dropzone } from '@spectrum-web-components/dropzone';
 
 import '@spectrum-web-components/dropzone/sp-dropzone.js';
 
-export const SpDropzone = createComponent(
-  React,
-  'sp-dropzone',
-  Dropzone,
-  {
+export const SpDropzone = createComponent({
+  react: React,
+  tagName: 'sp-dropzone',
+  elementClass: Dropzone,
+  events: {
     onDragOver: 'onDragOver',
     onDragLeave: 'onDragLeave',
     onDrop: 'onDrop',
@@ -18,5 +18,5 @@ export const SpDropzone = createComponent(
     spDropzoneDragleave: 'sp-dropzone-dragleave',
     spDropzoneDrop: 'sp-dropzone-drop',
   },
-  'SpDropzone'
-);
+  displayName: 'SpDropzone',
+});

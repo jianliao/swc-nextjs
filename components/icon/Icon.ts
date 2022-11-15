@@ -5,4 +5,10 @@ import { Icon } from '@spectrum-web-components/icon';
 
 import '@spectrum-web-components/icon/sp-icon.js';
 
-export const SpIcon = createComponent(React, 'sp-icon', Icon, {}, 'SpIcon');
+export const SpIcon = createComponent({
+  react: React,
+  tagName: 'sp-icon',
+  elementClass: Icon,
+  events: {},
+  displayName: 'SpIcon',
+});

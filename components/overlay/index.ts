@@ -14,6 +14,7 @@ export const SpActiveOverlay = dynamic<
   | { obscure: Function }
   | { openCallback: Function }
   | { dispose: Function }
+  | { placeOverlay: Function }
   | { hide: Function }
   | { applyContentAnimation: Function }
   | { renderTheme: Function }

@@ -136,9 +136,9 @@ ${fileImports.reduce((pre, im) => pre + im + '\n', '')}
 ${elements.reduce(
   (pre, element) =>
     pre +
-    `export const Sp${element.name} = createComponent(React, '${element.tagName}', ${
-      element.name
-    }, { ${element.events
+    `export const Sp${element.name} = createComponent({ react: React, tagName: '${
+      element.tagName
+    }', elementClass: ${element.name}, events: { ${element.events
       .filter((e) => e.name !== undefined)
       .reduce(
         (pre, cur) =>
@@ -146,7 +146,7 @@ ${elements.reduce(
           // Convert event name sp-on-press to spOnPress
           `${cur.name.replace(/-./g, (m) => m[1].toUpperCase())}: '${cur.name}', `,
         ''
-      )}}, 'Sp${element.name}');\n`,
+      )}}, displayName: 'Sp${element.name}' });\n`,
   ''
 )}`;
 

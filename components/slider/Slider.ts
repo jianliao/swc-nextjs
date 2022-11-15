@@ -7,27 +7,27 @@ import { SliderHandle } from '@spectrum-web-components/slider';
 import '@spectrum-web-components/slider/sp-slider-handle.js';
 import '@spectrum-web-components/slider/sp-slider.js';
 
-export const SpSlider = createComponent(
-  React,
-  'sp-slider',
-  Slider,
-  {
+export const SpSlider = createComponent({
+  react: React,
+  tagName: 'sp-slider',
+  elementClass: Slider,
+  events: {
     dispatchInputEvent: 'dispatchInputEvent',
     spSliderHandleReady: 'sp-slider-handle-ready',
     input: 'input',
     change: 'change',
   },
-  'SpSlider'
-);
-export const SpSliderHandle = createComponent(
-  React,
-  'sp-slider-handle',
-  SliderHandle,
-  {
+  displayName: 'SpSlider',
+});
+export const SpSliderHandle = createComponent({
+  react: React,
+  tagName: 'sp-slider-handle',
+  elementClass: SliderHandle,
+  events: {
     dispatchInputEvent: 'dispatchInputEvent',
     spSliderHandleReady: 'sp-slider-handle-ready',
     input: 'input',
     change: 'change',
   },
-  'SpSliderHandle'
-);
+  displayName: 'SpSliderHandle',
+});

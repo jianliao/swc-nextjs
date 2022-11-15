@@ -8,12 +8,18 @@ import '@spectrum-web-components/dialog/sp-dialog-base.js';
 import '@spectrum-web-components/dialog/sp-dialog-wrapper.js';
 import '@spectrum-web-components/dialog/sp-dialog.js';
 
-export const SpDialog = createComponent(React, 'sp-dialog', Dialog, { close: 'close' }, 'SpDialog');
-export const SpDialogWrapper = createComponent(
-  React,
-  'sp-dialog-wrapper',
-  DialogWrapper,
-  {
+export const SpDialog = createComponent({
+  react: React,
+  tagName: 'sp-dialog',
+  elementClass: Dialog,
+  events: { close: 'close' },
+  displayName: 'SpDialog',
+});
+export const SpDialogWrapper = createComponent({
+  react: React,
+  tagName: 'sp-dialog-wrapper',
+  elementClass: DialogWrapper,
+  events: {
     focus: 'focus',
     overlayWillCloseCallback: 'overlayWillCloseCallback',
     close: 'close',
@@ -21,5 +27,5 @@ export const SpDialogWrapper = createComponent(
     cancel: 'cancel',
     confirm: 'confirm',
   },
-  'SpDialogWrapper'
-);
+  displayName: 'SpDialogWrapper',
+});

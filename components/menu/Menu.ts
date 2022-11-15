@@ -11,11 +11,11 @@ import '@spectrum-web-components/menu/sp-menu-group.js';
 import '@spectrum-web-components/menu/sp-menu-item.js';
 import '@spectrum-web-components/menu/sp-menu.js';
 
-export const SpMenu = createComponent(
-  React,
-  'sp-menu',
-  Menu,
-  {
+export const SpMenu = createComponent({
+  react: React,
+  tagName: 'sp-menu',
+  elementClass: Menu,
+  events: {
     focus: 'focus',
     handleFocusin: 'handleFocusin',
     startListeningToKeyboard: 'startListeningToKeyboard',
@@ -28,20 +28,20 @@ export const SpMenu = createComponent(
     change: 'change',
     close: 'close',
   },
-  'SpMenu'
-);
-export const SpMenuDivider = createComponent(
-  React,
-  'sp-menu-divider',
-  MenuDivider,
-  {},
-  'SpMenuDivider'
-);
-export const SpMenuGroup = createComponent(
-  React,
-  'sp-menu-group',
-  MenuGroup,
-  {
+  displayName: 'SpMenu',
+});
+export const SpMenuDivider = createComponent({
+  react: React,
+  tagName: 'sp-menu-divider',
+  elementClass: MenuDivider,
+  events: {},
+  displayName: 'SpMenuDivider',
+});
+export const SpMenuGroup = createComponent({
+  react: React,
+  tagName: 'sp-menu-group',
+  elementClass: MenuGroup,
+  events: {
     focus: 'focus',
     handleFocusin: 'handleFocusin',
     startListeningToKeyboard: 'startListeningToKeyboard',
@@ -54,13 +54,13 @@ export const SpMenuGroup = createComponent(
     change: 'change',
     close: 'close',
   },
-  'SpMenuGroup'
-);
-export const SpMenuItem = createComponent(
-  React,
-  'sp-menu-item',
-  MenuItem,
-  {
+  displayName: 'SpMenuGroup',
+});
+export const SpMenuItem = createComponent({
+  react: React,
+  tagName: 'sp-menu-item',
+  elementClass: MenuItem,
+  events: {
     click: 'click',
     openOverlay: 'openOverlay',
     setRole: 'setRole',
@@ -68,5 +68,5 @@ export const SpMenuItem = createComponent(
     spMenuItemAdded: 'sp-menu-item-added',
     spMenuItemRemoved: 'sp-menu-item-removed',
   },
-  'SpMenuItem'
-);
+  displayName: 'SpMenuItem',
+});

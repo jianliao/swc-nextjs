@@ -7,17 +7,17 @@ import { AccordionItem } from '@spectrum-web-components/accordion';
 import '@spectrum-web-components/accordion/sp-accordion-item.js';
 import '@spectrum-web-components/accordion/sp-accordion.js';
 
-export const SpAccordion = createComponent(
-  React,
-  'sp-accordion',
-  Accordion,
-  { focus: 'focus' },
-  'SpAccordion'
-);
-export const SpAccordionItem = createComponent(
-  React,
-  'sp-accordion-item',
-  AccordionItem,
-  { spAccordionItemToggle: 'sp-accordion-item-toggle' },
-  'SpAccordionItem'
-);
+export const SpAccordion = createComponent({
+  react: React,
+  tagName: 'sp-accordion',
+  elementClass: Accordion,
+  events: { focus: 'focus' },
+  displayName: 'SpAccordion',
+});
+export const SpAccordionItem = createComponent({
+  react: React,
+  tagName: 'sp-accordion-item',
+  elementClass: AccordionItem,
+  events: { spAccordionItemToggle: 'sp-accordion-item-toggle' },
+  displayName: 'SpAccordionItem',
+});

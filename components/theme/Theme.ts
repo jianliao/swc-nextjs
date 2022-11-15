@@ -17,13 +17,13 @@ import '@spectrum-web-components/theme/express/theme-lightest.js';
 import '@spectrum-web-components/theme/express/scale-medium.js';
 import '@spectrum-web-components/theme/express/scale-large.js';
 
-export const SpTheme = createComponent(
-  React,
-  'sp-theme',
-  Theme,
-  {
+export const SpTheme = createComponent({
+  react: React,
+  tagName: 'sp-theme',
+  elementClass: Theme,
+  events: {
     startManagingContentDirection: 'startManagingContentDirection',
     stopManagingContentDirection: 'stopManagingContentDirection',
   },
-  'SpTheme'
-);
+  displayName: 'SpTheme',
+});

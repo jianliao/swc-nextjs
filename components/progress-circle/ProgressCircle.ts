@@ -5,10 +5,10 @@ import { ProgressCircle } from '@spectrum-web-components/progress-circle';
 
 import '@spectrum-web-components/progress-circle/sp-progress-circle.js';
 
-export const SpProgressCircle = createComponent(
-  React,
-  'sp-progress-circle',
-  ProgressCircle,
-  {},
-  'SpProgressCircle'
-);
+export const SpProgressCircle = createComponent({
+  react: React,
+  tagName: 'sp-progress-circle',
+  elementClass: ProgressCircle,
+  events: {},
+  displayName: 'SpProgressCircle',
+});

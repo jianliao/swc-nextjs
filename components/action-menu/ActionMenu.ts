@@ -5,11 +5,11 @@ import { ActionMenu } from '@spectrum-web-components/action-menu';
 
 import '@spectrum-web-components/action-menu/sp-action-menu.js';
 
-export const SpActionMenu = createComponent(
-  React,
-  'sp-action-menu',
-  ActionMenu,
-  {
+export const SpActionMenu = createComponent({
+  react: React,
+  tagName: 'sp-action-menu',
+  elementClass: ActionMenu,
+  events: {
     forceFocusVisible: 'forceFocusVisible',
     onButtonBlur: 'onButtonBlur',
     focus: 'focus',
@@ -23,5 +23,5 @@ export const SpActionMenu = createComponent(
     spOpened: 'sp-opened',
     spClosed: 'sp-closed',
   },
-  'SpActionMenu'
-);
+  displayName: 'SpActionMenu',
+});

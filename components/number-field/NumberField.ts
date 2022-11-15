@@ -5,16 +5,16 @@ import { NumberField } from '@spectrum-web-components/number-field';
 
 import '@spectrum-web-components/number-field/sp-number-field.js';
 
-export const SpNumberField = createComponent(
-  React,
-  'sp-number-field',
-  NumberField,
-  {
+export const SpNumberField = createComponent({
+  react: React,
+  tagName: 'sp-number-field',
+  elementClass: NumberField,
+  events: {
     change: 'change',
     input: 'input',
     setSelectionRange: 'setSelectionRange',
     select: 'select',
     checkValidity: 'checkValidity',
   },
-  'SpNumberField'
-);
+  displayName: 'SpNumberField',
+});

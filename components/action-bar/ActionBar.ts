@@ -5,4 +5,10 @@ import { ActionBar } from '@spectrum-web-components/action-bar';
 
 import '@spectrum-web-components/action-bar/sp-action-bar.js';
 
-export const SpActionBar = createComponent(React, 'sp-action-bar', ActionBar, {}, 'SpActionBar');
+export const SpActionBar = createComponent({
+  react: React,
+  tagName: 'sp-action-bar',
+  elementClass: ActionBar,
+  events: {},
+  displayName: 'SpActionBar',
+});

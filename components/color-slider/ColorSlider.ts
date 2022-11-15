@@ -5,10 +5,10 @@ import { ColorSlider } from '@spectrum-web-components/color-slider';
 
 import '@spectrum-web-components/color-slider/sp-color-slider.js';
 
-export const SpColorSlider = createComponent(
-  React,
-  'sp-color-slider',
-  ColorSlider,
-  { focus: 'focus', input: 'input', change: 'change' },
-  'SpColorSlider'
-);
+export const SpColorSlider = createComponent({
+  react: React,
+  tagName: 'sp-color-slider',
+  elementClass: ColorSlider,
+  events: { focus: 'focus', input: 'input', change: 'change' },
+  displayName: 'SpColorSlider',
+});

@@ -5,11 +5,11 @@ import { Search } from '@spectrum-web-components/search';
 
 import '@spectrum-web-components/search/sp-search.js';
 
-export const SpSearch = createComponent(
-  React,
-  'sp-search',
-  Search,
-  {
+export const SpSearch = createComponent({
+  react: React,
+  tagName: 'sp-search',
+  elementClass: Search,
+  events: {
     reset: 'reset',
     submit: 'submit',
     setSelectionRange: 'setSelectionRange',
@@ -18,5 +18,5 @@ export const SpSearch = createComponent(
     change: 'change',
     input: 'input',
   },
-  'SpSearch'
-);
+  displayName: 'SpSearch',
+});

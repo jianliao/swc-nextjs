@@ -5,11 +5,11 @@ import { Picker } from '@spectrum-web-components/picker';
 
 import '@spectrum-web-components/picker/sp-picker.js';
 
-export const SpPicker = createComponent(
-  React,
-  'sp-picker',
-  Picker,
-  {
+export const SpPicker = createComponent({
+  react: React,
+  tagName: 'sp-picker',
+  elementClass: Picker,
+  events: {
     forceFocusVisible: 'forceFocusVisible',
     onButtonBlur: 'onButtonBlur',
     focus: 'focus',
@@ -23,5 +23,5 @@ export const SpPicker = createComponent(
     spOpened: 'sp-opened',
     spClosed: 'sp-closed',
   },
-  'SpPicker'
-);
+  displayName: 'SpPicker',
+});

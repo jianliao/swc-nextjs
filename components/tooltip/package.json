@@ -1,6 +1,6 @@
 {
   "name": "@swc-nextjs/tooltip",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "React wrapper of the @spectrum-web-components/tooltip component for the Next.js static site generator",
   "main": "dist/index.js",
   "scripts": {
@@ -26,7 +26,7 @@
     "next": "^12.3.1"
   },
   "dependencies": {
-    "@lit-labs/react": "1.0.9",
-    "@spectrum-web-components/tooltip": "0.11.6"
+    "@lit-labs/react": "1.1.0",
+    "@spectrum-web-components/tooltip": "0.11.7"
   }
 }

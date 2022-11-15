@@ -17,39 +17,57 @@ import '@spectrum-web-components/table/sp-table-head.js';
 import '@spectrum-web-components/table/sp-table-row.js';
 import '@spectrum-web-components/table/sp-table.js';
 
-export const SpTable = createComponent(
-  React,
-  'sp-table',
-  Table,
-  {
+export const SpTable = createComponent({
+  react: React,
+  tagName: 'sp-table',
+  elementClass: Table,
+  events: {
     focus: 'focus',
     scrollToIndex: 'scrollToIndex',
     change: 'change',
     rangeChanged: 'rangeChanged',
   },
-  'SpTable'
-);
-export const SpTableBody = createComponent(React, 'sp-table', TableBody, {}, 'SpTableBody');
-export const SpTableCell = createComponent(React, 'sp-table', TableCell, {}, 'SpTableCell');
-export const SpTableCheckboxCell = createComponent(
-  React,
-  'sp-table',
-  TableCheckboxCell,
-  { click: 'click' },
-  'SpTableCheckboxCell'
-);
-export const SpTableHead = createComponent(React, 'sp-table', TableHead, {}, 'SpTableHead');
-export const SpTableHeadCell = createComponent(
-  React,
-  'sp-table',
-  TableHeadCell,
-  { sorted: 'sorted' },
-  'SpTableHeadCell'
-);
-export const SpTableRow = createComponent(
-  React,
-  'sp-table',
-  TableRow,
-  { sorted: 'sorted' },
-  'SpTableRow'
-);
+  displayName: 'SpTable',
+});
+export const SpTableBody = createComponent({
+  react: React,
+  tagName: 'sp-table',
+  elementClass: TableBody,
+  events: {},
+  displayName: 'SpTableBody',
+});
+export const SpTableCell = createComponent({
+  react: React,
+  tagName: 'sp-table',
+  elementClass: TableCell,
+  events: {},
+  displayName: 'SpTableCell',
+});
+export const SpTableCheckboxCell = createComponent({
+  react: React,
+  tagName: 'sp-table',
+  elementClass: TableCheckboxCell,
+  events: { click: 'click' },
+  displayName: 'SpTableCheckboxCell',
+});
+export const SpTableHead = createComponent({
+  react: React,
+  tagName: 'sp-table',
+  elementClass: TableHead,
+  events: {},
+  displayName: 'SpTableHead',
+});
+export const SpTableHeadCell = createComponent({
+  react: React,
+  tagName: 'sp-table',
+  elementClass: TableHeadCell,
+  events: { sorted: 'sorted' },
+  displayName: 'SpTableHeadCell',
+});
+export const SpTableRow = createComponent({
+  react: React,
+  tagName: 'sp-table',
+  elementClass: TableRow,
+  events: { sorted: 'sorted' },
+  displayName: 'SpTableRow',
+});

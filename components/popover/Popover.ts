@@ -5,10 +5,10 @@ import { Popover } from '@spectrum-web-components/popover';
 
 import '@spectrum-web-components/popover/sp-popover.js';
 
-export const SpPopover = createComponent(
-  React,
-  'sp-popover',
-  Popover,
-  { onOverlayQuery: 'onOverlayQuery' },
-  'SpPopover'
-);
+export const SpPopover = createComponent({
+  react: React,
+  tagName: 'sp-popover',
+  elementClass: Popover,
+  events: { onOverlayQuery: 'onOverlayQuery' },
+  displayName: 'SpPopover',
+});
