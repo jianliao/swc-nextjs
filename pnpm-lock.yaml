@@ -67,6 +67,9 @@ importers:
       fs-extra: ^10.1.0
       glob: ^8.0.3
       prettier: ^2.7.1
+      react: ^18.2.0
+    dependencies:
+      react: 18.2.0
     devDependencies:
       '@lit-labs/react': 1.1.0
       '@spectrum-web-components/accordion': 0.7.4
@@ -138,7 +141,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/accordion': 0.7.4
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -149,7 +152,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -161,7 +164,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/action-bar': 0.5.7
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -172,7 +175,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -184,7 +187,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/action-button': 0.10.6
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -195,7 +198,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -207,7 +210,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/action-group': 0.11.3
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -218,7 +221,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -230,7 +233,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/action-menu': 0.15.7
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -241,7 +244,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -253,7 +256,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/asset': 0.7.1
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -264,7 +267,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -276,7 +279,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/avatar': 0.10.1
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -287,7 +290,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -299,7 +302,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/badge': 0.3.1
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -310,7 +313,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -322,7 +325,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/banner': 0.9.1
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -333,7 +336,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -345,7 +348,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/button': 0.19.6
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -356,7 +359,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -368,7 +371,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/button-group': 0.9.0
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -379,7 +382,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -391,7 +394,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/card': 0.12.3
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -402,7 +405,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -414,7 +417,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/checkbox': 0.14.4
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -425,7 +428,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -437,7 +440,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/coachmark': 0.10.1
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -448,7 +451,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -460,7 +463,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/color-area': 0.5.3
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -471,7 +474,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -483,7 +486,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/color-handle': 0.4.2
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -494,7 +497,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -506,7 +509,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/color-loupe': 0.4.1
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -517,7 +520,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -529,7 +532,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/color-slider': 0.4.4
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -540,7 +543,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -552,7 +555,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/color-wheel': 0.4.4
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -563,7 +566,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -575,7 +578,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/dialog': 0.11.6
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -586,7 +589,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -598,7 +601,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/divider': 0.5.1
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -609,7 +612,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -621,7 +624,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/dropzone': 0.10.1
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -632,7 +635,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -644,7 +647,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/field-group': 0.7.4
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -655,7 +658,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -667,7 +670,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/field-label': 0.8.0
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -678,7 +681,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -690,7 +693,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/help-text': 0.2.5
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -701,7 +704,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -713,7 +716,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/icon': 0.12.3
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -724,7 +727,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -736,7 +739,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/icons': 0.9.3
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -747,7 +750,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -759,7 +762,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/icons-ui': 0.9.3
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -770,7 +773,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -782,7 +785,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/icons-workflow': 0.9.3
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -793,7 +796,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -805,7 +808,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/illustrated-message': 0.9.6
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -816,7 +819,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -828,7 +831,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/link': 0.13.2
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -839,7 +842,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -851,7 +854,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/menu': 0.16.7
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -862,7 +865,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -874,7 +877,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/meter': 0.7.4
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -885,7 +888,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -897,7 +900,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/number-field': 0.5.6
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -908,7 +911,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -920,7 +923,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/overlay': 0.18.7
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -931,7 +934,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -943,7 +946,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/picker': 0.13.7
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -954,7 +957,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -966,7 +969,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/popover': 0.12.7
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -977,7 +980,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -989,7 +992,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/progress-bar': 0.7.0
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1000,7 +1003,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1012,7 +1015,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/progress-circle': 0.6.0
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1023,7 +1026,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1035,7 +1038,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/quick-actions': 0.7.1
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1046,7 +1049,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1058,7 +1061,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/radio': 0.11.5
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1069,7 +1072,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1081,7 +1084,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/search': 0.12.6
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1092,7 +1095,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1104,7 +1107,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/sidenav': 0.13.4
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1115,7 +1118,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1127,7 +1130,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/slider': 0.14.4
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1138,7 +1141,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1150,7 +1153,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/split-button': 0.9.7
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1161,7 +1164,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1173,7 +1176,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/split-view': 0.5.2
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1184,7 +1187,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1196,7 +1199,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/status-light': 0.11.2
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1207,7 +1210,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1219,7 +1222,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/swatch': 0.2.2
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1230,7 +1233,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1242,7 +1245,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/switch': 0.10.0
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1253,7 +1256,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1265,7 +1268,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/table': 0.1.4
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1276,7 +1279,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1288,7 +1291,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/tabs': 0.9.2
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1299,7 +1302,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1311,7 +1314,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/tags': 0.9.6
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1322,7 +1325,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1334,7 +1337,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/textfield': 0.13.6
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1345,7 +1348,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1357,7 +1360,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/theme': 0.14.6
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1368,7 +1371,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1380,7 +1383,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/thumbnail': 0.6.1
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1391,7 +1394,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1403,7 +1406,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/toast': 0.11.6
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1414,7 +1417,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1426,7 +1429,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/tooltip': 0.11.7
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1437,7 +1440,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1449,7 +1452,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/top-nav': 0.6.6
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1460,7 +1463,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1472,7 +1475,7 @@ importers:
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/tray': 0.4.5
       '@types/react': ^18.0.17
-      next: ^12.3.1
+      next: ^13.0.4
       rollup: ^2.78.1
       rollup-plugin-delete: ^2.0.0
       rollup-plugin-dts: ^4.2.2
@@ -1483,7 +1486,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
-      next: 12.3.1
+      next: 13.0.4
       rollup: 2.78.1
       rollup-plugin-delete: 2.0.0
       rollup-plugin-dts: 4.2.2_rusrl3yqfuqle4tcyjzane2tmq
@@ -1557,12 +1560,12 @@ packages:
   /@lit/reactive-element/1.4.2:
     resolution: {integrity: sha512-VMOxsWh/QDwrxPsgkSQnuZ+8mfNy1OTjzzUdLBvvZtpahwPTHTeVZ51RZRqO4xfKVrR+btIPA8D01IL3xeG66w==}
 
-  /@next/env/12.3.1:
-    resolution: {integrity: sha512-9P9THmRFVKGKt9DYqeC2aKIxm8rlvkK38V1P1sRE7qyoPBIs8l9oo79QoSdPtOWfzkbDAVUqvbQGgTMsb8BtJg==}
+  /@next/env/13.0.4:
+    resolution: {integrity: sha512-N5Z3bdxBzoxrC5bwykDFITzdWuwDteOdZ+7nxixY+I1XpRX8/iQYbw2wuXMdqdfBGm2NNUpAqg8YF2e4oAC2UQ==}
     dev: true
 
-  /@next/swc-android-arm-eabi/12.3.1:
-    resolution: {integrity: sha512-i+BvKA8tB//srVPPQxIQN5lvfROcfv4OB23/L1nXznP+N/TyKL8lql3l7oo2LNhnH66zWhfoemg3Q4VJZSruzQ==}
+  /@next/swc-android-arm-eabi/13.0.4:
+    resolution: {integrity: sha512-SD9H+/zuV3L0oHIhsDdFkDqFtg6pIHtqRUPlsrNdOsmWXgMlSzxBmwt2ta4kyrazS62BQu7XRUG++ZyODS7AWg==}
     engines: {node: '>= 10'}
     cpu: [arm]
     os: [android]
@@ -1570,8 +1573,8 @@ packages:
     dev: true
     optional: true
 
-  /@next/swc-android-arm64/12.3.1:
-    resolution: {integrity: sha512-CmgU2ZNyBP0rkugOOqLnjl3+eRpXBzB/I2sjwcGZ7/Z6RcUJXK5Evz+N0ucOxqE4cZ3gkTeXtSzRrMK2mGYV8Q==}
+  /@next/swc-android-arm64/13.0.4:
+    resolution: {integrity: sha512-F8W5WcBbdn/zBoy32/mQiefs9DNsT12CTSSVCsO8GvQR7GjJU+uduQ4drKcSDoDLuAFULc2jDN06Circq4vuQg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [android]
@@ -1579,8 +1582,8 @@ packages:
     dev: true
     optional: true
 
-  /@next/swc-darwin-arm64/12.3.1:
-    resolution: {integrity: sha512-hT/EBGNcu0ITiuWDYU9ur57Oa4LybD5DOQp4f22T6zLfpoBMfBibPtR8XktXmOyFHrL/6FC2p9ojdLZhWhvBHg==}
+  /@next/swc-darwin-arm64/13.0.4:
+    resolution: {integrity: sha512-/lajev+9GSie+rRTl5z8skW9RJwZ+TwMKLzzM24TbDk8lUjqPTyJZ/cU0NDj8J7VQAZ6EehACSh9rcJeBRtLuA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
@@ -1588,8 +1591,8 @@ packages:
     dev: true
     optional: true
 
-  /@next/swc-darwin-x64/12.3.1:
-    resolution: {integrity: sha512-9S6EVueCVCyGf2vuiLiGEHZCJcPAxglyckTZcEwLdJwozLqN0gtS0Eq0bQlGS3dH49Py/rQYpZ3KVWZ9BUf/WA==}
+  /@next/swc-darwin-x64/13.0.4:
+    resolution: {integrity: sha512-HK4b2rFiju8d40GTL/jH9U6OQ7BYA2MeEHs7Dm7Rp7kwQtLzP3z6osdQS8er20tIFHDE4b+oVBy03ZUQkHf0Pg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
@@ -1597,8 +1600,8 @@ packages:
     dev: true
     optional: true
 
-  /@next/swc-freebsd-x64/12.3.1:
-    resolution: {integrity: sha512-qcuUQkaBZWqzM0F1N4AkAh88lLzzpfE6ImOcI1P6YeyJSsBmpBIV8o70zV+Wxpc26yV9vpzb+e5gCyxNjKJg5Q==}
+  /@next/swc-freebsd-x64/13.0.4:
+    resolution: {integrity: sha512-xBvIGLaGzZtgJfRRJ2DBN82DQCJ/O7jkXyBp8X/vHefPWyVXVqF6C68Rv8ADp11thPpf8WpjkvDDLb9AuWHQUA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [freebsd]
@@ -1606,8 +1609,8 @@ packages:
     dev: true
     optional: true
 
-  /@next/swc-linux-arm-gnueabihf/12.3.1:
-    resolution: {integrity: sha512-diL9MSYrEI5nY2wc/h/DBewEDUzr/DqBjIgHJ3RUNtETAOB3spMNHvJk2XKUDjnQuluLmFMloet9tpEqU2TT9w==}
+  /@next/swc-linux-arm-gnueabihf/13.0.4:
+    resolution: {integrity: sha512-s13pxNp9deKmmxEGTp1MoL1e4nf4wbEymEaHgFxUlhoR1OD9tK8oTNrQphQePJgVjzcWmRGH/dX7O9mVkHbU/g==}
     engines: {node: '>= 10'}
     cpu: [arm]
     os: [linux]
@@ -1615,8 +1618,8 @@ packages:
     dev: true
     optional: true
 
-  /@next/swc-linux-arm64-gnu/12.3.1:
-    resolution: {integrity: sha512-o/xB2nztoaC7jnXU3Q36vGgOolJpsGG8ETNjxM1VAPxRwM7FyGCPHOMk1XavG88QZSQf+1r+POBW0tLxQOJ9DQ==}
+  /@next/swc-linux-arm64-gnu/13.0.4:
+    resolution: {integrity: sha512-Lklo65usNzoYwjX51CpDKOepWVZBdwO49/Jz3djxiYUr2lRtpDVnlfwCvzN+47j3BMVMWtC2ndIi8Q4s3J0v4g==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -1624,8 +1627,8 @@ packages:
     dev: true
     optional: true
 
-  /@next/swc-linux-arm64-musl/12.3.1:
-    resolution: {integrity: sha512-2WEasRxJzgAmP43glFNhADpe8zB7kJofhEAVNbDJZANp+H4+wq+/cW1CdDi8DqjkShPEA6/ejJw+xnEyDID2jg==}
+  /@next/swc-linux-arm64-musl/13.0.4:
+    resolution: {integrity: sha512-+3BXtXBwjVhd5lahDe5nKZ7EwD6hE/oLFQkITCvgxymU5qYHGlLFyF52/lyw8qhyxoCr7mMVsUFhlCzVwCfNjg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -1633,8 +1636,8 @@ packages:
     dev: true
     optional: true
 
-  /@next/swc-linux-x64-gnu/12.3.1:
-    resolution: {integrity: sha512-JWEaMyvNrXuM3dyy9Pp5cFPuSSvG82+yABqsWugjWlvfmnlnx9HOQZY23bFq3cNghy5V/t0iPb6cffzRWylgsA==}
+  /@next/swc-linux-x64-gnu/13.0.4:
+    resolution: {integrity: sha512-QB8qoZrvHhZsz62nUrTKlp5IiZ8I7KZsaa6437H/W/NOZHLGJjCxROnhUjLvKVe/T5P86pjya2SUOUqWAjz4Pg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -1642,8 +1645,8 @@ packages:
     dev: true
     optional: true
 
-  /@next/swc-linux-x64-musl/12.3.1:
-    resolution: {integrity: sha512-xoEWQQ71waWc4BZcOjmatuvPUXKTv6MbIFzpm4LFeCHsg2iwai0ILmNXf81rJR+L1Wb9ifEke2sQpZSPNz1Iyg==}
+  /@next/swc-linux-x64-musl/13.0.4:
+    resolution: {integrity: sha512-WaahF6DYUQRg1QqIMcuOu2ZsFhS3aC5iWeQyeptMHklP9wb4FfTNmBArKHknX/GXD8P9gI38WTAHJ25cc0zVwg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -1651,8 +1654,8 @@ packages:
     dev: true
     optional: true
 
-  /@next/swc-win32-arm64-msvc/12.3.1:
-    resolution: {integrity: sha512-hswVFYQYIeGHE2JYaBVtvqmBQ1CppplQbZJS/JgrVI3x2CurNhEkmds/yqvDONfwfbttTtH4+q9Dzf/WVl3Opw==}
+  /@next/swc-win32-arm64-msvc/13.0.4:
+    resolution: {integrity: sha512-FD+k1j2jeY0aKcqcpzFKfTsv55PPmIZ5GKDyPjjV5AO6XvQ4nALwWl4JwizjH2426TfLXObb+C3MH0bl9Ok1Kw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
@@ -1660,8 +1663,8 @@ packages:
     dev: true
     optional: true
 
-  /@next/swc-win32-ia32-msvc/12.3.1:
-    resolution: {integrity: sha512-Kny5JBehkTbKPmqulr5i+iKntO5YMP+bVM8Hf8UAmjSMVo3wehyLVc9IZkNmcbxi+vwETnQvJaT5ynYBkJ9dWA==}
+  /@next/swc-win32-ia32-msvc/13.0.4:
+    resolution: {integrity: sha512-+Q/Q8Ydvz3X3U84CyZdNv1HC7fE43k+xB8C6b3IFmWGa5Tu2tfskQ2FsUNBrYreZjhFC/894J3rVQ6Vj6Auugg==}
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
@@ -1669,8 +1672,8 @@ packages:
     dev: true
     optional: true
 
-  /@next/swc-win32-x64-msvc/12.3.1:
-    resolution: {integrity: sha512-W1ijvzzg+kPEX6LAc+50EYYSEo0FVu7dmTE+t+DM4iOLqgGHoW9uYSz9wCVdkXOEEMP9xhXfGpcSxsfDucyPkA==}
+  /@next/swc-win32-x64-msvc/13.0.4:
+    resolution: {integrity: sha512-vXtbo9N1FdtZZRcv4BliU28tTYrkb1EnVpUiiFFe88I6kS9aZVTMY9Z/OtDR52rl1JF1hgs9sL/59D/TQqSATQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -2273,7 +2276,7 @@ packages:
   /@swc/helpers/0.4.11:
     resolution: {integrity: sha512-rEUrBSGIoSFuYxwBYtlUFMlE2CwGhmW+w9355/5oduSw8e5h2+Tj4UrAGNNgP9915++wj5vkQo0UuOBqOAq4nw==}
     dependencies:
-      tslib: 2.4.0
+      tslib: 2.4.1
     dev: true
 
   /@types/estree/0.0.39:
@@ -2359,8 +2362,8 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /caniuse-lite/1.0.30001419:
-    resolution: {integrity: sha512-aFO1r+g6R7TW+PNQxKzjITwLOyDhVRLjW0LcwS/HCZGUUKTGNp9+IwLC4xyDSZBygVL/mxaFR3HIV6wEKQuSzw==}
+  /caniuse-lite/1.0.30001431:
+    resolution: {integrity: sha512-zBUoFU0ZcxpvSt9IU66dXVT/3ctO1cy4y9cscs1szkPlcWb6pasYM144GqrUygUbT+k7cmUCW61cvskjcv0enQ==}
     dev: true
 
   /chalk/2.4.2:
@@ -2376,6 +2379,10 @@ packages:
   /clean-stack/2.2.0:
     resolution: {integrity: sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==}
     engines: {node: '>=6'}
+    dev: true
+
+  /client-only/0.0.1:
+    resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
     dev: true
 
   /color-convert/1.9.3:
@@ -2601,8 +2608,6 @@ packages:
 
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-    dev: true
-    optional: true
 
   /jsonfile/6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
@@ -2629,6 +2634,13 @@ packages:
       '@lit/reactive-element': 1.4.2
       lit-element: 3.2.2
       lit-html: 2.4.0
+
+  /loose-envify/1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
+    hasBin: true
+    dependencies:
+      js-tokens: 4.0.0
+    dev: false
 
   /magic-string/0.26.2:
     resolution: {integrity: sha512-NzzlXpclt5zAbmo6h6jNc8zl2gNRGHvmsZW4IvZhTC4W7k4OlLP+S5YLussa/r3ixNT66KOQfNORlXHSOy/X4A==}
@@ -2669,15 +2681,15 @@ packages:
     hasBin: true
     dev: true
 
-  /next/12.3.1:
-    resolution: {integrity: sha512-l7bvmSeIwX5lp07WtIiP9u2ytZMv7jIeB8iacR28PuUEFG5j0HGAPnMqyG5kbZNBG2H7tRsrQ4HCjuMOPnANZw==}
-    engines: {node: '>=12.22.0'}
+  /next/13.0.4:
+    resolution: {integrity: sha512-4P0MvbjPCI1E/UPL1GrTXtYlgFnbBbY3JQ+AMY8jYE2SwyvCWctEJySoRjveznAHjrl6TIjuAJeB8u1c2StYUQ==}
+    engines: {node: '>=14.6.0'}
     hasBin: true
     peerDependencies:
       fibers: '>= 3.1.0'
       node-sass: ^6.0.0 || ^7.0.0
-      react: ^17.0.2 || ^18.0.0-0
-      react-dom: ^17.0.2 || ^18.0.0-0
+      react: ^18.2.0
+      react-dom: ^18.2.0
       sass: ^1.3.0
     peerDependenciesMeta:
       fibers:
@@ -2687,26 +2699,26 @@ packages:
       sass:
         optional: true
     dependencies:
-      '@next/env': 12.3.1
+      '@next/env': 13.0.4
       '@swc/helpers': 0.4.11
-      caniuse-lite: 1.0.30001419
+      caniuse-lite: 1.0.30001431
       postcss: 8.4.14
-      styled-jsx: 5.0.7
+      styled-jsx: 5.1.0
       use-sync-external-store: 1.2.0
     optionalDependencies:
-      '@next/swc-android-arm-eabi': 12.3.1
-      '@next/swc-android-arm64': 12.3.1
-      '@next/swc-darwin-arm64': 12.3.1
-      '@next/swc-darwin-x64': 12.3.1
-      '@next/swc-freebsd-x64': 12.3.1
-      '@next/swc-linux-arm-gnueabihf': 12.3.1
-      '@next/swc-linux-arm64-gnu': 12.3.1
-      '@next/swc-linux-arm64-musl': 12.3.1
-      '@next/swc-linux-x64-gnu': 12.3.1
-      '@next/swc-linux-x64-musl': 12.3.1
-      '@next/swc-win32-arm64-msvc': 12.3.1
-      '@next/swc-win32-ia32-msvc': 12.3.1
-      '@next/swc-win32-x64-msvc': 12.3.1
+      '@next/swc-android-arm-eabi': 13.0.4
+      '@next/swc-android-arm64': 13.0.4
+      '@next/swc-darwin-arm64': 13.0.4
+      '@next/swc-darwin-x64': 13.0.4
+      '@next/swc-freebsd-x64': 13.0.4
+      '@next/swc-linux-arm-gnueabihf': 13.0.4
+      '@next/swc-linux-arm64-gnu': 13.0.4
+      '@next/swc-linux-arm64-musl': 13.0.4
+      '@next/swc-linux-x64-gnu': 13.0.4
+      '@next/swc-linux-x64-musl': 13.0.4
+      '@next/swc-win32-arm64-msvc': 13.0.4
+      '@next/swc-win32-ia32-msvc': 13.0.4
+      '@next/swc-win32-x64-msvc': 13.0.4
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
@@ -2766,6 +2778,13 @@ packages:
   /queue-microtask/1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
+
+  /react/18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: false
 
   /regenerator-runtime/0.13.11:
     resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
@@ -2840,8 +2859,8 @@ packages:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
     dev: true
 
-  /styled-jsx/5.0.7:
-    resolution: {integrity: sha512-b3sUzamS086YLRuvnaDigdAewz1/EFYlHpYBP5mZovKEdQQOIIYq8lApylub3HHZ6xFjV051kkGU7cudJmrXEA==}
+  /styled-jsx/5.1.0:
+    resolution: {integrity: sha512-/iHaRJt9U7T+5tp6TRelLnqBqiaIT0HsO0+vgyj8hK2KUk7aejFqRrumqPUlAqDwAj8IbS/1hk3IhBAAK/FCUQ==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
       '@babel/core': '*'
@@ -2852,6 +2871,8 @@ packages:
         optional: true
       babel-plugin-macros:
         optional: true
+    dependencies:
+      client-only: 0.0.1
     dev: true
 
   /supports-color/5.5.0:
@@ -2872,10 +2893,6 @@ packages:
     engines: {node: '>=8.0'}
     dependencies:
       is-number: 7.0.0
-    dev: true
-
-  /tslib/2.4.0:
-    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: true
 
   /tslib/2.4.1:

@@ -1,6 +1,6 @@
 {
   "name": "swc-nextjs-monorepo",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "",
   "module": "dist/index.js",
   "type": "module",
@@ -89,5 +89,8 @@
     "fs-extra": "^10.1.0",
     "glob": "^8.0.3",
     "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
   }
 }

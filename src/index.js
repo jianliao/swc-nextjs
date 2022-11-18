@@ -211,14 +211,15 @@ async function run(component) {
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.4.0",
     "@types/react": "^18.0.17",
-    "next": "^12.3.1",
+    "next": "^13.0.4",
     "rollup": "^2.78.1",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-dts": "^4.2.2",
     "typescript": "^4.8.2"
   },
   "peerDependencies": {
-    "next": "^12.3.1"
+    "next": "^12.0.0 || ^13.0.0",
+    "react": "^17.0.0 || ^18.0.0"
   },
   "dependencies": {
     "@lit-labs/react": "${reactWrapperVersion}",
