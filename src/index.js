@@ -197,6 +197,7 @@ async function run(component) {
   "version": "${wrapperComponentVersion}",
   "description": "React wrapper of the ${component} component for the Next.js static site generator",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "build": "rm -fr dist && rollup -c",
     "clean": "rm -fr dist"

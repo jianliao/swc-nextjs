@@ -1,8 +1,9 @@
 {
   "name": "@swc-nextjs/search",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "React wrapper of the @spectrum-web-components/search component for the Next.js static site generator",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "build": "rm -fr dist && rollup -c",
     "clean": "rm -fr dist"
