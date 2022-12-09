@@ -1,6 +1,6 @@
 {
   "name": "@swc-nextjs/action-button",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "React wrapper of the @spectrum-web-components/action-button component for the Next.js static site generator",
   "main": "dist/index.js",
   "type": "module",
@@ -28,7 +28,7 @@
     "react": "^17.0.0 || ^18.0.0"
   },
   "dependencies": {
-    "@lit-labs/react": "1.1.0",
-    "@spectrum-web-components/action-button": "0.10.6"
+    "@lit-labs/react": "1.1.1",
+    "@spectrum-web-components/action-button": "0.10.8"
   }
 }

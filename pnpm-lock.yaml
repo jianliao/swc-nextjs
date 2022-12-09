@@ -4,142 +4,142 @@ importers:
 
   .:
     specifiers:
-      '@lit-labs/react': ^1.1.0
-      '@spectrum-web-components/accordion': ^0.7.4
-      '@spectrum-web-components/action-bar': ^0.5.7
-      '@spectrum-web-components/action-button': ^0.10.6
+      '@lit-labs/react': ^1.1.1
+      '@spectrum-web-components/accordion': ^0.7.6
+      '@spectrum-web-components/action-bar': ^0.5.9
+      '@spectrum-web-components/action-button': ^0.10.8
       '@spectrum-web-components/action-group': ^0.11.3
-      '@spectrum-web-components/action-menu': ^0.15.7
-      '@spectrum-web-components/asset': ^0.7.1
-      '@spectrum-web-components/avatar': ^0.10.1
+      '@spectrum-web-components/action-menu': ^0.15.9
+      '@spectrum-web-components/asset': ^0.7.3
+      '@spectrum-web-components/avatar': ^0.10.3
       '@spectrum-web-components/badge': ^0.3.1
-      '@spectrum-web-components/banner': ^0.9.1
-      '@spectrum-web-components/button': ^0.19.6
+      '@spectrum-web-components/banner': ^0.9.2
+      '@spectrum-web-components/button': ^0.19.8
       '@spectrum-web-components/button-group': ^0.9.0
       '@spectrum-web-components/card': ^0.12.3
-      '@spectrum-web-components/checkbox': ^0.14.4
-      '@spectrum-web-components/coachmark': ^0.10.1
-      '@spectrum-web-components/color-area': ^0.5.3
-      '@spectrum-web-components/color-handle': ^0.4.2
-      '@spectrum-web-components/color-loupe': ^0.4.1
-      '@spectrum-web-components/color-slider': ^0.4.4
-      '@spectrum-web-components/color-wheel': ^0.4.4
-      '@spectrum-web-components/dialog': ^0.11.6
+      '@spectrum-web-components/checkbox': ^0.14.6
+      '@spectrum-web-components/coachmark': ^0.10.3
+      '@spectrum-web-components/color-area': ^0.5.5
+      '@spectrum-web-components/color-handle': ^0.4.4
+      '@spectrum-web-components/color-loupe': ^0.4.3
+      '@spectrum-web-components/color-slider': ^0.4.6
+      '@spectrum-web-components/color-wheel': ^0.4.6
+      '@spectrum-web-components/dialog': ^0.11.8
       '@spectrum-web-components/divider': ^0.5.1
-      '@spectrum-web-components/dropzone': ^0.10.1
-      '@spectrum-web-components/field-group': ^0.7.4
+      '@spectrum-web-components/dropzone': ^0.10.3
+      '@spectrum-web-components/field-group': ^0.7.5
       '@spectrum-web-components/field-label': ^0.8.0
-      '@spectrum-web-components/help-text': ^0.2.5
-      '@spectrum-web-components/icon': ^0.12.3
-      '@spectrum-web-components/icons': ^0.9.3
-      '@spectrum-web-components/icons-ui': ^0.9.3
-      '@spectrum-web-components/icons-workflow': ^0.9.3
-      '@spectrum-web-components/illustrated-message': ^0.9.6
+      '@spectrum-web-components/help-text': ^0.2.7
+      '@spectrum-web-components/icon': ^0.12.5
+      '@spectrum-web-components/icons': ^0.9.4
+      '@spectrum-web-components/icons-ui': ^0.9.5
+      '@spectrum-web-components/icons-workflow': ^0.9.5
+      '@spectrum-web-components/illustrated-message': ^0.9.8
       '@spectrum-web-components/link': ^0.13.2
-      '@spectrum-web-components/menu': ^0.16.7
-      '@spectrum-web-components/meter': ^0.7.4
-      '@spectrum-web-components/number-field': ^0.5.6
-      '@spectrum-web-components/overlay': ^0.18.7
-      '@spectrum-web-components/picker': ^0.13.7
-      '@spectrum-web-components/popover': ^0.12.7
+      '@spectrum-web-components/menu': ^0.16.9
+      '@spectrum-web-components/meter': ^0.7.6
+      '@spectrum-web-components/number-field': ^0.5.8
+      '@spectrum-web-components/overlay': ^0.18.9
+      '@spectrum-web-components/picker': ^0.13.9
+      '@spectrum-web-components/popover': ^0.12.9
       '@spectrum-web-components/progress-bar': ^0.7.0
       '@spectrum-web-components/progress-circle': ^0.6.0
-      '@spectrum-web-components/quick-actions': ^0.7.1
-      '@spectrum-web-components/radio': ^0.11.5
-      '@spectrum-web-components/search': ^0.12.6
-      '@spectrum-web-components/sidenav': ^0.13.4
+      '@spectrum-web-components/quick-actions': ^0.7.3
+      '@spectrum-web-components/radio': ^0.11.7
+      '@spectrum-web-components/search': ^0.12.8
+      '@spectrum-web-components/sidenav': ^0.13.6
       '@spectrum-web-components/slider': ^0.14.4
-      '@spectrum-web-components/split-button': ^0.9.7
-      '@spectrum-web-components/split-view': ^0.5.2
-      '@spectrum-web-components/status-light': ^0.11.2
+      '@spectrum-web-components/split-button': ^0.9.9
+      '@spectrum-web-components/split-view': ^0.5.4
+      '@spectrum-web-components/status-light': ^0.11.4
       '@spectrum-web-components/swatch': ^0.2.2
       '@spectrum-web-components/switch': ^0.10.0
-      '@spectrum-web-components/table': ^0.1.4
+      '@spectrum-web-components/table': ^0.1.6
       '@spectrum-web-components/tabs': ^0.9.2
-      '@spectrum-web-components/tags': ^0.9.6
-      '@spectrum-web-components/textfield': ^0.13.6
-      '@spectrum-web-components/theme': ^0.14.6
-      '@spectrum-web-components/thumbnail': ^0.6.1
-      '@spectrum-web-components/toast': ^0.11.6
-      '@spectrum-web-components/tooltip': ^0.11.7
-      '@spectrum-web-components/top-nav': ^0.6.6
-      '@spectrum-web-components/tray': ^0.4.5
+      '@spectrum-web-components/tags': ^0.9.7
+      '@spectrum-web-components/textfield': ^0.13.8
+      '@spectrum-web-components/theme': ^0.14.8
+      '@spectrum-web-components/thumbnail': ^0.6.3
+      '@spectrum-web-components/toast': ^0.11.8
+      '@spectrum-web-components/tooltip': ^0.11.9
+      '@spectrum-web-components/top-nav': ^0.6.8
+      '@spectrum-web-components/tray': ^0.4.7
       fs-extra: ^10.1.0
       glob: ^8.0.3
-      prettier: ^2.7.1
+      prettier: ^2.8.1
       react: ^18.2.0
     dependencies:
       react: 18.2.0
     devDependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/accordion': 0.7.4
-      '@spectrum-web-components/action-bar': 0.5.7
-      '@spectrum-web-components/action-button': 0.10.6
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/accordion': 0.7.6
+      '@spectrum-web-components/action-bar': 0.5.9
+      '@spectrum-web-components/action-button': 0.10.8
       '@spectrum-web-components/action-group': 0.11.3
-      '@spectrum-web-components/action-menu': 0.15.7
-      '@spectrum-web-components/asset': 0.7.1
-      '@spectrum-web-components/avatar': 0.10.1
+      '@spectrum-web-components/action-menu': 0.15.9
+      '@spectrum-web-components/asset': 0.7.3
+      '@spectrum-web-components/avatar': 0.10.3
       '@spectrum-web-components/badge': 0.3.1
-      '@spectrum-web-components/banner': 0.9.1
-      '@spectrum-web-components/button': 0.19.6
+      '@spectrum-web-components/banner': 0.9.2
+      '@spectrum-web-components/button': 0.19.8
       '@spectrum-web-components/button-group': 0.9.0
       '@spectrum-web-components/card': 0.12.3
-      '@spectrum-web-components/checkbox': 0.14.4
-      '@spectrum-web-components/coachmark': 0.10.1
-      '@spectrum-web-components/color-area': 0.5.3
-      '@spectrum-web-components/color-handle': 0.4.2
-      '@spectrum-web-components/color-loupe': 0.4.1
-      '@spectrum-web-components/color-slider': 0.4.4
-      '@spectrum-web-components/color-wheel': 0.4.4
-      '@spectrum-web-components/dialog': 0.11.6
+      '@spectrum-web-components/checkbox': 0.14.6
+      '@spectrum-web-components/coachmark': 0.10.3
+      '@spectrum-web-components/color-area': 0.5.5
+      '@spectrum-web-components/color-handle': 0.4.4
+      '@spectrum-web-components/color-loupe': 0.4.3
+      '@spectrum-web-components/color-slider': 0.4.6
+      '@spectrum-web-components/color-wheel': 0.4.6
+      '@spectrum-web-components/dialog': 0.11.8
       '@spectrum-web-components/divider': 0.5.1
-      '@spectrum-web-components/dropzone': 0.10.1
-      '@spectrum-web-components/field-group': 0.7.4
+      '@spectrum-web-components/dropzone': 0.10.3
+      '@spectrum-web-components/field-group': 0.7.5
       '@spectrum-web-components/field-label': 0.8.0
-      '@spectrum-web-components/help-text': 0.2.5
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons': 0.9.3
-      '@spectrum-web-components/icons-ui': 0.9.3
-      '@spectrum-web-components/icons-workflow': 0.9.3
-      '@spectrum-web-components/illustrated-message': 0.9.6
+      '@spectrum-web-components/help-text': 0.2.7
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons': 0.9.4
+      '@spectrum-web-components/icons-ui': 0.9.5
+      '@spectrum-web-components/icons-workflow': 0.9.5
+      '@spectrum-web-components/illustrated-message': 0.9.8
       '@spectrum-web-components/link': 0.13.2
-      '@spectrum-web-components/menu': 0.16.7
-      '@spectrum-web-components/meter': 0.7.4
-      '@spectrum-web-components/number-field': 0.5.6
-      '@spectrum-web-components/overlay': 0.18.7
-      '@spectrum-web-components/picker': 0.13.7
-      '@spectrum-web-components/popover': 0.12.7
+      '@spectrum-web-components/menu': 0.16.9
+      '@spectrum-web-components/meter': 0.7.6
+      '@spectrum-web-components/number-field': 0.5.8
+      '@spectrum-web-components/overlay': 0.18.9
+      '@spectrum-web-components/picker': 0.13.9
+      '@spectrum-web-components/popover': 0.12.9
       '@spectrum-web-components/progress-bar': 0.7.0
       '@spectrum-web-components/progress-circle': 0.6.0
-      '@spectrum-web-components/quick-actions': 0.7.1
-      '@spectrum-web-components/radio': 0.11.5
-      '@spectrum-web-components/search': 0.12.6
-      '@spectrum-web-components/sidenav': 0.13.4
+      '@spectrum-web-components/quick-actions': 0.7.3
+      '@spectrum-web-components/radio': 0.11.7
+      '@spectrum-web-components/search': 0.12.8
+      '@spectrum-web-components/sidenav': 0.13.6
       '@spectrum-web-components/slider': 0.14.4
-      '@spectrum-web-components/split-button': 0.9.7
-      '@spectrum-web-components/split-view': 0.5.2
-      '@spectrum-web-components/status-light': 0.11.2
+      '@spectrum-web-components/split-button': 0.9.9
+      '@spectrum-web-components/split-view': 0.5.4
+      '@spectrum-web-components/status-light': 0.11.4
       '@spectrum-web-components/swatch': 0.2.2
       '@spectrum-web-components/switch': 0.10.0
-      '@spectrum-web-components/table': 0.1.4
+      '@spectrum-web-components/table': 0.1.6
       '@spectrum-web-components/tabs': 0.9.2
-      '@spectrum-web-components/tags': 0.9.6
-      '@spectrum-web-components/textfield': 0.13.6
-      '@spectrum-web-components/theme': 0.14.6
-      '@spectrum-web-components/thumbnail': 0.6.1
-      '@spectrum-web-components/toast': 0.11.6
-      '@spectrum-web-components/tooltip': 0.11.7
-      '@spectrum-web-components/top-nav': 0.6.6
-      '@spectrum-web-components/tray': 0.4.5
+      '@spectrum-web-components/tags': 0.9.7
+      '@spectrum-web-components/textfield': 0.13.8
+      '@spectrum-web-components/theme': 0.14.8
+      '@spectrum-web-components/thumbnail': 0.6.3
+      '@spectrum-web-components/toast': 0.11.8
+      '@spectrum-web-components/tooltip': 0.11.9
+      '@spectrum-web-components/top-nav': 0.6.8
+      '@spectrum-web-components/tray': 0.4.7
       fs-extra: 10.1.0
       glob: 8.0.3
-      prettier: 2.7.1
+      prettier: 2.8.1
 
   components/accordion:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/accordion': 0.7.4
+      '@spectrum-web-components/accordion': 0.7.6
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -147,8 +147,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/accordion': 0.7.4
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/accordion': 0.7.6
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -160,9 +160,9 @@ importers:
 
   components/action-bar:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/action-bar': 0.5.7
+      '@spectrum-web-components/action-bar': 0.5.9
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -170,8 +170,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/action-bar': 0.5.7
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/action-bar': 0.5.9
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -183,9 +183,9 @@ importers:
 
   components/action-button:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/action-button': 0.10.6
+      '@spectrum-web-components/action-button': 0.10.8
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -193,8 +193,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/action-button': 0.10.6
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/action-button': 0.10.8
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -206,7 +206,7 @@ importers:
 
   components/action-group:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/action-group': 0.11.3
       '@types/react': ^18.0.17
@@ -216,7 +216,7 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@spectrum-web-components/action-group': 0.11.3
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
@@ -229,9 +229,9 @@ importers:
 
   components/action-menu:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/action-menu': 0.15.7
+      '@spectrum-web-components/action-menu': 0.15.9
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -239,8 +239,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/action-menu': 0.15.7
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/action-menu': 0.15.9
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -252,9 +252,9 @@ importers:
 
   components/asset:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/asset': 0.7.1
+      '@spectrum-web-components/asset': 0.7.3
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -262,8 +262,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/asset': 0.7.1
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/asset': 0.7.3
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -275,9 +275,9 @@ importers:
 
   components/avatar:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/avatar': 0.10.1
+      '@spectrum-web-components/avatar': 0.10.3
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -285,8 +285,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/avatar': 0.10.1
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/avatar': 0.10.3
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -298,7 +298,7 @@ importers:
 
   components/badge:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/badge': 0.3.1
       '@types/react': ^18.0.17
@@ -308,7 +308,7 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@spectrum-web-components/badge': 0.3.1
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
@@ -321,9 +321,9 @@ importers:
 
   components/banner:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/banner': 0.9.1
+      '@spectrum-web-components/banner': 0.9.2
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -331,8 +331,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/banner': 0.9.1
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/banner': 0.9.2
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -344,9 +344,9 @@ importers:
 
   components/button:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/button': 0.19.6
+      '@spectrum-web-components/button': 0.19.8
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -354,8 +354,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/button': 0.19.6
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/button': 0.19.8
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -367,7 +367,7 @@ importers:
 
   components/button-group:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/button-group': 0.9.0
       '@types/react': ^18.0.17
@@ -377,7 +377,7 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@spectrum-web-components/button-group': 0.9.0
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
@@ -390,7 +390,7 @@ importers:
 
   components/card:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/card': 0.12.3
       '@types/react': ^18.0.17
@@ -400,7 +400,7 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@spectrum-web-components/card': 0.12.3
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
@@ -413,9 +413,9 @@ importers:
 
   components/checkbox:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/checkbox': 0.14.4
+      '@spectrum-web-components/checkbox': 0.14.6
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -423,8 +423,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/checkbox': 0.14.4
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/checkbox': 0.14.6
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -436,9 +436,9 @@ importers:
 
   components/coachmark:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/coachmark': 0.10.1
+      '@spectrum-web-components/coachmark': 0.10.3
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -446,8 +446,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/coachmark': 0.10.1
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/coachmark': 0.10.3
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -459,9 +459,9 @@ importers:
 
   components/color-area:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/color-area': 0.5.3
+      '@spectrum-web-components/color-area': 0.5.5
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -469,8 +469,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/color-area': 0.5.3
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/color-area': 0.5.5
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -482,9 +482,9 @@ importers:
 
   components/color-handle:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/color-handle': 0.4.2
+      '@spectrum-web-components/color-handle': 0.4.4
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -492,8 +492,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/color-handle': 0.4.2
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/color-handle': 0.4.4
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -505,9 +505,9 @@ importers:
 
   components/color-loupe:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/color-loupe': 0.4.1
+      '@spectrum-web-components/color-loupe': 0.4.3
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -515,8 +515,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/color-loupe': 0.4.1
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/color-loupe': 0.4.3
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -528,9 +528,9 @@ importers:
 
   components/color-slider:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/color-slider': 0.4.4
+      '@spectrum-web-components/color-slider': 0.4.6
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -538,8 +538,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/color-slider': 0.4.4
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/color-slider': 0.4.6
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -551,9 +551,9 @@ importers:
 
   components/color-wheel:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/color-wheel': 0.4.4
+      '@spectrum-web-components/color-wheel': 0.4.6
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -561,8 +561,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/color-wheel': 0.4.4
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/color-wheel': 0.4.6
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -574,9 +574,9 @@ importers:
 
   components/dialog:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/dialog': 0.11.6
+      '@spectrum-web-components/dialog': 0.11.8
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -584,8 +584,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/dialog': 0.11.6
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/dialog': 0.11.8
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -597,7 +597,7 @@ importers:
 
   components/divider:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/divider': 0.5.1
       '@types/react': ^18.0.17
@@ -607,7 +607,7 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@spectrum-web-components/divider': 0.5.1
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
@@ -620,9 +620,9 @@ importers:
 
   components/dropzone:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/dropzone': 0.10.1
+      '@spectrum-web-components/dropzone': 0.10.3
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -630,8 +630,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/dropzone': 0.10.1
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/dropzone': 0.10.3
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -643,9 +643,9 @@ importers:
 
   components/field-group:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/field-group': 0.7.4
+      '@spectrum-web-components/field-group': 0.7.5
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -653,8 +653,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/field-group': 0.7.4
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/field-group': 0.7.5
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -666,7 +666,7 @@ importers:
 
   components/field-label:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/field-label': 0.8.0
       '@types/react': ^18.0.17
@@ -676,7 +676,7 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@spectrum-web-components/field-label': 0.8.0
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
@@ -689,9 +689,9 @@ importers:
 
   components/help-text:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/help-text': 0.2.5
+      '@spectrum-web-components/help-text': 0.2.7
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -699,8 +699,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/help-text': 0.2.5
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/help-text': 0.2.7
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -712,9 +712,9 @@ importers:
 
   components/icon:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/icon': 0.12.3
+      '@spectrum-web-components/icon': 0.12.5
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -722,8 +722,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/icon': 0.12.3
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/icon': 0.12.5
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -735,9 +735,9 @@ importers:
 
   components/icons:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/icons': 0.9.3
+      '@spectrum-web-components/icons': 0.9.4
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -745,8 +745,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/icons': 0.9.3
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/icons': 0.9.4
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -758,9 +758,9 @@ importers:
 
   components/icons-ui:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/icons-ui': 0.9.3
+      '@spectrum-web-components/icons-ui': 0.9.5
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -768,8 +768,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/icons-ui': 0.9.3
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/icons-ui': 0.9.5
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -781,9 +781,9 @@ importers:
 
   components/icons-workflow:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/icons-workflow': 0.9.3
+      '@spectrum-web-components/icons-workflow': 0.9.5
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -791,8 +791,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/icons-workflow': 0.9.3
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/icons-workflow': 0.9.5
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -804,9 +804,9 @@ importers:
 
   components/illustrated-message:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/illustrated-message': 0.9.6
+      '@spectrum-web-components/illustrated-message': 0.9.8
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -814,8 +814,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/illustrated-message': 0.9.6
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/illustrated-message': 0.9.8
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -827,7 +827,7 @@ importers:
 
   components/link:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/link': 0.13.2
       '@types/react': ^18.0.17
@@ -837,7 +837,7 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@spectrum-web-components/link': 0.13.2
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
@@ -850,9 +850,9 @@ importers:
 
   components/menu:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/menu': 0.16.7
+      '@spectrum-web-components/menu': 0.16.9
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -860,8 +860,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/menu': 0.16.7
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/menu': 0.16.9
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -873,9 +873,9 @@ importers:
 
   components/meter:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/meter': 0.7.4
+      '@spectrum-web-components/meter': 0.7.6
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -883,8 +883,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/meter': 0.7.4
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/meter': 0.7.6
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -896,9 +896,9 @@ importers:
 
   components/number-field:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/number-field': 0.5.6
+      '@spectrum-web-components/number-field': 0.5.8
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -906,8 +906,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/number-field': 0.5.6
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/number-field': 0.5.8
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -919,9 +919,9 @@ importers:
 
   components/overlay:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/overlay': 0.18.7
+      '@spectrum-web-components/overlay': 0.18.9
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -929,8 +929,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/overlay': 0.18.7
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/overlay': 0.18.9
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -942,9 +942,9 @@ importers:
 
   components/picker:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/picker': 0.13.7
+      '@spectrum-web-components/picker': 0.13.9
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -952,8 +952,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/picker': 0.13.7
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/picker': 0.13.9
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -965,9 +965,9 @@ importers:
 
   components/popover:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/popover': 0.12.7
+      '@spectrum-web-components/popover': 0.12.9
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -975,8 +975,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/popover': 0.12.7
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/popover': 0.12.9
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -988,7 +988,7 @@ importers:
 
   components/progress-bar:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/progress-bar': 0.7.0
       '@types/react': ^18.0.17
@@ -998,7 +998,7 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@spectrum-web-components/progress-bar': 0.7.0
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
@@ -1011,7 +1011,7 @@ importers:
 
   components/progress-circle:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/progress-circle': 0.6.0
       '@types/react': ^18.0.17
@@ -1021,7 +1021,7 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@spectrum-web-components/progress-circle': 0.6.0
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
@@ -1034,9 +1034,9 @@ importers:
 
   components/quick-actions:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/quick-actions': 0.7.1
+      '@spectrum-web-components/quick-actions': 0.7.3
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1044,8 +1044,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/quick-actions': 0.7.1
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/quick-actions': 0.7.3
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1057,9 +1057,9 @@ importers:
 
   components/radio:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/radio': 0.11.5
+      '@spectrum-web-components/radio': 0.11.7
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1067,8 +1067,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/radio': 0.11.5
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/radio': 0.11.7
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1080,9 +1080,9 @@ importers:
 
   components/search:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/search': 0.12.6
+      '@spectrum-web-components/search': 0.12.8
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1090,8 +1090,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/search': 0.12.6
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/search': 0.12.8
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1103,9 +1103,9 @@ importers:
 
   components/sidenav:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/sidenav': 0.13.4
+      '@spectrum-web-components/sidenav': 0.13.6
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1113,8 +1113,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/sidenav': 0.13.4
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/sidenav': 0.13.6
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1126,7 +1126,7 @@ importers:
 
   components/slider:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/slider': 0.14.4
       '@types/react': ^18.0.17
@@ -1136,7 +1136,7 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@spectrum-web-components/slider': 0.14.4
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
@@ -1149,9 +1149,9 @@ importers:
 
   components/split-button:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/split-button': 0.9.7
+      '@spectrum-web-components/split-button': 0.9.9
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1159,8 +1159,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/split-button': 0.9.7
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/split-button': 0.9.9
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1172,9 +1172,9 @@ importers:
 
   components/split-view:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/split-view': 0.5.2
+      '@spectrum-web-components/split-view': 0.5.4
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1182,8 +1182,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/split-view': 0.5.2
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/split-view': 0.5.4
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1195,9 +1195,9 @@ importers:
 
   components/status-light:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/status-light': 0.11.2
+      '@spectrum-web-components/status-light': 0.11.4
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1205,8 +1205,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/status-light': 0.11.2
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/status-light': 0.11.4
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1218,7 +1218,7 @@ importers:
 
   components/swatch:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/swatch': 0.2.2
       '@types/react': ^18.0.17
@@ -1228,7 +1228,7 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@spectrum-web-components/swatch': 0.2.2
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
@@ -1241,7 +1241,7 @@ importers:
 
   components/switch:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/switch': 0.10.0
       '@types/react': ^18.0.17
@@ -1251,7 +1251,7 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@spectrum-web-components/switch': 0.10.0
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
@@ -1264,9 +1264,9 @@ importers:
 
   components/table:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/table': 0.1.4
+      '@spectrum-web-components/table': 0.1.6
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1274,8 +1274,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/table': 0.1.4
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/table': 0.1.6
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1287,7 +1287,7 @@ importers:
 
   components/tabs:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
       '@spectrum-web-components/tabs': 0.9.2
       '@types/react': ^18.0.17
@@ -1297,7 +1297,7 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@spectrum-web-components/tabs': 0.9.2
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
@@ -1310,9 +1310,9 @@ importers:
 
   components/tags:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/tags': 0.9.6
+      '@spectrum-web-components/tags': 0.9.7
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1320,8 +1320,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/tags': 0.9.6
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/tags': 0.9.7
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1333,9 +1333,9 @@ importers:
 
   components/textfield:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/textfield': 0.13.6
+      '@spectrum-web-components/textfield': 0.13.8
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1343,8 +1343,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/textfield': 0.13.6
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/textfield': 0.13.8
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1356,9 +1356,9 @@ importers:
 
   components/theme:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/theme': 0.14.6
+      '@spectrum-web-components/theme': 0.14.8
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1366,8 +1366,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/theme': 0.14.6
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/theme': 0.14.8
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1379,9 +1379,9 @@ importers:
 
   components/thumbnail:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/thumbnail': 0.6.1
+      '@spectrum-web-components/thumbnail': 0.6.3
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1389,8 +1389,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/thumbnail': 0.6.1
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/thumbnail': 0.6.3
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1402,9 +1402,9 @@ importers:
 
   components/toast:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/toast': 0.11.6
+      '@spectrum-web-components/toast': 0.11.8
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1412,8 +1412,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/toast': 0.11.6
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/toast': 0.11.8
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1425,9 +1425,9 @@ importers:
 
   components/tooltip:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/tooltip': 0.11.7
+      '@spectrum-web-components/tooltip': 0.11.9
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1435,8 +1435,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/tooltip': 0.11.7
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/tooltip': 0.11.9
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1448,9 +1448,9 @@ importers:
 
   components/top-nav:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/top-nav': 0.6.6
+      '@spectrum-web-components/top-nav': 0.6.8
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1458,8 +1458,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/top-nav': 0.6.6
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/top-nav': 0.6.8
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1471,9 +1471,9 @@ importers:
 
   components/tray:
     specifiers:
-      '@lit-labs/react': 1.1.0
+      '@lit-labs/react': 1.1.1
       '@rollup/plugin-typescript': ^8.4.0
-      '@spectrum-web-components/tray': 0.4.5
+      '@spectrum-web-components/tray': 0.4.7
       '@types/react': ^18.0.17
       next: ^13.0.4
       rollup: ^2.78.1
@@ -1481,8 +1481,8 @@ importers:
       rollup-plugin-dts: ^4.2.2
       typescript: ^4.8.2
     dependencies:
-      '@lit-labs/react': 1.1.0
-      '@spectrum-web-components/tray': 0.4.5
+      '@lit-labs/react': 1.1.1
+      '@spectrum-web-components/tray': 0.4.7
     devDependencies:
       '@rollup/plugin-typescript': 8.4.0_rusrl3yqfuqle4tcyjzane2tmq
       '@types/react': 18.0.17
@@ -1519,46 +1519,46 @@ packages:
     dev: true
     optional: true
 
-  /@babel/runtime/7.20.1:
-    resolution: {integrity: sha512-mrzLkl6U9YLF8qpqI7TB82PESyEGjm/0Ly91jG575eVxMMlb8fYfOXFZIJ8XfLrJZQbm7dlKry2bJmXBUEkdFg==}
+  /@babel/runtime/7.20.6:
+    resolution: {integrity: sha512-Q+8MqP7TiHMWzSfwiJwXCjyf4GYA4Dgw3emg/7xmwsdLJOZUp+nMqcOwOzzYheuM1rhDu8FSj2l0aoMygEuXuA==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.11
 
-  /@ctrl/tinycolor/3.4.1:
-    resolution: {integrity: sha512-ej5oVy6lykXsvieQtqZxCOaLT+xD4+QNarq78cIYISHmZXshCvROLudpQN3lfL8G0NL7plMSSK+zlyvCaIJ4Iw==}
+  /@ctrl/tinycolor/3.5.0:
+    resolution: {integrity: sha512-tlJpwF40DEQcfR/QF+wNMVyGMaO9FQp6Z1Wahj4Gk3CJQYHwA2xVG7iKDFdW6zuxZY9XWOpGcfNCTsX4McOsOg==}
     engines: {node: '>=10'}
 
-  /@floating-ui/core/1.0.2:
-    resolution: {integrity: sha512-Skfy0YS3NJ5nV9us0uuPN0HDk1Q4edljaOhRBJGDWs9EBa7ZVMYBHRFlhLvvmwEoaIM9BlH6QJFn9/uZg0bACg==}
+  /@floating-ui/core/1.0.4:
+    resolution: {integrity: sha512-FPFLbg2b06MIw1dqk2SOEMAMX3xlrreGjcui5OTxfBDtaKTmh0kioOVjT8gcfl58juawL/yF+S+gnq8aUYQx/Q==}
 
-  /@floating-ui/dom/1.0.6:
-    resolution: {integrity: sha512-kt/tg1oip9OAH1xjCTcx1OpcUpu9rjDw3GKJ/rEhUqhO7QyJWfrHU0DpLTNsH67+JyFL5Kv9X1utsXwKFVtyEQ==}
+  /@floating-ui/dom/1.0.9:
+    resolution: {integrity: sha512-nF9P6/BoARdt+h+CdUW3td4EUVngeDONCGuzRgnZveRZiJETx63cxhinE0JaPPC2tbcdTY9IGZocS5/7ag3xRg==}
     dependencies:
-      '@floating-ui/core': 1.0.2
+      '@floating-ui/core': 1.0.4
 
   /@internationalized/number/3.1.1:
     resolution: {integrity: sha512-dBxCQKIxvsZvW2IBt3KsqrCfaw2nV6o6a8xsloJn/hjW0ayeyhKuiiMtTwW3/WGNPP7ZRyDbtuiUEjMwif1ENQ==}
     dependencies:
-      '@babel/runtime': 7.20.1
+      '@babel/runtime': 7.20.6
 
   /@lit-labs/observers/1.1.0:
     resolution: {integrity: sha512-+MbK+OD+Io9MvGIKY8HVB7vQVOpYxruChlw52OzHjAPl+cBPK8i+MKQ2OvH02LakRYloEc6u/Nuvz6+e8+qAbA==}
     dependencies:
-      '@lit/reactive-element': 1.4.2
+      '@lit/reactive-element': 1.5.0
 
-  /@lit-labs/react/1.1.0:
-    resolution: {integrity: sha512-uvdOtzACm1WzTySpKnqXth62iPL+4yDow7cSZH7m7jHbDr+tZVXn44DJ5IoJuMjEevORRe57lNrOywFW6d4Fyg==}
+  /@lit-labs/react/1.1.1:
+    resolution: {integrity: sha512-9TC+/ZWb6BJlWCyUr14FKFlaGnyKpeEDorufXozQgke/VoVrslUQNaL7nBmrAWdNrmzx5jWgi8lFmWwrxMjnlA==}
 
   /@lit-labs/virtualizer/0.7.2:
     resolution: {integrity: sha512-P6sUc9ixaIGYU7gOV3O4ZGrO1Eo1c1sVYGwTIJdJTxXzobi4e5Di6beKksv9HzZdHkTj1JHapCj9hRcSO5kmMQ==}
     dependencies:
       event-target-shim: 6.0.2
-      lit: 2.4.1
+      lit: 2.5.0
       tslib: 2.4.1
 
-  /@lit/reactive-element/1.4.2:
-    resolution: {integrity: sha512-VMOxsWh/QDwrxPsgkSQnuZ+8mfNy1OTjzzUdLBvvZtpahwPTHTeVZ51RZRqO4xfKVrR+btIPA8D01IL3xeG66w==}
+  /@lit/reactive-element/1.5.0:
+    resolution: {integrity: sha512-fQh9FDK0LPTwDk+0HhSZEtb8K0LTN1wXerwpGrWA+a8tWulYRDLI4vQDWp4GOIsewn0572KYV/oZ3+492D7osA==}
 
   /@next/env/13.0.4:
     resolution: {integrity: sha512-N5Z3bdxBzoxrC5bwykDFITzdWuwDteOdZ+7nxixY+I1XpRX8/iQYbw2wuXMdqdfBGm2NNUpAqg8YF2e4oAC2UQ==}
@@ -1731,547 +1731,555 @@ packages:
       rollup: 2.78.1
     dev: true
 
-  /@spectrum-web-components/accordion/0.7.4:
-    resolution: {integrity: sha512-J1YNhSz6VTHZYLeguGLzKnHNAd68+Uj3xb87Hpm+zbau485shCqGqtRaLstahgR6njspb8U4BDCQLnzNG1+xnQ==}
+  /@spectrum-web-components/accordion/0.7.6:
+    resolution: {integrity: sha512-cxzfZlgpxcA7TQBrh9nJcsKPrbwXXfoW9Y+C/r1L0UQUqtEmhIzTypmOsVMTszLOlCLue+iX5S6BeiHMnnJEtg==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-ui': 0.9.3
-      '@spectrum-web-components/reactive-controllers': 0.3.3
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-ui': 0.9.5
+      '@spectrum-web-components/reactive-controllers': 0.3.4
+      '@spectrum-web-components/shared': 0.15.3
 
-  /@spectrum-web-components/action-bar/0.5.7:
-    resolution: {integrity: sha512-MoxTSQiXSh5Nr9Wk1RwH3OLxQpM8NaU0ukfxxm1KRMCUXcVZXtTYx/W1DszYouDOU+oWV3rUBE4hfVkBrEH4Ww==}
+  /@spectrum-web-components/action-bar/0.5.9:
+    resolution: {integrity: sha512-8x00r1F4AqpxDRlcFq0PYvq4w+fmr6Sj/Zf0KNe7phkk+Eb4yyxsfJTNCZfm9HjGDnZtbcHLgk/u7CRIY+bjCg==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/popover': 0.12.7
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/popover': 0.12.9
 
-  /@spectrum-web-components/action-button/0.10.6:
-    resolution: {integrity: sha512-u2AqiCykii3c34F+IshVd+jH6kkh6W6lhiSmmiNH7gPjjOVTQey82SrBkcZDVSfp5yeDD/FgWuxr5EPOTcRUMA==}
+  /@spectrum-web-components/action-button/0.10.8:
+    resolution: {integrity: sha512-cWRfbOd7PsKyqCM8quwkfoHc7tVqwb1KrS3ge0bMLF/htobVnwSEJuvjdizybTLFp0WbiNNvcLWRjWN8p/oCdw==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/button': 0.19.6
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-ui': 0.9.3
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/button': 0.19.8
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-ui': 0.9.5
 
   /@spectrum-web-components/action-group/0.11.3:
     resolution: {integrity: sha512-fJEP3EXX5n0ZVwGvUQR4r2yi2MYcruYMkM4l1ZM4BmwfTrBXbAznswK1bonRUUAYEYO/4jx7rK34J/3f30oR7g==}
     dependencies:
       '@lit-labs/observers': 1.1.0
-      '@spectrum-web-components/action-button': 0.10.6
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/reactive-controllers': 0.3.3
+      '@spectrum-web-components/action-button': 0.10.8
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/reactive-controllers': 0.3.4
       tslib: 2.4.1
 
-  /@spectrum-web-components/action-menu/0.15.7:
-    resolution: {integrity: sha512-/2a/RJW/aLSv20BeAM1bWUbA5Kuo0ywbYNyLPv8l302SQ/plqYp+L5/kZG5+zDiTu48h5LylcH/987bDdgm4vA==}
+  /@spectrum-web-components/action-menu/0.15.9:
+    resolution: {integrity: sha512-bu/9Ntw1pHuSfydUvBaJkEE0a1sBM6kp6ntwjAzIjiucOuaW0I2Uy56fLpsNAtfFLY9BC53gqMWihN6kjAiNuA==}
     dependencies:
-      '@spectrum-web-components/action-button': 0.10.6
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-workflow': 0.9.3
-      '@spectrum-web-components/picker': 0.13.7
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/action-button': 0.10.8
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-workflow': 0.9.5
+      '@spectrum-web-components/picker': 0.13.9
+      '@spectrum-web-components/shared': 0.15.3
 
-  /@spectrum-web-components/asset/0.7.1:
-    resolution: {integrity: sha512-UUaS2ibJrbeAacE0awjLkvMJOoPFBKxdJY82H4dyN1ZJHGzlXNRWb47oYUqCGZOWnZodSjLpjeIoFjYV26D0Gg==}
+  /@spectrum-web-components/asset/0.7.3:
+    resolution: {integrity: sha512-DuLKA3O5KjH1I9iuQw1ewJgnVCdc2lWrB/KqEPPjnqfRWVmI1dxLYwUwdjiggpJFtg4SCR5zn/GHiJefLBsDQg==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
-  /@spectrum-web-components/avatar/0.10.1:
-    resolution: {integrity: sha512-rM9Plj2sHLVhDS37yy6bv3fuCprgSD+gIR4QmvzxRHPffRbDcwJbLRR98Dx/dvQb/Ams7xPkkzWULeV8mluRLA==}
+  /@spectrum-web-components/avatar/0.10.3:
+    resolution: {integrity: sha512-4LLNIV/etpmlfqwYi42+MVKXvNGxK6E/F+97oulKwJubICJJpztnYhqSdWu1Wa6hGzpQex4bIpCDfxPYmuc8EA==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
   /@spectrum-web-components/badge/0.3.1:
     resolution: {integrity: sha512-dxF3fVMQboLSbcgmaKEwFhOO8IZvphjMNMcd7Y1XbgrFJFbNCGhy6Mm+wiKG0TZbDzXYWdkAgzjo9sbNNsV+fQ==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/shared': 0.15.3
       tslib: 2.4.1
 
-  /@spectrum-web-components/banner/0.9.1:
-    resolution: {integrity: sha512-d/Ewd/Bh+vYuI9lUvuk6GMxh1KUieCyzBL3RM0ikbI+DtM90lpOX2oL2PdkZjjbIpCOQBYirvEBhAGgh2kJ68g==}
+  /@spectrum-web-components/banner/0.9.2:
+    resolution: {integrity: sha512-SBkrZg6fi6oIiPpst9BI/J8P37XL62UFUiZeE3/y/Z8+JAeIcW9DfLAtezKlkOtJPJ1VBCljzfX2cIrJDkzDbw==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
-  /@spectrum-web-components/base/0.7.1:
-    resolution: {integrity: sha512-pkt10gJCSCtfA1aQ//xnHZ9ueANoq5UJ9EafRzZpaLuhoErEVPEqE/CMJuoYzwFDHNbRlOWsEVnc2xTFRD892w==}
+  /@spectrum-web-components/base/0.7.2:
+    resolution: {integrity: sha512-n5RvQ0zrSLhs4Lx/yEn/+8+cAFojciR0gxO8zEqU783TxOlqIzgJlXdshuRm0ZRYHxRtpgEAYGPfJ5Km3UmtPQ==}
     dependencies:
-      lit: 2.4.1
+      lit: 2.5.0
 
-  /@spectrum-web-components/button-group/0.10.1:
-    resolution: {integrity: sha512-MDibCcn1hRBa90YMPmVzjT6qGJUbfhHplFMB98VkRvZ5ErIyHKESWa14eN6vHKtElAzYAcicGwL0BwvVFE0cgg==}
+  /@spectrum-web-components/button-group/0.10.3:
+    resolution: {integrity: sha512-pDbDxx3EGMn2Oq+4RqoBjHxzh9JzMde9SqbY1Fq3fzDiaaePes+Z/KJyKX2cPGsx5rYCKcelVYxV/ROaA+8lNQ==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/button': 0.19.6
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/button': 0.19.8
 
   /@spectrum-web-components/button-group/0.9.0:
     resolution: {integrity: sha512-xSz9MxO6a6GvbGZVhxbSCRXt0GDOT2NDtC7dICKmuXi/n74HBVZ7RVD20vc9tL/VFtrrHNoXEwIXDVlnQR9Ksg==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
       tslib: 2.4.1
 
-  /@spectrum-web-components/button/0.19.6:
-    resolution: {integrity: sha512-VTmJY8eVJDput9Pi5Str6vMEMI5NqwY0WM9tZdLmzl90vOMBGib8yjNfmppyWhxOWD8+9d/JW3q4MBno9JHTvg==}
+  /@spectrum-web-components/button/0.19.8:
+    resolution: {integrity: sha512-VSzfbmoXZ3c8esRNSTQPyGTo/iu2vuQOE4GAWzBVJxnJ/3vD9TjQSsUSpMpFbqUh4U1tprob/Oij/kd8NMiqnA==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/clear-button': 0.2.1
-      '@spectrum-web-components/close-button': 0.3.4
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-ui': 0.9.3
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/clear-button': 0.2.3
+      '@spectrum-web-components/close-button': 0.3.6
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-ui': 0.9.5
+      '@spectrum-web-components/shared': 0.15.3
 
   /@spectrum-web-components/card/0.12.3:
     resolution: {integrity: sha512-rrjsAXks/LXoAGeEF+qh6+oCLKzMz+kwCnk1O8F+WBE1WarITXa20b0UaPPdlR1FJFp1TxmX70bSlaecP27kXg==}
     dependencies:
-      '@spectrum-web-components/asset': 0.7.1
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/checkbox': 0.14.4
-      '@spectrum-web-components/icons-workflow': 0.9.3
-      '@spectrum-web-components/quick-actions': 0.7.1
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/asset': 0.7.3
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/checkbox': 0.14.6
+      '@spectrum-web-components/icons-workflow': 0.9.5
+      '@spectrum-web-components/quick-actions': 0.7.3
+      '@spectrum-web-components/shared': 0.15.3
       '@spectrum-web-components/styles': 0.18.0
       tslib: 2.4.1
 
-  /@spectrum-web-components/checkbox/0.14.4:
-    resolution: {integrity: sha512-RM9hYa32y5frua/guOZZX1zaQG+JSSgPUhP5+DDgtXoRrW24RFjnwhsbqHAr8mnX+KsmXP5Tc6yWwDrton6hRQ==}
+  /@spectrum-web-components/checkbox/0.14.6:
+    resolution: {integrity: sha512-MyveOdpKcNofaDv+D+QUbpkHFBJGbMRTVzZ0Cs6dJluzx8ZoJjG73WO/MCL0+HqgffM8DHHg4rWqT9nviYJakA==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-ui': 0.9.3
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-ui': 0.9.5
+      '@spectrum-web-components/shared': 0.15.3
 
-  /@spectrum-web-components/clear-button/0.2.1:
-    resolution: {integrity: sha512-X0j5OlGpdhrjS/Nb4rV17otDuZbW1Q4YEp5OKISYJixoA9Uc3cXKPhWuycBVMc92icGcFJ7n+HjSbwrXqkbsyA==}
+  /@spectrum-web-components/clear-button/0.2.3:
+    resolution: {integrity: sha512-yvXLke+Kk4kqaGxsBwhI5wqdyNSqOytLN6JieXl3lOb0sOCtwwlwB5H2S42kRna8NR/qli3uVGasTwsGMurGEQ==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
-  /@spectrum-web-components/close-button/0.3.4:
-    resolution: {integrity: sha512-0rKPiyNmaMLoRsGFvOI12RcF/Oh5fJPBdKmlZxqonV3xXxkK52NbJsPpHOM/RzS+6tCHq/xL37AZDNTMGUs5ag==}
+  /@spectrum-web-components/close-button/0.3.6:
+    resolution: {integrity: sha512-/eEQTtolqjaqIZYpu3DsXxey32eF3B8jHBspXVZ+M2atznn3fyRRecV2Egz0Wk/TbQOZg16yzFEmU0gMVrmgfA==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
-  /@spectrum-web-components/coachmark/0.10.1:
-    resolution: {integrity: sha512-uCBAKfvYaLj78BhgdoylKOoUTw2LQ15M8kfqGUJfKEWd/81F0SMecsOLE/KXqqMMcDfGH9hw8OHljJCwwyq+1w==}
+  /@spectrum-web-components/coachmark/0.10.3:
+    resolution: {integrity: sha512-8dUf0npgipFcGvHSwP56OMT833jLH9xgYgunk9V+/O0yJgFuO7DVghYX5Oz8YOfc/tmdjQQ7oWMMDWl8g+jEyA==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
-  /@spectrum-web-components/color-area/0.5.3:
-    resolution: {integrity: sha512-mKa+hWYwpEG34Ojoj7jj4ts84UMIBX3BK9L3HnBSlvpGPeFjBdZEGs44b4DA7Hyk15Zqaanhrc23T/bdE7j3Rw==}
+  /@spectrum-web-components/color-area/0.5.5:
+    resolution: {integrity: sha512-G4ZMLPUOUNQzmgkU49usMxY+iW+zfzKDzOpFyInhAK2NHkUQ9qp5Fy9osKd0Yiq7JQ8I6sesyj60I986VJufuQ==}
     dependencies:
-      '@ctrl/tinycolor': 3.4.1
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/color-handle': 0.4.2
-      '@spectrum-web-components/reactive-controllers': 0.3.3
+      '@ctrl/tinycolor': 3.5.0
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/color-handle': 0.4.4
+      '@spectrum-web-components/reactive-controllers': 0.3.4
 
-  /@spectrum-web-components/color-handle/0.4.2:
-    resolution: {integrity: sha512-YqAHvWEtdSAKmZwt2+zXf95Y2bYPGmIVLA3gRhDroYWOVQozHHc+H6NgF4+6L6wzZ2IaSsEBrOFO9dpbbfqmXw==}
+  /@spectrum-web-components/color-handle/0.4.4:
+    resolution: {integrity: sha512-v8ahtk0tojY3ClkLUsvP+oWEx7HpbZB9TD5PsFRH4pgYkZi87U8ogd39Q96zUHxI6hZmiVZ9/VIiIPC2XKJvDg==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/color-loupe': 0.4.1
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/color-loupe': 0.4.3
 
-  /@spectrum-web-components/color-loupe/0.4.1:
-    resolution: {integrity: sha512-zPeUFlmK+OOt8GNI7Nm4mYfFQuFgNXLWY6soakEvYl38fQSXViJC66zTZzHksD+rboKD8mK9GObKLqrxRiqP6Q==}
+  /@spectrum-web-components/color-loupe/0.4.3:
+    resolution: {integrity: sha512-wQL14Lw+6StMDhPCHnVtQ4y10MFDzcgeVcdyaQ1kh2s2BiDwSMTFlaOZ/IBFr9p66BTYkwQneFIB8m2DMeCWVA==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
-  /@spectrum-web-components/color-slider/0.4.4:
-    resolution: {integrity: sha512-/t5hU/D8XYgB9d1k08B87QDdR8lbvPT/mC9b4GEFMKjrV3USM+MtdHpA9/4sFDeLUxMNIiiWXZTZw4gv41jvyw==}
+  /@spectrum-web-components/color-slider/0.4.6:
+    resolution: {integrity: sha512-CiOpROcDgyg54QYstbyy2BvkRywc1uJX7EndQ3yMz8+XRRqbfHTGa3ycpbYwpOC5v8AwxUAhxlKagYqvnXU2NA==}
     dependencies:
-      '@ctrl/tinycolor': 3.4.1
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/color-handle': 0.4.2
-      '@spectrum-web-components/reactive-controllers': 0.3.3
-      '@spectrum-web-components/shared': 0.15.2
+      '@ctrl/tinycolor': 3.5.0
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/color-handle': 0.4.4
+      '@spectrum-web-components/reactive-controllers': 0.3.4
+      '@spectrum-web-components/shared': 0.15.3
 
-  /@spectrum-web-components/color-wheel/0.4.4:
-    resolution: {integrity: sha512-plj9jXaHUd5pyHYhQPWerX+KZXwoWk/fl7ARP3Ky8iR6x78wWskRwrzen3kUw1dHQxK9DnxmQs7P5+vQSLCsgg==}
+  /@spectrum-web-components/color-wheel/0.4.6:
+    resolution: {integrity: sha512-WbUGw/9dJZW3z4I9JqlbkI3Ar7s7M507LycvuDlhXAo7j6tz805vppPoaf0cQxbzLFxlHV8lJh+Bcl145LLQjA==}
     dependencies:
-      '@ctrl/tinycolor': 3.4.1
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/color-handle': 0.4.2
-      '@spectrum-web-components/reactive-controllers': 0.3.3
-      '@spectrum-web-components/shared': 0.15.2
+      '@ctrl/tinycolor': 3.5.0
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/color-handle': 0.4.4
+      '@spectrum-web-components/reactive-controllers': 0.3.4
+      '@spectrum-web-components/shared': 0.15.3
 
-  /@spectrum-web-components/dialog/0.11.6:
-    resolution: {integrity: sha512-nZxKaIa/qJrtjXcd3I6SH+I53iGHo6dLqNVMp84Ptjs9yHEyUSRHOxauKhSHqT//EtekdNISQjepVRRL9xUQrA==}
+  /@spectrum-web-components/dialog/0.11.8:
+    resolution: {integrity: sha512-O5OJcmxj5tIWjmAlxuktIosEAD+VQgPKo7hJXA34mvsx4piZ6viIJH4e9djn8BpaGSiM5wpHjp68jy+o8Uf2oA==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/button': 0.19.6
-      '@spectrum-web-components/button-group': 0.10.1
-      '@spectrum-web-components/divider': 0.6.1
-      '@spectrum-web-components/icons-workflow': 0.9.3
-      '@spectrum-web-components/modal': 0.7.2
-      '@spectrum-web-components/shared': 0.15.2
-      '@spectrum-web-components/underlay': 0.9.1
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/button': 0.19.8
+      '@spectrum-web-components/button-group': 0.10.3
+      '@spectrum-web-components/divider': 0.6.3
+      '@spectrum-web-components/icons-workflow': 0.9.5
+      '@spectrum-web-components/modal': 0.7.4
+      '@spectrum-web-components/shared': 0.15.3
+      '@spectrum-web-components/underlay': 0.9.3
 
   /@spectrum-web-components/divider/0.5.1:
     resolution: {integrity: sha512-E+OeIIhL19n9qq16g5MI9uEDgqGTeprBPzZA+M31OdsysRuBEoeNQZm8/jpuaeriiAch/yx7M2jkaULuK+NzyA==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
       tslib: 2.4.1
 
-  /@spectrum-web-components/divider/0.6.1:
-    resolution: {integrity: sha512-xZlxvBMRW5IzL6iKNVIYFp+jj4VSQHpgGKesJLzJAkvhI189VmmlJUHfhSmx1SkwK4OEDyWWJzU2pzosoF/wNQ==}
+  /@spectrum-web-components/divider/0.6.3:
+    resolution: {integrity: sha512-S+7JbDSmusba74qFrHlwa8QlONfHfVQirPHajTt7GnPMsltScqKCq3m8iKZFzZgnF4rgZhHk881ZtE+8pD0aag==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
-  /@spectrum-web-components/dropzone/0.10.1:
-    resolution: {integrity: sha512-US4iQEdNKUuGcLuuPPt1siVAj52YYYdVXzgjF+FRUTX9lw3ISX2pYQfBYJBolyPLBUYkUXhBQ2MBDczbS5X+yw==}
+  /@spectrum-web-components/dropzone/0.10.3:
+    resolution: {integrity: sha512-0i6/mEHrW9iLaZxleCcOQPfRsqj31cy5xQBDwDQ8kMZ37ERHkC2aWVW0ztUub5XUSiT5PA97mzwsjOxlvd3jTg==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
-  /@spectrum-web-components/field-group/0.7.4:
-    resolution: {integrity: sha512-bug/Xz7tO8VQpp/qpHqtiNIAY/Uf2SM2EGUfUEHKsm9hutmwivIwDe273JWMxEPSrKZJdneTebRetPTc5TKyqA==}
+  /@spectrum-web-components/field-group/0.7.5:
+    resolution: {integrity: sha512-CNQM7nYgZ5mPq98Ssc3KJGtYx7gfbVTgZNgcPYlVih4qt0m7TThGxJL6+zKLT7XLEDSclgwqufUH5kWpv9IGtg==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/help-text': 0.2.5
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/help-text': 0.2.7
 
-  /@spectrum-web-components/field-label/0.10.1:
-    resolution: {integrity: sha512-AnkFx4YQkLFGo4a1aA8YDXKxrrdGKC5xqlBvwY/jRjo14LTvM9Tw2PxPtEcM9/FMJtfV0Dg5H+CGfT1Re1wI4A==}
+  /@spectrum-web-components/field-group/0.8.0:
+    resolution: {integrity: sha512-pcOTyZkqxWZNclhDWd5veOtRTuvz1mjOmgRqw9M1DWnnepcGoloncrF0wf2njDZi1gHZqHLSXPjULy0pxX7rNA==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-ui': 0.9.3
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/help-text': 0.2.7
+
+  /@spectrum-web-components/field-label/0.10.3:
+    resolution: {integrity: sha512-IteOv/jbhoGO7G7+kzAq3aSiwAVe7goqAQd9js81tlq7kNa7nGgcqUBm9uKXVYvhbEBDv9qzDzUnsVQf328LSQ==}
+    dependencies:
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-ui': 0.9.5
+      '@spectrum-web-components/reactive-controllers': 0.3.4
+      '@spectrum-web-components/shared': 0.15.3
 
   /@spectrum-web-components/field-label/0.8.0:
     resolution: {integrity: sha512-fP2QDLm+k2+/z9zX8gRuyl216sa9QdEfedVT+W6K4A/1kzz1m9huDt0SiDTs6mvp6fv7Gh7X7BNAARhpPAh28g==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-ui': 0.9.3
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-ui': 0.9.5
+      '@spectrum-web-components/shared': 0.15.3
       tslib: 2.4.1
 
   /@spectrum-web-components/field-label/0.9.1:
     resolution: {integrity: sha512-4Fkr5Tg331J3dkRxSR+0ZlQAPQwMwjfBHFLemGzvIro+qN7fyj7bBbeMZCWYDWGzNyeuwhpgykIbr9+MDfzB2A==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-ui': 0.9.3
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-ui': 0.9.5
+      '@spectrum-web-components/shared': 0.15.3
       tslib: 2.4.1
 
-  /@spectrum-web-components/help-text/0.2.5:
-    resolution: {integrity: sha512-I8r+W2NuXmo6JNwnI4loIMUY/Q2GjaMAHCWSAmzkd2stnCXruZQI/S8a+syDoT5sNPvoBPfOkNu9q53viWGN1A==}
+  /@spectrum-web-components/help-text/0.2.7:
+    resolution: {integrity: sha512-cw7cONYAK0OfvrTckShkVHfBaGx7LSdFisoLhb8sR4Tnmw/vDJfMs/9qHT9JbOHDpnHcKqb0PxqnuoR0/fNW8g==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/icons-workflow': 0.9.3
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/icons-workflow': 0.9.5
 
-  /@spectrum-web-components/icon/0.12.3:
-    resolution: {integrity: sha512-sGyEYg9SVru+qo+YEifsxaTJvueqdoYXsLMpNwMMi0lzAa5O6a3DCBPOG5O6Y0AvKAN3qfEZTJ2GlAiFLw/qtg==}
+  /@spectrum-web-components/icon/0.12.5:
+    resolution: {integrity: sha512-vSlQjnl7B6cYBLn6WFRuGoYn0njnEvf9N9eeoM4epf6Sa76l5bmaDs0jG6DFQcbrJBJr7oUNykO+SW4rRJnN5A==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/iconset': 0.7.3
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/iconset': 0.7.4
 
-  /@spectrum-web-components/icons-ui/0.9.3:
-    resolution: {integrity: sha512-SS0zKgnVYJQZaE1rJcP4iDvu8zONFXXon7zwLFJ39IUGVpUnwnVm9iFgK+wUZ4vv6TxLICcuBqoeRU0FTiU1Yw==}
+  /@spectrum-web-components/icons-ui/0.9.5:
+    resolution: {integrity: sha512-/DqXNsJrAbKTCN3drS9jvVRUck8nVKHzsXRFTYO/smGlG6VRJWLhFAzNfg1th9rSfHsnaVes4ndk32VyKed2aw==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/iconset': 0.7.3
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/iconset': 0.7.4
 
-  /@spectrum-web-components/icons-workflow/0.9.3:
-    resolution: {integrity: sha512-/WK4VdPNtgOcYmQmlTA6+oQT0VSaDpCgvUCoIX3uDBxMdQ2ydVDRuo7WK0PyMXQEmvpX/3nJRHnSQDvP0xgN4g==}
+  /@spectrum-web-components/icons-workflow/0.9.5:
+    resolution: {integrity: sha512-Cy74Xr81gVXXj+QGvif6TPP0/Xb29K5wQH/c6Eszq+twtty0V+JeCVY4rklpY2yyXYDDlDqqYlP9LTdva5YUzQ==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/icon': 0.12.3
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/icon': 0.12.5
 
-  /@spectrum-web-components/icons/0.9.3:
-    resolution: {integrity: sha512-2yRAF40svMTcHC2Ga3SUOCjTbrYGQkbTnzAARRdQgdu6iGXmFne2rc8EUptgIaQYoeS3s0bqMWGTwqvuc686xA==}
+  /@spectrum-web-components/icons/0.9.4:
+    resolution: {integrity: sha512-0DEI8omp7wE/cunAuDmybIhi8R5ut9wZSe49tVhvAdZPiOdVBr6nZU5PEK90tQ2DGiUobrO65UASWZiVFP21sw==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/iconset': 0.7.3
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/iconset': 0.7.4
 
-  /@spectrum-web-components/iconset/0.7.3:
-    resolution: {integrity: sha512-rxTSaP1nq6mS04rCOk5wtx58N/olXbHOUp7/0Uv05DQd483OzmRSO0dhB300O4bsA6i2Z2gsyGA7ZlfzCK6Plw==}
+  /@spectrum-web-components/iconset/0.7.4:
+    resolution: {integrity: sha512-+hdaSky5VyPwxUtIEvMOsQX/UKqtwSFOf980qS5elcwchB/R5we5clY8NvWIJTPhc+Uxu8TDlCY3PeQlPkcv6g==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
-  /@spectrum-web-components/illustrated-message/0.9.6:
-    resolution: {integrity: sha512-xLgL8oQ1si5uDrwucaG2rAHbLE0Q9bHDYmSCyurON+8pEdpf5lO5IuiYLJEOEe3Pd1svLcjdo1LRqE/f3k2TlA==}
+  /@spectrum-web-components/illustrated-message/0.9.8:
+    resolution: {integrity: sha512-mPavnKTErJX5EYpD1ySJRpI7Jr+lTuUHmO0RmGlB1Y+bebpyOCqsFjni5lfMMFW4fQtw9V0PXdM8N4hGzlUdVw==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/styles': 0.20.1
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/styles': 0.22.0
 
   /@spectrum-web-components/link/0.13.2:
     resolution: {integrity: sha512-6BMBt8ZEV3rl6RmONCHssDjGd2FYEZcDQtq6IEuvfuXL4sBck6kPymMH9KuaARKNlucIqkC0jtrWJVR9097SHA==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/shared': 0.15.3
 
-  /@spectrum-web-components/menu/0.16.7:
-    resolution: {integrity: sha512-TpRY8pPGzvB8hcXD5SnOGx9MsJ7thhY+4CsGNazeOW0XdKzhtxve/TzuhqCFF7acNqnIdltfmxv7wDG9J738Jw==}
+  /@spectrum-web-components/menu/0.16.9:
+    resolution: {integrity: sha512-kRqr/mtex757/BJpqJPZio1CzJkRDOrwxeO24o+nbHvYPk124jGsrR73WgWCNvJqLVAS2XXdJbhbm84Fm2ptNg==}
     dependencies:
       '@lit-labs/observers': 1.1.0
-      '@spectrum-web-components/action-button': 0.10.6
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/divider': 0.6.1
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-ui': 0.9.3
-      '@spectrum-web-components/overlay': 0.18.7
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/action-button': 0.10.8
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/divider': 0.6.3
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-ui': 0.9.5
+      '@spectrum-web-components/overlay': 0.18.9
+      '@spectrum-web-components/shared': 0.15.3
 
-  /@spectrum-web-components/meter/0.7.4:
-    resolution: {integrity: sha512-nbBpB30t+vLL75NlgHLZ5AqG6lIUjrK8mm4b6s1ggjONv1IzE0vtoy33cDDf/B0owIU8mOXNxTRWaUzuu5um6Q==}
+  /@spectrum-web-components/meter/0.7.6:
+    resolution: {integrity: sha512-k+ANXTc2jd1yIw+o5SebHmkCHo83yZDjlyq1jQUmiTMSPaK/4KQdCSCkUwjoNbr0iGg60kd7ZE9DO1dG05DEhQ==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/field-label': 0.10.1
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/field-label': 0.10.3
+      '@spectrum-web-components/shared': 0.15.3
 
-  /@spectrum-web-components/modal/0.7.2:
-    resolution: {integrity: sha512-J1AeUQLeV+tm6K8kDmP6aGNoXITaNZ8doXejBWYIuvMdop+pakxt9Rq6nisZiG9Myo9MOAcvEhF5ecQxZlaArg==}
+  /@spectrum-web-components/modal/0.7.4:
+    resolution: {integrity: sha512-0Hw3kx3AK/TJVArMWAiz8DrRNmTcluUxggKcf3FvuVw3em9QSdVQRH++YA4qImqsr2IkiTAFYnQXB20pNWNf1w==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
-  /@spectrum-web-components/number-field/0.5.6:
-    resolution: {integrity: sha512-zkq6KrJ19yb0hwpMjP/iPGDd3mdMRRnxppwnCX/jjftUgsMQzoFsWvvbSE4oSznEeF52T6bwoeTdmN9+WRMfLA==}
+  /@spectrum-web-components/number-field/0.5.8:
+    resolution: {integrity: sha512-LF1ku20oKNQT/V/WNFycIw+56wrDlXA8fJrWDqtY3gZZh3WM18HQB8IHLoJ9DJemZqKh2ttwuZlR8BmToGzZaA==}
     dependencies:
       '@internationalized/number': 3.1.1
-      '@spectrum-web-components/action-button': 0.10.6
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-ui': 0.9.3
-      '@spectrum-web-components/shared': 0.15.2
-      '@spectrum-web-components/textfield': 0.13.6
+      '@spectrum-web-components/action-button': 0.10.8
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-ui': 0.9.5
+      '@spectrum-web-components/reactive-controllers': 0.3.4
+      '@spectrum-web-components/shared': 0.15.3
+      '@spectrum-web-components/textfield': 0.13.8
 
-  /@spectrum-web-components/overlay/0.18.7:
-    resolution: {integrity: sha512-Y08SjkjnLqwmGwN+qo7riIhtalFIfjJSA0qujC0zPzQxfJlddrlIMDewP+BIbs+2nChf+pE1+CmuPLUQ6+lDvA==}
+  /@spectrum-web-components/overlay/0.18.9:
+    resolution: {integrity: sha512-WfIFkvr7hXE8r8HRuqqnUbH8AmwrSt4OacTtxLTslYhhcfUETOEXQQ/6Hr0NdesAGmWLk1LWHQ2NM/r1G2qWPA==}
     dependencies:
-      '@floating-ui/dom': 1.0.6
-      '@spectrum-web-components/action-button': 0.10.6
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/shared': 0.15.2
-      '@spectrum-web-components/theme': 0.14.6
+      '@floating-ui/dom': 1.0.9
+      '@spectrum-web-components/action-button': 0.10.8
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/shared': 0.15.3
+      '@spectrum-web-components/theme': 0.14.8
 
-  /@spectrum-web-components/picker/0.13.7:
-    resolution: {integrity: sha512-1KJRafZERGvf/to/MaoR8H9t5QPI4iGnNh/7xoaslvhnBrbOzsNM5GswWVZNlRqxLQf4WifaoRc0BDtJuCA3Aw==}
+  /@spectrum-web-components/picker/0.13.9:
+    resolution: {integrity: sha512-jQdfaObHM5u1+HDB8ZwaGuCvO80E6Ex458zrtazlz3Z8lULw8+jLqyTekaB88wv9iIOm27UTETv0tE569WS2MA==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/button': 0.19.6
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-ui': 0.9.3
-      '@spectrum-web-components/icons-workflow': 0.9.3
-      '@spectrum-web-components/menu': 0.16.7
-      '@spectrum-web-components/overlay': 0.18.7
-      '@spectrum-web-components/popover': 0.12.7
-      '@spectrum-web-components/reactive-controllers': 0.3.3
-      '@spectrum-web-components/shared': 0.15.2
-      '@spectrum-web-components/tray': 0.4.5
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/button': 0.19.8
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-ui': 0.9.5
+      '@spectrum-web-components/icons-workflow': 0.9.5
+      '@spectrum-web-components/menu': 0.16.9
+      '@spectrum-web-components/overlay': 0.18.9
+      '@spectrum-web-components/popover': 0.12.9
+      '@spectrum-web-components/reactive-controllers': 0.3.4
+      '@spectrum-web-components/shared': 0.15.3
+      '@spectrum-web-components/tray': 0.4.7
 
-  /@spectrum-web-components/popover/0.12.7:
-    resolution: {integrity: sha512-QVdFIZEzC/weLz9lefoozL4+HsTQILbANuzJnNyCkubCjYzpdkptYqY2iUVPD8VJN2AhlkV7Xxe1/b8mmDFNFg==}
+  /@spectrum-web-components/popover/0.12.9:
+    resolution: {integrity: sha512-cHePqIKsrEgpPej4BqjzOrvK3DXGWllVkbulQa5bYWVOtgAZIOWCxoZwEbPprs2vJojAyMg90TTCdkCgQemfUw==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/overlay': 0.18.7
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/overlay': 0.18.9
 
   /@spectrum-web-components/progress-bar/0.7.0:
     resolution: {integrity: sha512-4jZrsOPL9z5bJdEU7MyUSj4w3L9vZiI/WBK9KtyKarCQeAFjR/hqmZPXytdI5Y4kAvza4xVnUHeXO2pjouQ+lQ==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
       '@spectrum-web-components/field-label': 0.8.0
       tslib: 2.4.1
 
   /@spectrum-web-components/progress-circle/0.6.0:
     resolution: {integrity: sha512-tdc9RMziWnz/X3EYE6aXef9ztbfBoWTnpBdIU5qaDqI88t2kkZ93bX3zXWEQlqp8yL/dJtnwqGT5Rlk6ugxhMA==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
       tslib: 2.4.1
 
-  /@spectrum-web-components/quick-actions/0.7.1:
-    resolution: {integrity: sha512-Ls+FgcKwzgckVjKDf+2KNITN/LXmDQdTS4KNdI/sKVV20KdkZKu2OSEdcyD1OQpLVf6t/CwJo+J1v1tOKroDMg==}
+  /@spectrum-web-components/quick-actions/0.7.3:
+    resolution: {integrity: sha512-nafvAJEL7mDj0gXAmEwXPj5Pfgpor9wngqIq6Nw05xhLd3ScJ159UgIcYOKnaEBqpH6DjHSjcrdbXXgLkB70eg==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
-  /@spectrum-web-components/radio/0.11.5:
-    resolution: {integrity: sha512-dogC2vPvICa+CUeAAgWnUgrqqfpKgypBdl8HcfVUGhzp+WJXXD5boQ8evw3IP/X8dVR1UWVUsrjQpJ0YRk5D8g==}
+  /@spectrum-web-components/radio/0.11.7:
+    resolution: {integrity: sha512-fDpvI5foCUPDdNw1NS85uqYh1EFczS6hF50y43/1X7AN5/oFskyyZiwjNRDl+34If3FwM2GhVTs8pOKlMKXXVA==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/field-group': 0.7.4
-      '@spectrum-web-components/help-text': 0.2.5
-      '@spectrum-web-components/reactive-controllers': 0.3.3
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/field-group': 0.8.0
+      '@spectrum-web-components/help-text': 0.2.7
+      '@spectrum-web-components/reactive-controllers': 0.3.4
+      '@spectrum-web-components/shared': 0.15.3
 
-  /@spectrum-web-components/reactive-controllers/0.3.3:
-    resolution: {integrity: sha512-6Oj/WvhGfD79vcCLtGEwLt5SbIWuLsZh9N2XvIBJuvM1DPtF1iMvYdm81ar+YQO8wwAjRA55gvaHg5UMRrDB9Q==}
+  /@spectrum-web-components/reactive-controllers/0.3.4:
+    resolution: {integrity: sha512-ybaN1clcU2HYgOaHVIP5qyktPbbxbCpT7HvK3PBX+dof9mi+n+PZfjMUEIXwUOMUGfHzvLrsjtTVPuOSXit0QA==}
     dependencies:
-      lit: 2.4.1
+      lit: 2.5.0
 
-  /@spectrum-web-components/search/0.12.6:
-    resolution: {integrity: sha512-6q8HYbvvaCO6xkC6mKTUHSEk04/JHrAhylOuuIfX7BDRktRLp0RQnf50TyoDo5ZqiEv1DeIEypz0rdchvi+lGw==}
+  /@spectrum-web-components/search/0.12.8:
+    resolution: {integrity: sha512-H27YLtVdzlHbNWCubKHH3lMqEXS9ajU5mfGPVuiwSM5ABD5Elrou6yonow51DLvT32WzUVUMXu3Rvb1BtYyRjA==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/button': 0.19.6
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-workflow': 0.9.3
-      '@spectrum-web-components/textfield': 0.13.6
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/button': 0.19.8
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-workflow': 0.9.5
+      '@spectrum-web-components/textfield': 0.13.8
 
-  /@spectrum-web-components/shared/0.15.2:
-    resolution: {integrity: sha512-Y/Y78c81uhY9e2eAggqrhWiOT4MufQGfaD0mr4DnbZYXJctBn7i3t65pkwVAA4ZReKqCZtgumJbGF+tMlIljew==}
+  /@spectrum-web-components/shared/0.15.3:
+    resolution: {integrity: sha512-Tm7JwepiILgN78eJv4I7CQUCLL6eaFORcj691yU+6Zz90ZYTh3z+AsvaGtbEeQ+KogEArVxV/npQOyiu8/qPEQ==}
     dependencies:
       '@lit-labs/observers': 1.1.0
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
       focus-visible: 5.2.0
 
-  /@spectrum-web-components/sidenav/0.13.4:
-    resolution: {integrity: sha512-lMUJW7a6mBaG64J8TmIHNZ7TzLcurdjCM6WXTqVIDCQXyWh9uIWBbFVsGJHb/fjW0z7A82F7UqAYdFMjmNPj7w==}
+  /@spectrum-web-components/sidenav/0.13.6:
+    resolution: {integrity: sha512-wfHOag22EtgGUI570Wi7sC7gUuu3grzKRPHsm68OxZmsx+JpPYLX5t6fhOnMGF1Wt5NOuDPJ4x0K0m4bsi1Jwg==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/reactive-controllers': 0.3.3
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/reactive-controllers': 0.3.4
+      '@spectrum-web-components/shared': 0.15.3
 
   /@spectrum-web-components/slider/0.14.4:
     resolution: {integrity: sha512-+g54tGRZVY8dMi5aYdHN+zHnNsm+wFUXnp/u+7G8tJCm0royJNAIugcSIQ1Uqoa0yyfK+4V98yI/r1aUXoPIRw==}
     dependencies:
       '@internationalized/number': 3.1.1
       '@lit-labs/observers': 1.1.0
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
       '@spectrum-web-components/field-label': 0.9.1
-      '@spectrum-web-components/number-field': 0.5.6
-      '@spectrum-web-components/shared': 0.15.2
-      '@spectrum-web-components/theme': 0.14.6
+      '@spectrum-web-components/number-field': 0.5.8
+      '@spectrum-web-components/shared': 0.15.3
+      '@spectrum-web-components/theme': 0.14.8
       tslib: 2.4.1
 
-  /@spectrum-web-components/split-button/0.9.7:
-    resolution: {integrity: sha512-6SSDTqrSmS2R6mrOErQA2dRmPxoo2n4gRwbCkp6OJafZmUHu1lwF8JFQxgR9JeQGSOqo3vASCyq8C1JtTvm1wA==}
+  /@spectrum-web-components/split-button/0.9.9:
+    resolution: {integrity: sha512-BvbgqPi2bjsN24z6DdajWd2Alr6N4URcSHyjALjTnNDvwGsBH3ZrqIzVwYtP0B7JAxcj/2y41AAH3GyX6xjczg==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/button': 0.19.6
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-ui': 0.9.3
-      '@spectrum-web-components/icons-workflow': 0.9.3
-      '@spectrum-web-components/overlay': 0.18.7
-      '@spectrum-web-components/picker': 0.13.7
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/button': 0.19.8
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-ui': 0.9.5
+      '@spectrum-web-components/icons-workflow': 0.9.5
+      '@spectrum-web-components/overlay': 0.18.9
+      '@spectrum-web-components/picker': 0.13.9
 
-  /@spectrum-web-components/split-view/0.5.2:
-    resolution: {integrity: sha512-7n6bd0SFZPHIKQlUrl91taPX5toNr9gC+MXGDVDdpJ5mreEb6hRfURlEzbUxxbmp0CXPDYNaiMcBhExHGoNC9w==}
+  /@spectrum-web-components/split-view/0.5.4:
+    resolution: {integrity: sha512-UHbofb3RwEujxzrEPMlpPx5Ams1mSZazG8vpo/rUA9hIp1Y9Bpk4FeSc8Vpp9RORL2Z/UtKN4B0Zz8S/wkXE2g==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
-  /@spectrum-web-components/status-light/0.11.2:
-    resolution: {integrity: sha512-zulB6NIpRLPQlcrG4pbbOwa7zVrQsqMgR6qsTlFobNA3FqSs1TPFUik79tqMh+W8ul6klebMB8mf1oUEmDDrmg==}
+  /@spectrum-web-components/status-light/0.11.4:
+    resolution: {integrity: sha512-NZk5JrbfR3fSM0hi7T9tgiNG8D5T78ZMVfXRQ3FYiFw0IROEH2XG0gptx6HyfimQEIyYx6TWW7fX6VAwzyZTVg==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
   /@spectrum-web-components/styles/0.18.0:
     resolution: {integrity: sha512-UtVOR5KQ/B8y/NZDCRgkEvNEjwm39M/XLeipeb9vcpYA6WnLepOspcaYJiqLmEMI9jc/kUM5hXMJW1rqf5q9hw==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
-  /@spectrum-web-components/styles/0.20.1:
-    resolution: {integrity: sha512-/dzUpBbQi6unk39CFPCpwA9mulIoj3C/AxpKixARSy54+t8rPVIUgxVZRxymzFqn7KsZLMJadznEqVFaYtVDxg==}
+  /@spectrum-web-components/styles/0.22.0:
+    resolution: {integrity: sha512-fmKb/a4Z1CcjGlzrjnm2TCIObcEx0h3f2+ABQ2P3ZN4I7Z/M9HM5aqWvgsmbNpa/4ZssT4NMFbyPrwVfOBWgPg==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
   /@spectrum-web-components/swatch/0.2.2:
     resolution: {integrity: sha512-KUHvehnpDs7KxUCrYmDMiY/5j7Vy+ILoGdbn0Jbj3Rns805vubw1zJpUxyxti7OiQhCNPPNgKbJuughC+X7CaA==}
     dependencies:
       '@lit-labs/observers': 1.1.0
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-ui': 0.9.3
-      '@spectrum-web-components/reactive-controllers': 0.3.3
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-ui': 0.9.5
+      '@spectrum-web-components/reactive-controllers': 0.3.4
+      '@spectrum-web-components/shared': 0.15.3
       tslib: 2.4.1
 
   /@spectrum-web-components/switch/0.10.0:
     resolution: {integrity: sha512-hKDII4dvDVYM7xczyfR4PPODF3RL8JxwQSsPyZBPK48sH81caZ++xFY8zTi/vUoZp7IWrIOWBnIcR96OxrGDJw==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/checkbox': 0.14.4
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/checkbox': 0.14.6
       tslib: 2.4.1
 
-  /@spectrum-web-components/table/0.1.4:
-    resolution: {integrity: sha512-GwQa6rYuZkkDQGoP+SPUdPPb6M5GU0N3x0sno8PUgsSB7I4xh6qxuTh24nkyXLZr8qvdxtCAY5mMXM72uFxv3Q==}
+  /@spectrum-web-components/table/0.1.6:
+    resolution: {integrity: sha512-nYCyPvJlozkep+IyEmp+4sr6L6/R5zZ8t6X5rjeeE6ggrVCOq/Lm91fvStSfix9NsH8+4pEAnU5u0/BDnd446w==}
     dependencies:
       '@lit-labs/virtualizer': 0.7.2
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/checkbox': 0.14.4
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-ui': 0.9.3
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/checkbox': 0.14.6
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-ui': 0.9.5
 
-  /@spectrum-web-components/tabs/0.10.2:
-    resolution: {integrity: sha512-WzCSHzvqefrb3jBR/oewf9spCZKOy4+/fnCp3Lg548QpRS8FXh54/jPCBnRf5vQyO+0CdO0GXv7yQJCbAPbGQA==}
+  /@spectrum-web-components/tabs/0.10.4:
+    resolution: {integrity: sha512-sgGeoMxv2w/cD6+O2ILMHQlqt3NRi6GS3cQFUHkEgXuC0kVa6GqNt1PcCV2z6t0xIw/PVyGK7T3vrk91JWS5nQ==}
     dependencies:
       '@lit-labs/observers': 1.1.0
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/reactive-controllers': 0.3.3
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/reactive-controllers': 0.3.4
+      '@spectrum-web-components/shared': 0.15.3
 
   /@spectrum-web-components/tabs/0.9.2:
     resolution: {integrity: sha512-N+AdinlcmTQzyzscHxYBy1dHqeAtfz5uRhAKhTTg0cU/ChXaUb0wEI9pjZH+EYoB5TjzUrkP5xz6MiGlKnwubQ==}
     dependencies:
       '@lit-labs/observers': 1.1.0
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/reactive-controllers': 0.3.3
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/reactive-controllers': 0.3.4
+      '@spectrum-web-components/shared': 0.15.3
       tslib: 2.4.1
 
-  /@spectrum-web-components/tags/0.9.6:
-    resolution: {integrity: sha512-X4AsZ0ZHSlSA8Gk8UR/yHiOMhcjDfSg+YkbYGvkiYzhOrjhBLnhtKnKU+gKLAoxkUYGRW2ku0st8uGXQNSNcYg==}
+  /@spectrum-web-components/tags/0.9.7:
+    resolution: {integrity: sha512-M3zdscnwP89t8MGoDrG+RadBVJz0Ef6uNO2nVWI/0CxmhzzjYTU91EXY6GL7L9lI9GzEWi6AGD/YiZdH9aZ2Tg==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/button': 0.19.6
-      '@spectrum-web-components/reactive-controllers': 0.3.3
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/button': 0.19.8
+      '@spectrum-web-components/reactive-controllers': 0.3.4
+      '@spectrum-web-components/shared': 0.15.3
 
-  /@spectrum-web-components/textfield/0.13.6:
-    resolution: {integrity: sha512-FiT01aZFFr8ba1ZcWFn9y0oATMeXR6g4KdgcWYGidYf5WAi4qqLEOSUZeJottAK3WOeBjAbyv44ubdBmLn/tKw==}
+  /@spectrum-web-components/textfield/0.13.8:
+    resolution: {integrity: sha512-IEDXT81uUVeVw9nfjfvncaNxFWFnSyIO4Xz6Yi4hpG25Ll08rC0zGqyNEE99Bt0S2NoM8LgjVDBIXFENQ/YRQg==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/help-text': 0.2.5
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-ui': 0.9.3
-      '@spectrum-web-components/icons-workflow': 0.9.3
-      '@spectrum-web-components/shared': 0.15.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/help-text': 0.2.7
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-ui': 0.9.5
+      '@spectrum-web-components/icons-workflow': 0.9.5
+      '@spectrum-web-components/shared': 0.15.3
 
-  /@spectrum-web-components/theme/0.14.6:
-    resolution: {integrity: sha512-zdmqxA2yuJy8UemOxZ4sQD8Gq6tXG8DTT4gp3CNQ4QBOs3vQCVpmbv5lvyyFf6LgDU+o5P5weN7p7XEaonW3Jw==}
+  /@spectrum-web-components/theme/0.14.8:
+    resolution: {integrity: sha512-Q6aKwzooe5jyT/sfMr6MD9Qk6I8W6E2cAmOPVow2YHACWWhpi1ucZvRzkMj1xT8bnLdBIVAtXbMj/FbfWhROPw==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/styles': 0.20.1
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/styles': 0.22.0
 
-  /@spectrum-web-components/thumbnail/0.6.1:
-    resolution: {integrity: sha512-A0xXeNmLIqRoGwrXRZxvOBVI159zK8TmRwFv1SeU+kUpCPDdfsfLR1kTwOXzoOX4L50b5xEssBx7xyG/blJhcw==}
+  /@spectrum-web-components/thumbnail/0.6.3:
+    resolution: {integrity: sha512-VDzDWRjWVc/8c2SZ7XsW0bjp5R1eJC4+QFvRe0UOVtT4slFi1TN5ukHxlDsFAE3k9aA1R47jtn1aFgUAvGzuTQ==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
-  /@spectrum-web-components/toast/0.11.6:
-    resolution: {integrity: sha512-PQd0jSeIJD3HQdMYMDgKwNz9jpShCaNVnvvsTbj4jAee2VeXhm7EBH5FkhJizXhZ6DUCFzPGesPYgGt0OCbsOQ==}
+  /@spectrum-web-components/toast/0.11.8:
+    resolution: {integrity: sha512-h31aPp1U4yK8LpQ3ViS4pxz4D8PIW9WEDx0YYaz7RTMgFkFHuM0ymE+w/qCJgpIgJJRlEczvlZtRQONNPrN4KQ==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/button': 0.19.6
-      '@spectrum-web-components/icon': 0.12.3
-      '@spectrum-web-components/icons-workflow': 0.9.3
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/button': 0.19.8
+      '@spectrum-web-components/icon': 0.12.5
+      '@spectrum-web-components/icons-workflow': 0.9.5
 
-  /@spectrum-web-components/tooltip/0.11.7:
-    resolution: {integrity: sha512-Gt40QhPQ2VfzpxOwzDQLdT+Tjpqov+jFc7ZQ1n3wcekX70TF0V+81bl6CHfepQ4YN5vGDnstMbtqkIPW3om6jg==}
+  /@spectrum-web-components/tooltip/0.11.9:
+    resolution: {integrity: sha512-2l0d4bVpU4UHlD97trGADE0IP58S2ZqvL9qHnAY9H84IAhmE1BGEgmECKXiRMtY56+CnwDOn3h2ERIexrEUmbQ==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/overlay': 0.18.7
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/overlay': 0.18.9
 
-  /@spectrum-web-components/top-nav/0.6.6:
-    resolution: {integrity: sha512-xBzhaXrV1K1R1Qr0fPjyofRfZSE0PujsrfiKf+BaABS/q1OeKf8Fnd1HwNUX1vHNdE9MIjnaD+b5WK5DoJcj7A==}
+  /@spectrum-web-components/top-nav/0.6.8:
+    resolution: {integrity: sha512-WnYtUVjZzGSYVZUl0axvjTqZRkXDGLCTfTFu35Lc5s6nbgStJpgPmAPgyq0YmgLBfNSVpR5eV6bOd1+wUmrIOw==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/shared': 0.15.2
-      '@spectrum-web-components/tabs': 0.10.2
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/shared': 0.15.3
+      '@spectrum-web-components/tabs': 0.10.4
 
-  /@spectrum-web-components/tray/0.4.5:
-    resolution: {integrity: sha512-q7JkqptvAtAhfxzvPYO/NkccsUPjkzpmNHgL43Bdq19KBa17pYXwP66jMCInvDQkQG/NaoRlO2aY7J4ng4Vl1A==}
+  /@spectrum-web-components/tray/0.4.7:
+    resolution: {integrity: sha512-mCr+BbtQiBIv3M4rNSNgaR02Ke7iPdPQ2kAPIIIwd+eozgY001Xx5xr0XvmyQyNhAb9B6ccgCeciAbw18EEYiw==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
-      '@spectrum-web-components/modal': 0.7.2
-      '@spectrum-web-components/reactive-controllers': 0.3.3
-      '@spectrum-web-components/shared': 0.15.2
-      '@spectrum-web-components/underlay': 0.9.1
+      '@spectrum-web-components/base': 0.7.2
+      '@spectrum-web-components/modal': 0.7.4
+      '@spectrum-web-components/reactive-controllers': 0.3.4
+      '@spectrum-web-components/shared': 0.15.3
+      '@spectrum-web-components/underlay': 0.9.3
 
-  /@spectrum-web-components/underlay/0.9.1:
-    resolution: {integrity: sha512-oSqpg04zAigpwHf9F4KxNLS00FZ1ECMDn9ZYdXv/EGC3eLuDxA6pUE9okH9nne92gF46CohVsqGYnXnHFy3esg==}
+  /@spectrum-web-components/underlay/0.9.3:
+    resolution: {integrity: sha512-NjJ9iBCL8QdJI/HRD1VT4q3ZP57M2er4DHqthxPFU4zQWH7LZDqRpKWbAz0HMHNTf7Eut8Z8zs9jNM0e8EmK3Q==}
     dependencies:
-      '@spectrum-web-components/base': 0.7.1
+      '@spectrum-web-components/base': 0.7.2
 
   /@swc/helpers/0.4.11:
     resolution: {integrity: sha512-rEUrBSGIoSFuYxwBYtlUFMlE2CwGhmW+w9355/5oduSw8e5h2+Tj4UrAGNNgP9915++wj5vkQo0UuOBqOAq4nw==}
@@ -2517,7 +2525,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 5.1.0
+      minimatch: 5.1.1
       once: 1.4.0
     dev: true
 
@@ -2620,20 +2628,20 @@ packages:
   /lit-element/3.2.2:
     resolution: {integrity: sha512-6ZgxBR9KNroqKb6+htkyBwD90XGRiqKDHVrW/Eh0EZ+l+iC+u+v+w3/BA5NGi4nizAVHGYvQBHUDuSmLjPp7NQ==}
     dependencies:
-      '@lit/reactive-element': 1.4.2
-      lit-html: 2.4.0
+      '@lit/reactive-element': 1.5.0
+      lit-html: 2.5.0
 
-  /lit-html/2.4.0:
-    resolution: {integrity: sha512-G6qXu4JNUpY6aaF2VMfaszhO9hlWw0hOTRFDmuMheg/nDYGB+2RztUSOyrzALAbr8Nh0Y7qjhYkReh3rPnplVg==}
+  /lit-html/2.5.0:
+    resolution: {integrity: sha512-bLHosg1XL3JRUcKdSVI0sLCs0y1wWrj2sqqAN3cZ7bDDPNgmDHH29RV48x6Wz3ZmkxIupaE+z7uXSZ/pXWAO1g==}
     dependencies:
       '@types/trusted-types': 2.0.2
 
-  /lit/2.4.1:
-    resolution: {integrity: sha512-qohSgLiyN1cFnJG26dIiY03S4F49857A0AHQfnS0zYtnUVnD2MFvx+UT52rtXsIuNFQrnUupX+zyGSATlk1f/A==}
+  /lit/2.5.0:
+    resolution: {integrity: sha512-DtnUP6vR3l4Q8nRPPNBD+UxbAhwJPeky+OVbi3pdgMqm0g57xFSl1Sj64D1rIB+nVNdiVVg8YxB0hqKjvdadZA==}
     dependencies:
-      '@lit/reactive-element': 1.4.2
+      '@lit/reactive-element': 1.5.0
       lit-element: 3.2.2
-      lit-html: 2.4.0
+      lit-html: 2.5.0
 
   /loose-envify/1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
@@ -2668,8 +2676,8 @@ packages:
       brace-expansion: 1.1.11
     dev: true
 
-  /minimatch/5.1.0:
-    resolution: {integrity: sha512-9TPBGGak4nHfGZsPBohm9AWg6NoT7QTCehS3BIJABslyZbzxfV78QM2Y6+i741OPZIafFAaiiEMh5OyIrJPgtg==}
+  /minimatch/5.1.1:
+    resolution: {integrity: sha512-362NP+zlprccbEt/SkxKfRMHnNY85V74mVnpUpNyr3F35covl09Kec7/sEFLt3RA4oXmewtoaanoIf67SE5Y5g==}
     engines: {node: '>=10'}
     dependencies:
       brace-expansion: 2.0.1
@@ -2769,8 +2777,8 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /prettier/2.7.1:
-    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+  /prettier/2.8.1:
+    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
